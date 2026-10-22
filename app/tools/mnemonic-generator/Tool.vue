@@ -136,7 +136,7 @@ const wallets = computed(() =>
               {{ w.label }}
             </div>
             <div class="divide-y divide-default">
-              <ResultField label="Receive address (non-bounceable)" :value="w.forms.nonBounceable" />
+              <ResultField label="Receive address (non-bounceable)" :value="w.forms.nonBounceable" :hint="`Share this one to receive ${COIN_SYMBOL} (formerly ${COIN_FORMER}) and tokens.`" />
               <ResultField label="Bounceable" :value="w.forms.bounceable" />
             </div>
           </div>

@@ -51,6 +51,13 @@ watch(() => route.path, () => (mobileOpen.value = false))
         </template>
       </ClientOnly>
 
+      <ClientOnly>
+        <WalletButton />
+        <template #fallback>
+          <div class="h-8 w-22 sm:w-36" />
+        </template>
+      </ClientOnly>
+
       <UColorModeButton size="sm" />
       <UButton
         to="https://github.com/ugorur/tonutils"

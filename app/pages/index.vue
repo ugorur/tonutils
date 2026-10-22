@@ -11,9 +11,9 @@ const linkTeaser = linkCategories.slice(0, 3)
 
 useSeoMeta({
   title: 'TonUtils',
-  description: 'Free TON blockchain tools for everyone: convert addresses, generate wallets, convert TON amounts and read the chain. Keys stay in your browser.',
+  description: 'Free TON blockchain tools for everyone: convert addresses, generate wallets, convert GRAM (formerly Toncoin) amounts and read the chain. Keys stay in your browser.',
   ogTitle: 'TonUtils: free TON blockchain tools',
-  ogDescription: 'Convert addresses, generate wallets, convert TON amounts and read the chain. Keys stay in your browser.'
+  ogDescription: 'Convert addresses, generate wallets, convert GRAM (formerly Toncoin) amounts and read the chain. Keys stay in your browser.'
 })
 </script>
 

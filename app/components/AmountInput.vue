@@ -6,10 +6,10 @@ const props = withDefaults(defineProps<{
   label?: string
   /** Unit shown in the field. */
   unit?: string
-  /** Decimal places of the unit (TON = 9, USDT = 6). */
+  /** Decimal places of the unit (GRAM = 9, USDT = 6). */
   decimals?: number
   placeholder?: string
-}>(), { label: 'Amount', unit: 'TON', decimals: 9, placeholder: '0.0' })
+}>(), { label: 'Amount', unit: COIN_SYMBOL, decimals: COIN_DECIMALS, placeholder: '0.0' })
 
 const error = computed(() => {
   if (!model.value.trim()) return undefined

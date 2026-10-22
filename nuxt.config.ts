@@ -63,11 +63,25 @@ export default defineNuxtConfig({
 
   vite: {
     optimizeDeps: {
-      include: ['buffer', '@ton/core', '@ton/crypto', '@ton/ton']
-    }
+      // CommonJS packages must be pre-bundled for the dev server (workers included).
+      include: [
+        'buffer', '@ton/core', '@ton/crypto', '@ton/ton',
+        'qrcode', 'jsqr', '@ton/tasm', '@ton-community/tlb-parser', '@ton-community/tlb-runtime',
+        '@ton/tolk-js', '@ton-community/func-js',
+        '@ton/sandbox/dist/executor/Executor', '@ton/sandbox/dist/config/defaultConfig'
+      ]
+    },
+    // ES workers allow code splitting and match the dev server. See app/utils/lazy/.
+    worker: { format: 'es' }
   },
 
   hooks: {
+    // Dev-only smoke page for the lazy WASM loaders. TONUTILS_DEV_PAGES=1 also adds it to a production build.
+    'pages:extend': (pages) => {
+      if (process.env.NODE_ENV !== 'production' || process.env.TONUTILS_DEV_PAGES) {
+        pages.push({ name: 'dev-loaders', path: '/__dev/loaders', file: join(import.meta.dirname, 'app/dev/LoaderCheck.vue') })
+      }
+    },
     // Static sitemap: every route is known at build time.
     'nitro:build:public-assets': (nitro) => {
       const today = new Date().toISOString().slice(0, 10)

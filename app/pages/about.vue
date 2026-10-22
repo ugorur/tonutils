@@ -18,8 +18,17 @@ const promises = [
       About TonUtils
     </h1>
     <p class="mt-4 text-lg text-muted">
-      TonUtils is a free toolbox for The Open Network. People who hold TON get simple, safe tools for everyday questions: which address is mine, how much is this in nanoTON, what does this transaction do. Developers get the converters, decoders and lookups they would otherwise rewrite for every project.
+      TonUtils is a free toolbox for The Open Network. People who hold {{ COIN_NAME }} ({{ COIN_SYMBOL }}, formerly {{ COIN_FORMER }}) get simple, safe tools for everyday questions: which address is mine, how much is this in {{ NANO_NAME }}, what does this transaction do. Developers get the converters, decoders and lookups they would otherwise rewrite for every project.
     </p>
+
+    <UAlert
+      class="mt-6"
+      color="neutral"
+      variant="subtle"
+      icon="i-lucide-info"
+      :title="COIN_RENAME_NOTE"
+      :description="`The coin was renamed on 15 June 2026. Balances, addresses and units did not change: 1 ${COIN_SYMBOL} is still 1,000,000,000 ${NANO_NAME} (${NANO_FORMER}). There is nothing to swap; any “migration” offer is a scam.`"
+    />
 
     <h2 class="mt-12 font-display text-xl font-semibold text-highlighted">
       Privacy promise

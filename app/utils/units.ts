@@ -30,3 +30,15 @@ export function groupThousands(decimal: string): string {
   const grouped = whole.replace(/\B(?=(\d{3})+(?!\d))/g, ',')
   return frac ? `${grouped}.${frac}` : grouped
 }
+
+/** formatUnits + optional truncation to maxDecimals (never rounds up) + optional thousands grouping. */
+export function formatAmount(value: bigint, decimals = 9, opts: { group?: boolean, maxDecimals?: number } = {}): string {
+  let s = formatUnits(value, decimals)
+  if (opts.maxDecimals !== undefined) {
+    const [w, f = ''] = s.split('.')
+    const cut = f.slice(0, opts.maxDecimals).replace(/0+$/, '')
+    s = cut ? `${w}.${cut}` : w!
+    if (s === '-0') s = '0'
+  }
+  return (opts.group ?? true) ? groupThousands(s) : s
+}

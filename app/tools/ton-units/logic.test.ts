@@ -9,7 +9,7 @@ describe('tonToNano', () => {
     ['1,234.5', 1_234_500_000_000n],
     // above Number.MAX_SAFE_INTEGER nano: float math would lose digits here
     ['9007199.254740993', 9_007_199_254_740_993n]
-  ])('%s TON = %s nano', (ton, nano) => {
+  ])('%s GRAM = %s nano', (ton, nano) => {
     expect(tonToNano(ton).nano).toBe(nano)
   })
 
@@ -34,7 +34,7 @@ describe('nanoToTon', () => {
     ['1_500_000_000', '1.5'],
     ['-250000000', '-0.25'],
     ['5000000000000000000', '5000000000']
-  ])('%s nano = %s TON', (nano, ton) => {
+  ])('%s nano = %s GRAM', (nano, ton) => {
     expect(nanoToTon(nano).ton).toBe(ton)
   })
 

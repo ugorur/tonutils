@@ -27,7 +27,10 @@ const year = new Date().getFullYear()
       </nav>
     </div>
     <div class="mx-auto max-w-(--ui-container) px-4 sm:px-6"><div class="chain-rule" /></div>
-    <p class="mx-auto max-w-(--ui-container) px-4 py-5 text-xs text-dimmed sm:px-6">
+    <p class="mx-auto max-w-(--ui-container) px-4 pt-5 text-xs text-muted sm:px-6">
+      <UIcon name="i-lucide-info" class="mr-1 inline size-3.5 align-[-2px]" />{{ COIN_RENAME_NOTE }} Nothing to swap or migrate: anyone asking you to "migrate TON to GRAM" is a scammer.
+    </p>
+    <p class="mx-auto max-w-(--ui-container) px-4 pt-2 pb-5 text-xs text-dimmed sm:px-6">
       © {{ year }} TonUtils. Not affiliated with the TON Foundation. Always double-check addresses and amounts before you send funds.
     </p>
   </footer>

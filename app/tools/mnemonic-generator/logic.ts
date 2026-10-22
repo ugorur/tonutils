@@ -1,9 +1,7 @@
 import { mnemonicNew, mnemonicToPrivateKey, mnemonicValidate } from '@ton/crypto'
-import { WalletContractV3R2, WalletContractV4, WalletContractV5R1 } from '@ton/ton'
+import { addressesForPublicKey } from '~/utils/ton/wallets'
 
 export type WalletVersion = 'v3r2' | 'v4r2' | 'v5r1'
-
-export const NETWORK_GLOBAL_ID = { mainnet: -239, testnet: -3 } as const
 
 export interface WalletAddresses {
   version: WalletVersion
@@ -28,32 +26,15 @@ const WALLET_LABELS: Record<WalletVersion, string> = {
   v4r2: 'Wallet v4R2',
   v5r1: 'Wallet W5 (v5R1)'
 }
-
-function walletAddress(version: WalletVersion, publicKey: Buffer, net: keyof typeof NETWORK_GLOBAL_ID) {
-  switch (version) {
-    case 'v3r2':
-      return WalletContractV3R2.create({ workchain: 0, publicKey }).address
-    case 'v4r2':
-      return WalletContractV4.create({ workchain: 0, publicKey }).address
-    case 'v5r1':
-      // W5 bakes the network id into its wallet id, so testnet is a different account, not just a flag.
-      return WalletContractV5R1.create({ workchain: 0, publicKey, walletId: { networkGlobalId: NETWORK_GLOBAL_ID[net] } }).address
-  }
-}
+const VERSIONS = ['v5r1', 'v4r2', 'v3r2'] as const
 
 /** Standard wallet addresses (workchain 0, default subwallet) for a public key. */
 export function walletsForPublicKey(publicKey: Buffer): WalletAddresses[] {
-  return (['v5r1', 'v4r2', 'v3r2'] as const).map((version) => {
-    const forNet = (net: 'mainnet' | 'testnet') => {
-      const a = walletAddress(version, publicKey, net)
-      const testOnly = net === 'testnet'
-      return {
-        nonBounceable: a.toString({ bounceable: false, testOnly, urlSafe: true }),
-        bounceable: a.toString({ bounceable: true, testOnly, urlSafe: true }),
-        raw: a.toRawString()
-      }
-    }
-    return { version, label: WALLET_LABELS[version], mainnet: forNet('mainnet'), testnet: forNet('testnet') }
+  const forNet = (net: 'mainnet' | 'testnet') => addressesForPublicKey(publicKey, net, { versions: VERSIONS })
+  const [main, test] = [forNet('mainnet'), forNet('testnet')]
+  return VERSIONS.map((version, i) => {
+    const pick = (w: (typeof main)[number]) => ({ nonBounceable: w.nonBounceable, bounceable: w.bounceable, raw: w.raw })
+    return { version, label: WALLET_LABELS[version], mainnet: pick(main[i]!), testnet: pick(test[i]!) }
   })
 }
 

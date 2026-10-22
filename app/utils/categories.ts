@@ -14,7 +14,7 @@ export const CATEGORIES = {
   'units-format': {
     name: 'Units & formatting',
     icon: 'i-lucide-scale',
-    description: 'TON, nanoTON and jetton amounts with exact integer math.'
+    description: 'GRAM, nanoGRAM and jetton amounts with exact integer math.'
   },
   'cells-boc': {
     name: 'Cells & BOC',
@@ -70,6 +70,41 @@ export const CATEGORIES = {
     name: 'Safety checks',
     icon: 'i-lucide-shield-check',
     description: 'Spot scams, check signatures and verify what you are about to sign.'
+  },
+  'wallet-actions': {
+    name: 'Send & sign',
+    icon: 'i-lucide-wallet',
+    description: 'Send GRAM, jettons and NFTs, or sign data, approved in your own wallet through TonConnect.'
+  },
+  'token-launch': {
+    name: 'Token launch',
+    icon: 'i-lucide-rocket',
+    description: 'Create jettons and NFT collections, mint items and set up vesting.'
+  },
+  'staking': {
+    name: 'Staking',
+    icon: 'i-lucide-piggy-bank',
+    description: 'Compare staking pools, track rewards, and stake or unstake GRAM.'
+  },
+  'payments': {
+    name: 'Payments',
+    icon: 'i-lucide-qr-code',
+    description: 'Payment links, QR codes and simple checkouts for GRAM and jettons.'
+  },
+  'defi': {
+    name: 'DeFi',
+    icon: 'i-lucide-chart-candlestick',
+    description: 'Prices, DEX pools, liquidity and swaps.'
+  },
+  'telegram': {
+    name: 'Telegram',
+    icon: 'i-lucide-send',
+    description: 'Collectible usernames, anonymous numbers and Mini App helpers.'
+  },
+  'reference': {
+    name: 'Reference',
+    icon: 'i-lucide-book-open',
+    description: 'Exit codes, op codes, TVM instructions, TEPs and cheat sheets.'
   }
 } as const satisfies Record<string, { name: string, icon: string, description: string }>
 

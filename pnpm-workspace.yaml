@@ -2,3 +2,6 @@ allowBuilds:
   esbuild: true
   vue-demi: false
   workerd: true
+overrides:
+  # tlb-runtime/tlb-codegen pin @ton/core ^0.61; one copy keeps Cell/Address instanceof checks working across libs.
+  '@ton/core': 0.63.1
