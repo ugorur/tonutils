@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "tonutils",
+  "main": ".output/server/index.mjs",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".output/public",
+    "binding": "ASSETS"
+  },
+  // Zone routes, not a custom domain: the deploy token has no DNS permission (see AGENTS.md > Secrets).
+  // These routes take precedence over the old Pages project still attached to tonutils.io.
+  "routes": [
+    { "pattern": "tonutils.io/*", "zone_id": "1488cd4455682db22ea082e40374d7e3" },
+    { "pattern": "www.tonutils.io/*", "zone_id": "1488cd4455682db22ea082e40374d7e3" }
+  ],
+  "workers_dev": true,
+  "observability": { "enabled": true }
+}

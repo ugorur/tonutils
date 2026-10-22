@@ -1,0 +1,81 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+  --font-sans: 'Onest', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Unbounded', 'Onest', ui-sans-serif, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* TON blue, 500 = #0098EA */
+  --color-ton-50: #eaf7fe;
+  --color-ton-100: #d0eefd;
+  --color-ton-200: #a4defb;
+  --color-ton-300: #6dcaf7;
+  --color-ton-400: #2fb2f1;
+  --color-ton-500: #0098ea;
+  --color-ton-600: #0079c2;
+  --color-ton-700: #00619d;
+  --color-ton-800: #045281;
+  --color-ton-900: #0a456b;
+  --color-ton-950: #072c47;
+
+  /* Cool sea-floor neutrals: every grey leans toward TON navy */
+  --color-abyss-50: #f3f7fa;
+  --color-abyss-100: #e6eef4;
+  --color-abyss-200: #cbd9e4;
+  --color-abyss-300: #a3b8c9;
+  --color-abyss-400: #7390a8;
+  --color-abyss-500: #52718b;
+  --color-abyss-600: #3d586f;
+  --color-abyss-700: #2c4257;
+  --color-abyss-800: #1b2d3f;
+  --color-abyss-900: #10202f;
+  --color-abyss-950: #081623;
+
+  /* Checksum / attention accent used in the address anatomy */
+  --color-signal-400: #ffc65c;
+  --color-signal-500: #f5a524;
+}
+
+:root {
+  --ui-radius: 0.5rem;
+  --ui-bg: #fbfdfe;
+  --ui-container: 76rem;
+}
+
+.dark {
+  --ui-bg: var(--color-abyss-950);
+  --ui-bg-muted: var(--color-abyss-900);
+  --ui-bg-elevated: var(--color-abyss-900);
+  --ui-bg-accented: var(--color-abyss-800);
+  --ui-border: color-mix(in oklab, var(--color-abyss-700) 70%, transparent);
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-ton-500) 30%, transparent);
+  }
+}
+
+/* Hairline "chain" rule: short segments like blocks in a chain. */
+@utility chain-rule {
+  background-image: repeating-linear-gradient(90deg, var(--ui-border) 0 18px, transparent 18px 22px);
+  height: 1px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
