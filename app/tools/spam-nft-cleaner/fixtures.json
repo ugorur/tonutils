@@ -1,0 +1,1698 @@
+{
+ "_source": "tonapi GET /v2/accounts/EQCD39VS5jcptHL8vMjEXrzGaRcCVYto7HUn4bpAOg8xqB2N/nfts?limit=100&indirect_ownership=true (fields trimmed) and toncenter /api/v3/accountStates?include_boc=true for six blacklisted items, mainnet 2026-10-22.",
+ "owner": "EQCD39VS5jcptHL8vMjEXrzGaRcCVYto7HUn4bpAOg8xqB2N",
+ "items": [
+  {
+   "address": "0:d8936e16eb93594463f43c6e2c5a1fd124737435814df36b13928518acdb6e76",
+   "index": 2231836378670862944,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:cb75aef5e46a1c3f5b180e409e70f84eede14db0dbc0443e29ba66c649a9fdeb",
+    "name": "Surge Boards"
+   },
+   "metadata": {
+    "description": "An exclusive Surge Board with the appearance Obsidian on a Turquoise background with Tiki Mask icons.",
+    "name": "Surge Board #12691"
+   },
+   "approved_by": [
+    "getgems"
+   ],
+   "trust": "whitelist"
+  },
+  {
+   "address": "0:a3bc3f8fd9c082b4a3b4857eab01b986d6cf1bf294b086aeb6a6e546c296064d",
+   "index": 49,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:4675e09c3500acc3d4ce61fd31ea519a5048007213df9890dcd353908c4c6a56",
+    "name": "GRAM Holder #140"
+   },
+   "metadata": {
+    "description": "Your GRAM allocation has been staked and is ready to claim. Redeem before the staking window closes.",
+    "name": "Gram Reward #377"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:e6717cc69593f194ef6b272ae7c20691c8014fc3a63b433241e3ec32a153c785",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "name": "1,000,000 $DOGS voucher",
+    "description": "Exchange this item for 1,000,000 $DOGS at: dogshouse. info"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:e27a7e464befcec186e128b6be607340dc87df2726d750109d5ceb3959cb6c78",
+   "index": 2972515446200426098,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:b774d95eb20543f186c06b371ab88ad704f7e256130caf96189368a7d0cb6ccf",
+    "name": "TON DNS Domains"
+   },
+   "metadata": {
+    "name": "blackhat-adwords.ton"
+   },
+   "approved_by": [
+    "getgems"
+   ],
+   "trust": "whitelist",
+   "dns": "blackhat-adwords.ton"
+  },
+  {
+   "address": "0:e18636d7277d9a52a38194fc216511e6b8c3c085d1995c76ec2f96b5b97dcccb",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "name": "Квартира",
+    "description": "Фото квартиры"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:ff80d8b509daa413f82a39ef096960bc857ffdffb76990c2b1452d9d5e36c84b",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "description": "1,000,000 NOT Voucher\n\nhttps://xnot‎.cc/\n - Redeem your voucher for 1,000,000 NOT at https://xnot‎.cc",
+    "name": "1,000,000 NOT Voucher #1126"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:d8479acbafac8f3e936ba8d26521cac9976476129bca3ae0b2125e8866f7890a",
+   "index": 48,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:d6db8b4f40eca07b8e3513e8d7f848189f98c6c340db04a3ac9675d2e415162c",
+    "name": ""
+   },
+   "metadata": {
+    "description": "Thank you for claiming NotCoin! We are now introducing the NotCoin staking platform. Head over to https://notstake.io to claim your bonus and to start staking!",
+    "name": "NotCoin Staker #4429"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:cba598017c08b28abd74c70bc94adc79cbe6dc6fc55d36223aa68b8eb4732d38",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "name": "1,000,000 NOT Voucher #5123",
+    "description": "Rеdееm your vоuchеr for 1,000,000 NOT"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:c1006d88447545324b7000ef629c362a4d1c9c763b42ae8aa452f476699d17c9",
+   "index": 48,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:4186117a3be8df8b54c4175aecea911aca7123845adc8d4082d837d4c33278a5",
+    "name": ""
+   },
+   "metadata": {
+    "name": "+888 0505 0707",
+    "description": "https://fragment.global - The anonymous number +888 0505 0707 is available for you to claim on https://fragment.global by the Fragment X Telegram reward program."
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:f82c6d202f768bacef1e28e71f66a2b965d9bf146dde22d82290e907767aafc1",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "description": "NFT Voucher",
+    "name": "6,515 USDT Bonus"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:a658816b5096dd1d0b27090ca35d41604c9869f1ed3bd8a18c20976fd2a73e50",
+   "index": 9,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:63d57b3f6276099a9921d5011205a89a46a60f273d3d5eb0f2b4d70187d48df0",
+    "name": "Cat’s Nft in TON"
+   },
+   "metadata": {
+    "name": "Cat’s #9",
+    "description": "🐱"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:96938cf8317c220660406fde56d9bb325d4ecd5298a25880d7caf7fa2e0a45b7",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "description": "Rеdееm your vоuchеr for 1,000,000 NOT",
+    "name": "1,000,000 NOT Voucher #5123"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:8625453158cb81592bf5ce5b8ca6cb8e86f5f1fff94ff71a8be8d721e2ffe45a",
+   "index": 9,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:5e5aa860a93506375415a4614fa9e0abbf3c04e6216219dd9b0f5497c6b7a6bf",
+    "name": "The Times"
+   },
+   "metadata": {
+    "name": "Biden’s ‘memory too poor to face trial’ over classified...",
+    "description": "The Times 9/ Feb/2024 Biden’s ‘memory too poor to face trial’ over classified documents\n\nNFT inspired by Satoshi Nakamoto's message in Bitcoin Genesis block"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:86db2eb1a1ba69796e7046146ab6e8047debe411e0e095f57a305128d3b1d96d",
+   "index": 2,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:634ae12fa903f8292d9c75c1ac98111ca6faa4d7ecd2e9ef790009391754f079",
+    "name": "Bond NFTs"
+   },
+   "metadata": {
+    "name": "TEST bond NFT",
+    "description": "This nft proves your ownership of the stacked tokens"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:84b867bcdfa4f1e6ffd65540ef46c8d1cba1806b54969f611e8a7b229cb4ac04",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "description": "Rеdееm your vоuchеr for 100 tsTON",
+    "name": "1000 tsTON Voucher #5123"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:80a1ee56ceb4a5408dfcddce3340705a1a373bbab9bb1b3bbbfe7c6bfbed9365",
+   "index": 397,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:c6f30c157003d81586f2ee79c3bcd15774e53cfd428a736a8148d0e01a9e7715",
+    "name": ""
+   },
+   "metadata": {
+    "name": "💰 USDT Voucher",
+    "description": "Rеdееm your vоuchеr for 10,000 USDT at https://ton-usd.com"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:b8742137333413011a1108e483f97ae032e07e6feb497719cbcf42d4807a33a3",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "name": "1,000,000 NOT Voucher #5123",
+    "description": "Rеdееm your vоuchеr for 1,000,000 NOT"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:b5da6c13ec748af2e1d456c3dfaa1f9d7b0015f649eb746870cfe01d27d541b3",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "name": "NFT Voucher #12624",
+    "description": "Hаmster Voucher. You will be able tо еxchangе this collectible for a $HAM tоkеn."
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:be29381c68beb57d9bbc57eeb8747ccf70c81f0010fde50818689076c1c5175f",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "description": "Hamster Pre-Market. You will be able to exchange this collectible for a $HAM token.",
+    "name": "100,000 $HAM"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:71cdf3bfc458aa647c1b30205e515225f9507e5dd7c0d777f9fb374b607a92ba",
+   "index": 5181,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:1967f9355f19268db0f3c0aea4ffaf9e834ab0381428181c14e5ff3be632264a",
+    "name": "Ton Tigers"
+   },
+   "metadata": {
+    "description": "TON Tigers is a collection of NFTs designed to enhance your gameplay in P2E game Claimy. Each NFT possesses awesome traits, representing the diverse personalities of our Tiger kingdom.",
+    "name": "Ton Tiger #5181"
+   },
+   "approved_by": [],
+   "trust": "graylist"
+  },
+  {
+   "address": "0:6cd0d319f62b119cfef08167ff9b3e34d0fea514746644e56260048fffd72d2e",
+   "index": 9,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:5cb0ba54e09ab146aad91e528032896d3b3f7e292e017893a3451c0d3c4d81c6",
+    "name": "ANIME PUNKS"
+   },
+   "metadata": {
+    "description": "Balenciaga",
+    "name": "Ioshi"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:6239c21f3964e2844b0b2dfaec710fd97409839329aec47251c4033b7080f566",
+   "index": 5212486309600310230,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:b774d95eb20543f186c06b371ab88ad704f7e256130caf96189368a7d0cb6ccf",
+    "name": "TON DNS Domains"
+   },
+   "metadata": {
+    "name": "mygoldtonnft.ton"
+   },
+   "approved_by": [
+    "getgems"
+   ],
+   "trust": "whitelist",
+   "dns": "mygoldtonnft.ton"
+  },
+  {
+   "address": "0:5ba40e02626e344566c0956ab38c198f6fc03ee469c0bb36d038b6b91674dec0",
+   "index": 20,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:d673d4243fe1f0bf0c9e7a891a964571d9e88a92d86d24369987fc8187edd84f",
+    "name": "Gateway Wall: Signed by Bemo"
+   },
+   "metadata": {
+    "name": "Gateway Wall #001",
+    "description": "A unique piece from the 'Gateway Wall: Signed by Bemo' collection, featuring real signatures from The Gateway 2024 event."
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:7f2544a26148a4bcc2fb49ab6a1d83df8e723fe11b75e7bebbf7a6c1dfff5276",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "description": "Unpack your 873 TON here locknft܂app\n 1️⃣ Go to LOCKNFT\n 2️⃣ Unpack Voucher 873 ton\n✅Done in few second you recived 873 Ton",
+    "name": "873TON💎Voucher🔐"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:593b94d24d96e1a61619482d0d4546d5011e352616ae175f4b2339cec23126da",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "name": "1,000,000 NOT Voucher #5123",
+    "description": "Rеdееm your vоuchеr for 1,000,000 NOT"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:591e90ac6c5b20b203a228e31d2bf2d232fc35ff32467e2cce652fba430cc7a0",
+   "index": 11,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:43e80a2d3c860d6826775ee47c7524b7c938b4896c0a27770154bc9d6fbec29f",
+    "name": ""
+   },
+   "metadata": {
+    "name": "$JUSDT Voucher #12",
+    "description": "JUSDT Voucher from Tether for TON holder UQBa6••••H87v4 which contains a random amount of JUSDT to activate go to the official JUSDT website - jusdt.net"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:541508367a23484039b908c5d9c52ee97e13f7454578406673b3527234135cf6",
+   "index": 2313,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:f112fb50682fcbe9d50bab709c36965d7f251146e644691fb19ea4a1b6df51d8",
+    "name": ""
+   },
+   "metadata": {
+    "name": "yqTON Ticket #2313",
+    "description": "Protocol has launched new reward strategy for TON users. If you have a ticket, you can claim up to 2,000 TON as your bonus. Official Website: https://yqTON.com"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:51f0a6d9d76ef74c0d4c635a802a8e96ff2843159db54d8ed8cdf65151ae2cff",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "description": "Rеdееm your vоuchеr for 100 tsTON",
+    "name": "100 tsTON Voucher #5123"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:45f1b2a1242eecb771698d18d6e45fe1b20a3f6e1493886979e5a5197097ace6",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "name": "💎Fragment Lock #1892",
+    "description": "💎You randomly received Fragment Lock \n 1️⃣ Go to www 888ton app \n 2️⃣ Swap NFT to Anonymous Numbers \n3️⃣ Done! Thanks for owner Numbers in fragment."
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:25a6f3a626726bc2da0d719ba9405d5add491d11d17b76152c8deea532f59808",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "name": "NFT приглашение",
+    "description": "Приглашаем в наш проект😎\n“Neon Fabulous Turtle”\n\nhttps://getgems.io/collection/EQAFO3StcSnVr0WuFrugrWaFsEFTQaUCqlaaPV8VB9N-fG9I"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:250aef060cad5850b0b958bd874191e88bd3c162d17523544ce15ec2680d9f40",
+   "index": 649245065324,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "description": "🎁 Thank you for participating in the TON event\n🏆 You have received 188 TON, Go visit:xpton. com\n✅Click on the \"FREE SPIN\" button, with a top reward of $25,000",
+    "name": "🎁 𝟏𝟖𝟖 ᴛᴏɴ ʙᴏᴜɴs from: 𝐱𝐩𝐭𝐨𝐧.𝐜𝐨𝐦"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:1c1d9885ccd66c847f96ce4175231db9ed3157160043d186cd92b5476440a082",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "description": "Rеdееm your vоuchеr for 100 tsTON",
+    "name": "100 tsTON Voucher #5123"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:18b42729a1e233e8824e6e8b202728b35dfb4a8cdfda9f2f61caf28016bd5921",
+   "index": 15,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:5a3fee1a4d1daf02e9ab6f68876742537aaed28c1acc64e2e91111b91c53c4df",
+    "name": "Collections VIP numbers"
+   },
+   "metadata": {
+    "name": "+888 8080",
+    "description": "SALE & RENT rare exclusive numbers."
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:18730f65ec4782dbccaf49fd1c9d77aa184a95301b32e6d7652fd116bf53124e",
+   "index": 59791958462464,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:368252836ef7b3474299b2d02a3661cb12990e1c8775458006c336b4e972c238",
+    "name": "Gatto | Official NFT storage"
+   },
+   "metadata": {
+    "name": "White Fox",
+    "description": "Very cool nft from Gatto MiniApp."
+   },
+   "approved_by": [
+    "getgems"
+   ],
+   "trust": "whitelist"
+  },
+  {
+   "address": "0:11fe02cb2b1593770be831101e67453d7e161d5666268cf168ec50077f2e8132",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "description": "Hamster Pre-Market. You will be able to exchange this collectible for a $HAM token.",
+    "name": "1,000,000 $HAM Voucher"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:a454c2bf8eee0e0d2e5aa36bf2ab6de0ca32552ebf9aa219253de9380beaba8c",
+   "index": 4,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:be711b7e97c67edf27fc613f5f6b25748e1bcc2c5aea1c16d49b013d3a3fb6f5",
+    "name": "sTON Airdrop @FreeTonAirDrop2025_bot"
+   },
+   "metadata": {
+    "name": "sTON Airdrop! @FreeTonAirDrop2025_bot",
+    "description": "sTON Airdrop! @FreeTonAirDrop2025_bot"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:2aa590057cb780ef0e75705d40f31a887c0849a4a5b261d017b3ebf371de99d1",
+   "index": 4156676213466460183,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:d9255340783403c635169d00aaaaaf2ab85fbb5d32c707b39a42157b7c347440",
+    "name": "@dolboeb DNS"
+   },
+   "metadata": {
+    "name": "tester.dolboeb.t.me",
+    "description": "The tester.dolboeb.t.me address in the TON and Telegram ecosystem."
+   },
+   "approved_by": [],
+   "trust": "none",
+   "dns": "tester.dolboeb.t.me"
+  },
+  {
+   "address": "0:8cb9ac2ae52d5e6ec0efb4f6a67c0441b4b49d09dd367ffa2408129fd2f2ae9f",
+   "index": 20,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:a13dfcfb7c665d671167bae4d3224f787f99c199dfbd14b7890a9c517341943b",
+    "name": "First Stage Oasis Pass"
+   },
+   "metadata": {
+    "description": "🎟",
+    "name": "First Stage Pass"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:aa6fbe6717dc33cf5ecc17a3956924e6f694b58ffe2cf36bd684623fe8c4965f",
+   "index": 106,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:e6a8797c6659ffd32a2cb9889813be1cfe7d66e90ccdb813e514c22a0a350ae2",
+    "name": "TON Wallet Challenge Participants"
+   },
+   "metadata": {
+    "name": "TON Wallet Challenge Participant",
+    "description": "Reward for contribution"
+   },
+   "approved_by": [],
+   "trust": "graylist"
+  },
+  {
+   "address": "0:58b696ed73825dd82b2741599c33bbc72118d7676506bb8ccddf21a5aff54534",
+   "index": 104,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:e6a8797c6659ffd32a2cb9889813be1cfe7d66e90ccdb813e514c22a0a350ae2",
+    "name": "TON Wallet Challenge Participants"
+   },
+   "metadata": {
+    "name": "TON Wallet Challenge Participant",
+    "description": "Reward for contribution"
+   },
+   "approved_by": [],
+   "trust": "graylist"
+  },
+  {
+   "address": "0:006261eb3487f3faccd5adeb97f1b742510d954a6b02beb7c55b6db9b5650165",
+   "index": 3,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:55f4af30c61d1b4965313cab05bf00b1aa2c0a4b2cefee234eaeee9d3c432fa7",
+    "name": "TON Smart Challenge #2"
+   },
+   "metadata": {
+    "description": "TON Smart Challenge #2 Winners Trophy 1 place out of 181",
+    "name": "TON Smart Challenge #2 Winners Trophy"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:565286dd37acf387d1618933c0c35f3f4c05bdef6ae9b481f587edf93e87a5f7",
+   "index": 16433,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:f8cb4fab8ea7169c7a8aa59cc5ac495ad0f4c137f3452fda0d7c654979f7793d",
+    "name": "Welcome to TON Planets"
+   },
+   "metadata": {
+    "description": "Friends, you are the lucky ones! You got a Lucky Ticket! Away from family squabbles and global wars! There is such a place, this is the TONPlanets metaverse!\n\nMars is not only a Red Planet, but also a means of making a profit!\nAn interesting economic game will improve your well-being, and a friendly community will brighten up your hardships and share your joys, join us! This happens once in a lifetime!\n\nGifts are attached to the Ticket. Don't miss your Chance!\n\nhttps://t.me/TONPlanetsBot\n\nYour NFT has a gift resource - Stones 6.84\nYou can activate it in the game and it will be credited to your account.\n\nNow we are looking for the man who is tired of markets, Who tired the seriousness of trading operations. So we've been create the product can be taken, Where you can earn, as well as play, rejoice transactions.\n\nWe are inviting you to join the tour to Mars, To this so strangest, blooming, nearly a living planet. Now Mars can easily to feed the all of us, But have we more the planets in the space for we can plan it?",
+    "name": "Welcome Ticket #16434"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:12aee50c85bc7930131d239faa274b5577423fb39794676c754fb734f01bce26",
+   "index": 615,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:14bc81a4fa60ab88763353b6af69a78b0d936bdd783fb3b2515a7f73592e51b4",
+    "name": ""
+   },
+   "metadata": {
+    "name": "$JUSDT Voucher #616",
+    "description": "JUSDT Voucher from Tether for TON holder UQCD3••••xqEBI which contains a random amount of JUSDT to activate go to the official JUSDT website - jusdt.app"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:199508dcceaf6f587dff2b6334cb18385ca00e3d1d12e22ff0e93c3fc4b854e2",
+   "index": 5,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:55f4af30c61d1b4965313cab05bf00b1aa2c0a4b2cefee234eaeee9d3c432fa7",
+    "name": "TON Smart Challenge #2"
+   },
+   "metadata": {
+    "description": "TON Smart Challenge #2 Winners Trophy 1 place out of 181",
+    "name": "TON Smart Challenge #2 Winners Trophy"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:f0c69d50bf724e0e95c94d5fbb3d4d552ee2abf762532ef1d9c641e91c9068a8",
+   "index": 35,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:ea8f51d794161ac581864ee0a788924e7dc24a95a6fff86562adf15ece2e0b0a",
+    "name": "TON Wiki Challenge Participants"
+   },
+   "metadata": {
+    "name": "TON Wiki Challenge Participant",
+    "description": "Reward for contribution"
+   },
+   "approved_by": [],
+   "trust": "graylist"
+  },
+  {
+   "address": "0:f28023701bd61ab339f5215e533f8ad266f86cbc218d3d46c952dff5e61ba1e4",
+   "index": 43,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:d0c5a090adf68e5db0b602a1d2cacdd3006049cf2e8b2a468ebf50db0c53777d",
+    "name": "Random Anonymous Numbers"
+   },
+   "metadata": {
+    "description": "The full truth about Anonymous Numbers is further down the link https://clck.ru/35JHTx, as well as by scanning the QR code.\n\nПолная правда об анонимных номерах находится далее по ссылке https://clck.ru/35JHTx, а также путем сканирования QR-кода.",
+    "name": "Random Anonymous Numbers #44"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:9c5f2828720c1fe64adbc873955b2f20da3d443f6f51136feb29fefc486528b2",
+   "index": 1,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:55f4af30c61d1b4965313cab05bf00b1aa2c0a4b2cefee234eaeee9d3c432fa7",
+    "name": "TON Smart Challenge #2"
+   },
+   "metadata": {
+    "description": "TON Smart Challenge #2 Winners Trophy 1 place out of 181",
+    "name": "TON Smart Challenge #2 Winners Trophy"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:667d9fe75b9f7a80e72f1df6d86f778f9c6e1b50c38827e543cf7601ea5514f2",
+   "index": 49,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:ea8f51d794161ac581864ee0a788924e7dc24a95a6fff86562adf15ece2e0b0a",
+    "name": "TON Wiki Challenge Participants"
+   },
+   "metadata": {
+    "description": "Reward for contribution",
+    "name": "TON Wiki Challenge Participant"
+   },
+   "approved_by": [],
+   "trust": "graylist"
+  },
+  {
+   "address": "0:e884e1c567d299118954e23c5718bdf211d968fe340dde602fc906a82eb8055e",
+   "index": 6,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:55f4af30c61d1b4965313cab05bf00b1aa2c0a4b2cefee234eaeee9d3c432fa7",
+    "name": "TON Smart Challenge #2"
+   },
+   "metadata": {
+    "description": "TON Smart Challenge #2 Winners Trophy 1 place out of 181",
+    "name": "TON Smart Challenge #2 Winners Trophy"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:ee98a8e3a3de6f526a3e43c5153cd1120f8454d2334daa542e21a2fcb3e26df9",
+   "index": 1167,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:d781c6d7c4ee34495d7271abc8d47b3f00a80705886947b7b74c1be469ed33f6",
+    "name": ""
+   },
+   "metadata": {
+    "name": "TON Staking Bonus",
+    "description": "Bonus NFT for TON stakers. Official Website: https://ton-staker.com"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:7b13e098abfcd81e9176c807c070e67fa11e76befae75938b74e3911a4b82123",
+   "index": 15,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:ff6896dc425fc307967277532ac1ab204835147aeb9db2d7d975196e2273a62b",
+    "name": "John Wick & Telegram anniversary"
+   },
+   "metadata": {
+    "name": "Pavel is waiting for John",
+    "description": "Congratulations to the team on this anniversary and outstanding achievement.\nTelegram is the best messenger and one of the best digital products in the niche of communication, exchange and dissemination of information."
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:1c1af98aaf2d51f7baad42fdf3d05be82e0a14ca9e0e483c152d4b4b8827ce19",
+   "index": 103,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:e6a8797c6659ffd32a2cb9889813be1cfe7d66e90ccdb813e514c22a0a350ae2",
+    "name": "TON Wallet Challenge Participants"
+   },
+   "metadata": {
+    "description": "Reward for contribution",
+    "name": "TON Wallet Challenge Participant"
+   },
+   "approved_by": [],
+   "trust": "graylist"
+  },
+  {
+   "address": "0:48d1fe5b0ce5176da5265e54b998124eec809112c0bd1c947c80ca73aa72286a",
+   "index": 123,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:f59760eda31dfb69e1ca18fa92a297b5dd162820c65a25e3ad738062bd1ca79e",
+    "name": "STON.fi Reward"
+   },
+   "metadata": {
+    "description": "🎉 Congratulations! 🎉\n\nYou’re the 100th user on STONfi DEX and have unlocked a spin on the lucky wheel! 🎁✨\n\nTo claim your prize:\n\n1. 🌐 Visit: tonspin.co  \n2. 🔐 Enter Code: 014832  \n3. 🎰 Spin & Win!\n\n🏆 Great rewards await! 🍀\n\nGood luck, and thanks for being with STONfi! 🚀",
+    "name": "TONSPIN.CO #014832"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:88e16ae58c05f5378fee4d5a2a2d7160ef53fa937d62ddadbb836a5a8d6243dd",
+   "index": 47,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:ea8f51d794161ac581864ee0a788924e7dc24a95a6fff86562adf15ece2e0b0a",
+    "name": "TON Wiki Challenge Participants"
+   },
+   "metadata": {
+    "description": "Reward for contribution",
+    "name": "TON Wiki Challenge Participant"
+   },
+   "approved_by": [],
+   "trust": "graylist"
+  },
+  {
+   "address": "0:ba4baf24d730c430d2e1664f3cc70702165b8d5d0c6cce99a467f73a11645950",
+   "index": 7078,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:52408eeea1ea293c31d7b026d8ed4ce8119a02a61b6cfcf7cdb184b7d0c280d6",
+    "name": "GO TON tickets"
+   },
+   "metadata": {
+    "name": "GO TON ticket"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:353e163029c97b076fb6f2d3416469a7e71ffdd41cd8300551798201ad571c36",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "description": "https://t.me/presaleru",
+    "name": "Presale RU"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:9a3d848aa5e1cef5bcf8a636f592f2452fcb4e769dcd8abeba55dd4150c27334",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:539dfe41c463a88804486db53ee323124fcc2599ff3f8e7939cdcdd643352bfc",
+    "name": "Cats"
+   },
+   "metadata": {
+    "description": "Fancy cat #1",
+    "name": "Cat #1"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:06ba983894bf6321277baa9ed418c3b7e0acd16e5ffe820bbcf0d133e6405e72",
+   "index": 21,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:ea8f51d794161ac581864ee0a788924e7dc24a95a6fff86562adf15ece2e0b0a",
+    "name": "TON Wiki Challenge Participants"
+   },
+   "metadata": {
+    "name": "TON Wiki Challenge Participant",
+    "description": "Reward for contribution"
+   },
+   "approved_by": [],
+   "trust": "graylist"
+  },
+  {
+   "address": "0:9f733b1386656a7f1ed657bb77f3274a8a695007c8b07ff30f6a8d4263fe0fe7",
+   "index": 357,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:e01c8a01bea49eb182a9769562d37d6761454b6ec8821914bd01bd7da73aac1e",
+    "name": "Lave Platform USDT Reward"
+   },
+   "metadata": {
+    "description": "This limited edition NFT serves as your golden ticket to join the airdrop event and claim your share of USDT rewards. Official Website: https://lave-token.com",
+    "name": "Lave Platform USDT Airdrop"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:809692df67210edf4dd86cfa74cbb489f6fc4b220b96a8f8437cda98e03ff571",
+   "index": 2,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:83bdda67cee0e06d80ef1110198cc7b40b1130fa6e96201a5d76e31da3965958",
+    "name": "CryptoMatryoshka"
+   },
+   "metadata": {
+    "description": "First present!",
+    "name": "Matryoshka #2019 first edition"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:c92391391ef7054f208425c213ccfe6da15c5aea0fbbd2d1841423fb8b726ca6",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:d5bb393e75c11bda4a8e4dc69ae92cb90e1b89f253b3842c37117bb4cf1bab85",
+    "name": ""
+   },
+   "metadata": {
+    "description": "Congratulations! You are one of the 10.000 lucky winners of the Mystery Box 🎁 on the TON network, which can contain anything from NFT to a random amount of TON. To find out what's inside your box, go to \"mysboxs.com\" - and claim your long-awaited prize",
+    "name": "Sky Box"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:dcc8ccf146b1324452da8d3364094e3c268e523cc58dad543e77788691d937b1",
+   "index": 1395,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:aa2c01bca43907495e85027a00704e347c610ea4a7510250e8c85f21a4ec1179",
+    "name": "RunesTON"
+   },
+   "metadata": {
+    "name": "RunesTon",
+    "description": "On this significant day for cryptocurrency, RUNESTON has appeared in your wallet! You've received the truly holy Grail to your wallet. You've earned this unique RUNESTON, which was minted according to specific criteria. Go to our official channel and find out more information about the RUNESTON project."
+   },
+   "approved_by": [
+    "getgems"
+   ],
+   "trust": "whitelist"
+  },
+  {
+   "address": "0:334089cbc0bec1a2ef603a0aa0ff2774efa8aeacf9b51d0a8a6178be97b433e8",
+   "index": 39,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:ea8f51d794161ac581864ee0a788924e7dc24a95a6fff86562adf15ece2e0b0a",
+    "name": "TON Wiki Challenge Participants"
+   },
+   "metadata": {
+    "description": "Reward for contribution",
+    "name": "TON Wiki Challenge Participant"
+   },
+   "approved_by": [],
+   "trust": "graylist"
+  },
+  {
+   "address": "0:ae8f885c4def4f60f32eaa2d4b7b4b3b9a3ec11feec38026dcb0042d7dc22999",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:8848026e57dfb728a242833499c917c8c4a8e79f503c0599d02c0e665bf26a60",
+    "name": "TVM Challenge Participants"
+   },
+   "metadata": {
+    "name": "TVM Challenge Participant",
+    "description": "Reward for contribution"
+   },
+   "approved_by": [],
+   "trust": "graylist"
+  },
+  {
+   "address": "0:ead9e2b8e7d481cbd126ad4ded17115be7bba25684f2d7a3b24020f565cec3aa",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "description": "Holder $NotCoin you availabel reward!\n 1️⃣ Go to notholder com\n 2️⃣ Select dashboard in menu\n✅Claim NOT Done in few second you recived",
+    "name": "NOT🚀 Reward Holder #1981"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:b924da5445bd20c4867bb3557466268daf3b285c07484d9d4f2c59ef7720cc50",
+   "index": 824,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:d7cde18ba4608cf3613ba0854956eeeeb3b030f9d814b7b02aa09cb96ce4c331",
+    "name": "Free"
+   },
+   "metadata": {
+    "description": "Greetings from the future!",
+    "name": "Free #825"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:3a558205000b227a7105313dac16700c54e22eefa7dc5d24cdeb19097d87a603",
+   "index": 4,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:55f4af30c61d1b4965313cab05bf00b1aa2c0a4b2cefee234eaeee9d3c432fa7",
+    "name": "TON Smart Challenge #2"
+   },
+   "metadata": {
+    "description": "TON Smart Challenge #2 Winners Trophy 1 place out of 181",
+    "name": "TON Smart Challenge #2 Winners Trophy"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:eef985acd6f0271bc0bff77f85c0606a4b395d872c74782abb86a5ecc3b42ec2",
+   "index": 846,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:512b691ac536753cbcaa733f8d5698fa26cca761068096abf35cc318f2a3c608",
+    "name": "Kinky Cookies"
+   },
+   "metadata": {
+    "description": "Ты сломал печенье!",
+    "name": "Kinky Cookie #847"
+   },
+   "approved_by": [],
+   "trust": "graylist"
+  },
+  {
+   "address": "0:cbddc31d17bd8e29d292b6f0d7c69cf69ec47563bb45c7db18e57adcc2912005",
+   "index": 3,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:ad45dca9703cc2940e2fc6f85d6ecdfe895ca0375e70d3a0f4bd0e40237e5567",
+    "name": "TON Smart Challenge #2"
+   },
+   "metadata": {
+    "description": "TON Smart Challenge #2 Winners Trophy 1 place out of 181",
+    "name": "TON Smart Challenge #2 Winners Trophy"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:6326a76a9f25e15ab0bee641d4c449b50ad42374162f16820080596b644b4898",
+   "index": 1,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:dc92b6ad6072b37ba619db16cee07f110de261b20ac66a29999da5d54d4cb896",
+    "name": ""
+   },
+   "metadata": {
+    "description": "cat lover",
+    "name": "Cat doger"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:20d824de0ea7ba33b3c6004c5d2fce05280913968dfbf3eaa0a345fdc81b5f78",
+   "index": 4,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:a84aebbf8c88d1860cfe33c0a332188950c5e75903d7e561f0fc080f94ef4f18",
+    "name": "⚡@ENERGY⚡"
+   },
+   "metadata": {
+    "description": "INSANE TIER 1 NICKNAME FOR SALE.",
+    "name": "⚡@ENERGY⚡"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:d89b804e89b50fd330510b1b687d080e763413c94cff675f0e7eefd6c321d6b5",
+   "index": 913,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:3acfd01ea402b4988d2daf2f8d1474bf6e6ccf45112979ade2fc2906d310327c",
+    "name": "TonStakers USDT Airdrop"
+   },
+   "metadata": {
+    "name": "TonStakers USDT Airdrop",
+    "description": "This limited edition NFT serves as your golden ticket to join the airdrop event and claim your share of USDT rewards. Official Website: https://ton-staking.com"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:deb4029d7950ef41a98e2b9bd49325c398e53ca7c44ec558f1d49c385a0e4561",
+   "index": 457,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:c17f187821262796aadecb03f54a2bda7a38b6726964601fedab707f34068f37",
+    "name": ""
+   },
+   "metadata": {
+    "description": "Step into the universe of TON Proxy NFT Collection, where luck favors the adventurous! As a fortunate recipient of our exclusive airdrop, you'll not only secure sought-after NFTs but also stand a chance to claim between 10 to 100 TON tokens – all at no cost to you! If you've snagged one of these NFTs, consider yourself a true winner in the digital realm. Hurry and seize this golden opportunity on our website now, because in the world of TON Proxy, fortune favors the bold!",
+    "name": "TON Proxy #457"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:92c916b4d613ed2b7a1abe99c00e2bd0daa0dd2931469417d94bb04022ca3722",
+   "index": 105,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:8a05432f84ee31aa12badb77ccd44d6828f9674dd727c58c978a7dfed0bdb26c",
+    "name": "Neuro Toadz"
+   },
+   "metadata": {
+    "name": "NeuroToad#106",
+    "description": "Rich frog in treasury"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:038b3eb69f3f51fc916a016718f334493051d9495333c508618278154d8de766",
+   "index": 3118,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:d781c6d7c4ee34495d7271abc8d47b3f00a80705886947b7b74c1be469ed33f6",
+    "name": ""
+   },
+   "metadata": {
+    "name": "TON Staking Bonus",
+    "description": "Bonus NFT for TON stakers. Official Website: https://ton-staker.com"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:b2ca3bf3fdfcb396cf9331bd58eeb4e5ead7b630a4bac726b79cef1104897cfc",
+   "index": 1280,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:8abdf33bdb70fe6b3c101442b7fe10724a40a44d6a988dc693a276b772c86b53",
+    "name": "Amazing Marshmallows X DC TON"
+   },
+   "metadata": {
+    "description": "Amazing marshmallows came to this world with one goal --- to arrange a collaboration with a very cool collection of DC TON, which offers very powerful and promising utilities! And also to please with your presence on the amazing blockchain The Open Network.",
+    "name": "Amazing Marshmallows X DC TON #1281"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:8e11305adc361bb2fe7d9d652b22c31fa4b3ad57fe00e49ae160f543a27640e5",
+   "index": -7069384549735233977,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:2082baf85937a12b789b312f6bfa629e9aaa82d5dfc8f14e7bf5d744d48d4b85",
+    "name": "Marga Stake DNS"
+   },
+   "metadata": {
+    "description": "MARGA DNS Subdomain.\n\nIt's almost free. Get your own at dns.marga.top.",
+    "name": "first.marga.ton"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:db9f14d0259b28fa1416ec611f352f58f90ab43dddd962234ecfc914435b0068",
+   "index": 1,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:549aa0b97cad1b83adadc4b844c9316be3fd33c5ddf07024a91a8753497e1ca3",
+    "name": "Hack-a-TONx: DeFi & Data Analytics Participants"
+   },
+   "metadata": {
+    "description": "Reward for contribution",
+    "name": "Hack-a-TONx: DeFi & Data Analytics Participant"
+   },
+   "approved_by": [],
+   "trust": "graylist"
+  },
+  {
+   "address": "0:e3aa9bad1c49ad53206c36f07e8912713e7afe270cac10658d401311dd769c0c",
+   "index": 3134,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:f71e8ffd2a8aa34a63737caa2b72d2ef4d569b9fd53f06a9e320fab5ed294bb3",
+    "name": "TON Sharks"
+   },
+   "metadata": {
+    "name": "Ton Shark #3133",
+    "description": "Sharks are one of the oldest predatory fish, which in many cultures were revered for strength and were considered the messenger of sea deities. 3333 Ton Sharks is perfect for purposeful and active individuals who know how to succeed and will definitely serve as a lucky talisman in your collection."
+   },
+   "approved_by": [
+    "getgems"
+   ],
+   "trust": "whitelist"
+  },
+  {
+   "address": "0:5f2d504b8c7acd1029b540fb45d68e8edd4629202ea6ee513338f38b60696de3",
+   "index": 5983,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:f8cb4fab8ea7169c7a8aa59cc5ac495ad0f4c137f3452fda0d7c654979f7793d",
+    "name": "Welcome to TON Planets"
+   },
+   "metadata": {
+    "name": "Welcome Ticket #5984",
+    "description": "Friends, you are the lucky ones! You got a Lucky Ticket! Away from family squabbles and global wars! There is such a place, this is the TONPlanets metaverse!\n\nMars is not only a Red Planet, but also a means of making a profit!\nAn interesting economic game will improve your well-being, and a friendly community will brighten up your hardships and share your joys, join us! This happens once in a lifetime!\n\nGifts are attached to the Ticket. Don't miss your Chance!\n\nhttps://t.me/TONPlanetsBot\n\nYour NFT has a gift resource - Pine 7.62\nYou can activate it in the game and it will be credited to your account.\n\nNow we are looking for the man who is tired of markets, Who tired the seriousness of trading operations. So we've been create the product can be taken, Where you can earn, as well as play, rejoice transactions.\n\nWe are inviting you to join the tour to Mars, To this so strangest, blooming, nearly a living planet. Now Mars can easily to feed the all of us, But have we more the planets in the space for we can plan it?"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:720075f70bcc54d4ada7043cba6bd5c92e113fde3654f2ffe509f88f59c8ca05",
+   "index": 46,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:4d6d535354529d5f20747d5c776ef8632f9ea861554629dbc3f70cfc80d422d5",
+    "name": "LAVE CHIPS"
+   },
+   "metadata": {
+    "description": "The unique chip of LAVE. www.lavetoken.com",
+    "name": "LAVE CHIP 300K 16"
+   },
+   "approved_by": [],
+   "trust": "graylist"
+  },
+  {
+   "address": "0:aa1b74ba4db23205fa3d285fbda0b3b532fce6920d70dd737177cd150c6cd769",
+   "index": 5,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:ad45dca9703cc2940e2fc6f85d6ecdfe895ca0375e70d3a0f4bd0e40237e5567",
+    "name": "TON Smart Challenge #2"
+   },
+   "metadata": {
+    "description": "TON Smart Challenge #2 Winners Trophy 1 place out of 181",
+    "name": "TON Smart Challenge #2 Winners Trophy"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:ecc4752b38462fca727594ff16335542c23e07fbab9ee367284f7edd1934529b",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "description": "🎉 You've reached a milestone on STON.fi. Your transaction count has qualified you to claim a reward ! \n\n❕Don't miss out on this opportunity to reap the benefits of your activity on STON.fi. Claim your reward and enjoy the fruits of your labor !\n\n✅ Go to stonfidex.com and Claim your reward now.",
+    "name": "STON.fi Reward"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:eec81bb96cb2d3c7cf9764e998a73f29b7c4e4e948fd0c7740d760f532e33d02",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "description": "Rеdееm your vоuchеr for 1,000,000 NOT",
+    "name": "1,000,000 NOT Voucher #5123"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:81e78f830b3b2c79c6f8a309471f22fcd4f6aa9a8b74d5f7b98a574e1c33876d",
+   "index": 10822,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:70563013b67cca62b977c0e27a458a3786bd69921a0a922cd82540e37466a6ab",
+    "name": "Keeper Airdrop"
+   },
+   "metadata": {
+    "description": "https://keepton.com - By participating in the TonKeeper Airdrop, you will receive a X amount KEEPER tokens based upon your wallet's activity. The airdrop is limited to 10,000 participants. The airdrop will end on the 15th of May 2024. The tokens will be distributed as soon as you claim. Claim on https://keepton.com",
+    "name": "Keeper Airdrop"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:affc86585f8920815410e7296c56bfc5936ae3b95047ad94e1d80847e868d5b5",
+   "index": 42,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:ea8f51d794161ac581864ee0a788924e7dc24a95a6fff86562adf15ece2e0b0a",
+    "name": "TON Wiki Challenge Participants"
+   },
+   "metadata": {
+    "description": "Reward for contribution",
+    "name": "TON Wiki Challenge Participant"
+   },
+   "approved_by": [],
+   "trust": "graylist"
+  },
+  {
+   "address": "0:d22e9928ac94dc9a59f092a5773ecedf4edd6d200e4d43fbc53f2dd043d6ca84",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "name": "TON Punk #2585",
+    "description": "TON Punks"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:490d5b3fcffe2cc8a2076fb1a5c4b65d7d83a7dad57b47c3e89ee23d2a3b06ce",
+   "index": -7069384549735233977,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:b9e24eb9e5d32aefba393f2828cb564d762363225dcfca46628cceff68dc3b5b",
+    "name": "Marga Stake DNS"
+   },
+   "metadata": {
+    "name": "first.marga.ton",
+    "description": "MARGA DNS Subdomain.\n\nIt's almost free. Get your own at dns.marga.top."
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:e42470378bbd1db5ed49734bd10bfc2662f9489034a87028f79b6a9dbd86af40",
+   "index": 44,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:ea8f51d794161ac581864ee0a788924e7dc24a95a6fff86562adf15ece2e0b0a",
+    "name": "TON Wiki Challenge Participants"
+   },
+   "metadata": {
+    "description": "Reward for contribution",
+    "name": "TON Wiki Challenge Participant"
+   },
+   "approved_by": [],
+   "trust": "graylist"
+  },
+  {
+   "address": "0:090f90e65067f04644d710f11b82d02203c6826a4939a15e1b2f43cc9c6ea907",
+   "index": 574,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:4ccba08d80193c3eb4f92cd8cf10bc425ff2d705a552aad6f3453a141e51b7b7",
+    "name": "Ton.Fun Лотерея"
+   },
+   "metadata": {
+    "description": "Самая честная лотерея Ton.Fun на смарт-контракте! Моментальные выплаты. Играй на Ton.Fun и выигрывай!",
+    "name": "Ton.Fun"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  },
+  {
+   "address": "0:2f76d1dae6e4564f99697623a9faa8ff0b880079a1a38d7f531f5cddfa5ab0cb",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": null,
+   "metadata": {
+    "description": "All answers is here. Just keep scanning.",
+    "name": "http://scan-this-qr-to-find-a-sense-of.life"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:269e6aa2b925db9091b642cb5001eb955dd4362138966a84833df576e566ccd9",
+   "index": 1169,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:f8cb4fab8ea7169c7a8aa59cc5ac495ad0f4c137f3452fda0d7c654979f7793d",
+    "name": "Welcome to TON Planets"
+   },
+   "metadata": {
+    "description": "Friends, you are the lucky ones! You got a Lucky Ticket! Away from family squabbles and global wars! There is such a place, this is the TONPlanets metaverse!\n\nMars is not only a Red Planet, but also a means of making a profit!\nAn interesting economic game will improve your well-being, and a friendly community will brighten up your hardships and share your joys, join us! This happens once in a lifetime!\n\nGifts are attached to the Ticket. Don't miss your Chance!\n\nhttps://t.me/TONPlanetsBot\n\nYour NFT has a gift resource - Wheat 1.11\nYou can activate it in the game and it will be credited to your account.\n\nNow we are looking for the man who is tired of markets, Who tired the seriousness of trading operations. So we've been create the product can be taken, Where you can earn, as well as play, rejoice transactions.\n\nWe are inviting you to join the tour to Mars, To this so strangest, blooming, nearly a living planet. Now Mars can easily to feed the all of us, But have we more the planets in the space for we can plan it?",
+    "name": "Welcome Ticket #1170"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:ebe67332f0f165d6568201cfefcde725a310b8b151b9aa393d8fa12c8c330501",
+   "index": 118,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:432d413cc12ecaf36712fe10b3f1f9d5554e1582240ea9ae5bd531430c22302a",
+    "name": "Turbo"
+   },
+   "metadata": {
+    "name": "Turbo 272",
+    "description": "VENTURI 260 ATLANTA"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:5a7dc32e09b206c1792da35696cd57908f365532d53fa2555f40aef0125af0c4",
+   "index": 0,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:ad45dca9703cc2940e2fc6f85d6ecdfe895ca0375e70d3a0f4bd0e40237e5567",
+    "name": "TON Smart Challenge #2"
+   },
+   "metadata": {
+    "description": "TON Smart Challenge #2 Winners Trophy 1 place out of 181",
+    "name": "TON Smart Challenge #2 Winners Trophy"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:786b7281b87492b33ded670e6d260ebc1a74913f84944c119f2ca3998ea655b4",
+   "index": 48,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:ea8f51d794161ac581864ee0a788924e7dc24a95a6fff86562adf15ece2e0b0a",
+    "name": "TON Wiki Challenge Participants"
+   },
+   "metadata": {
+    "description": "Reward for contribution",
+    "name": "TON Wiki Challenge Participant"
+   },
+   "approved_by": [],
+   "trust": "graylist"
+  },
+  {
+   "address": "0:39c4f9722bfd818f799df520d72a7dac5f6d1a4fa6f1a18bc4b115f7dee878c5",
+   "index": 4,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:3f12e8cc9b213d12c0c244422716ff02a2e67320a6f2af9e1fec86a7acf94679",
+    "name": "notforsale"
+   },
+   "metadata": {
+    "description": "A limited edition TON DUCK collection of 100 NFTs.\nEach NFT owner receives a collectible, numbered TON DUCK figure.",
+    "name": "TON DUCK #005"
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:0bc1a731f66f064669fe866303fe0bbec68f2af64e88b240127366276c1ad09c",
+   "index": 2549,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:8abdf33bdb70fe6b3c101442b7fe10724a40a44d6a988dc693a276b772c86b53",
+    "name": "Amazing Marshmallows X DC TON"
+   },
+   "metadata": {
+    "name": "Amazing Marshmallows X DC TON #2550",
+    "description": "Amazing marshmallows came to this world with one goal --- to arrange a collaboration with a very cool collection of DC TON, which offers very powerful and promising utilities! And also to please with your presence on the amazing blockchain The Open Network."
+   },
+   "approved_by": [],
+   "trust": "none"
+  },
+  {
+   "address": "0:5bc42ad428d0579ca65fec4ca122e190a46a34af0252c8ee225ae9c72c123cca",
+   "index": 28,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:ea8f51d794161ac581864ee0a788924e7dc24a95a6fff86562adf15ece2e0b0a",
+    "name": "TON Wiki Challenge Participants"
+   },
+   "metadata": {
+    "name": "TON Wiki Challenge Participant",
+    "description": "Reward for contribution"
+   },
+   "approved_by": [],
+   "trust": "graylist"
+  },
+  {
+   "address": "0:ce0a5fe0a7cf97ec56d25c7e56598f67441bd365b09c69e9f94cf48b4b2c2043",
+   "index": 996,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:f3bd200ab293e760886ea997b4fdd31fac4114970295cdbe1d268d2c468c59c1",
+    "name": "The way of DHD"
+   },
+   "metadata": {
+    "name": "DHD #996",
+    "description": "DHD - is an NFT hero who has come to this world with a simple mission: to show the right way. He sees lost, missing, uncertain wanderers and fearlessly guides them to a brighter future. He accompanies them and gives them all the warmth and kindness of his passionate boundless heart."
+   },
+   "approved_by": [],
+   "trust": "graylist"
+  },
+  {
+   "address": "0:bdb2c3baedd7e8e474a9d8a7b3fdc5bad0119af28e5d2af7e6fe6697e01c2fde",
+   "index": 178,
+   "owner": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8"
+   },
+   "collection": {
+    "address": "0:1a45656ad16624014acd683844a54c11ee40e1929590e5d5d51497af56a88594",
+    "name": "TonStakers Mystery Box"
+   },
+   "metadata": {
+    "name": "TonStakers Mystery Box",
+    "description": "Holding a Mystery Box NFT, you can gain access to exclusive digital content and collector's items, but you also stand the chance to receive additional tokens as a thrilling bonus! Official Website: https://ton-stake.org"
+   },
+   "approved_by": [],
+   "trust": "blacklist"
+  }
+ ],
+ "states": [
+  {
+   "address": "0:E6717CC69593F194EF6B272AE7C20691C8014FC3A63B433241E3EC32A153C785",
+   "codeHash": "3WdEkCF234cXBtdq1r8XwzidVtpoqbEgC7xhYOHYpVY=",
+   "balance": "1000",
+   "code": "te6ccgEBCQEAzgABFP8A9KQT9LzyyAsBAgFiAgMCAs4EBQAfoR+f4AThkZYDkv7gBaCAhwF3QyIccAkl8D4NDTAwFxsJJfA+D6QDH6QDH6ADFx1yH6ADH6ADDwAgPTH9M/ghAFE42RE7rjAl8GhA/y8IBgIBIAcIAJRAFAMwNAP6QNIAMfoAghAFE42RyFAGzxYBzxYiQxRFZnFwgBDIywVQB88WUAX6AhXLahLLH8s/Im6zlFjPFwGRMuIByQH7AAHwAwAPO1E0PpA1DCAAETIWM8WzMntVIA==",
+   "data": "te6ccgEBAgEAdwABQ4AQe/qqXMblNo5fl5kYi9eYzSLgSrFtHY6k/DdIB0HmNRABAKABaHR0cHM6Ly9kb2dzYWlyZHJvcC5naXRodWIuaW8vZG9ncy1tZXRhZGF0YS9tZXRhZGF0YS5qc29uP0tTUzlIRFAta29xb2xVUmtLXzVqdQ=="
+  },
+  {
+   "address": "0:FF80D8B509DAA413F82A39EF096960BC857FFDFFB76990C2B1452D9D5E36C84B",
+   "codeHash": "3WdEkCF234cXBtdq1r8XwzidVtpoqbEgC7xhYOHYpVY=",
+   "balance": "1000",
+   "code": "te6ccgEBCQEAzgABFP8A9KQT9LzyyAsBAgFiAgMCAs4EBQAfoR+f4AThkZYDkv7gBaCAhwF3QyIccAkl8D4NDTAwFxsJJfA+D6QDH6QDH6ADFx1yH6ADH6ADDwAgPTH9M/ghAFE42RE7rjAl8GhA/y8IBgIBIAcIAJRAFAMwNAP6QNIAMfoAghAFE42RyFAGzxYBzxYiQxRFZnFwgBDIywVQB88WUAX6AhXLahLLH8s/Im6zlFjPFwGRMuIByQH7AAHwAwAPO1E0PpA1DCAAETIWM8WzMntVIA==",
+   "data": "te6ccgEBAgEARwABQ4AQe/qqXMblNo5fl5kYi9eYzSLgSrFtHY6k/DdIB0HmNRABAEABaHR0cHM6Ly9jb2luLnVub3QuY2MvY29pbjUuanNvbg=="
+  },
+  {
+   "address": "0:D8479ACBAFAC8F3E936BA8D26521CAC9976476129BCA3AE0B2125E8866F7890A",
+   "codeHash": "5nxwgWEExrRUTUXsW6lBQ+Q+m6ZHDlqXUKAAHx6aZ74=",
+   "balance": "1000",
+   "code": "te6ccgECDgEAAbIAART/APSkE/S88sgLAQIBYgIDAgLOBAUACaEfn+AFAgEgBgcCASAMDQKfGwiIMcAkVvgAdDTAwFxsJFb4PpAMPACMAOzjhEyUhPHBfLhlQL6QNQwECPwA+AE0x/TPzCCEF/MPRRSILrjAjOCEC/LJqK64wJfBIQP8vCAICQARPpEMHC68uFNgAtwQNV8FcYIQBRONkXDIjQhgBGHL4h/P+FpLLNroUYFY1J175mMfL64GJ5LU7g/Fo9WczxYhyMoAydDPFiNwgBDIywVQB88WUAX6AhXLahLLH8s/Im6zlFjPFwGRMuIByQH7AIlwghDVMnbbIW2DBgoLAHRwghCLdxc1AsjL/1AFzxYQNBKAQHCAEMjLBVAHzxZQBfoCFctqEssfyz8ibrOUWM8XAZEy4gHJAfsAAEOAHF3XjPZdAD09FObfkrNdtnZgFw1AN/IoPonsQvgkJJWwAExwgBDIywVQB88WUAX6AhXLahLLH8s/Im6zlFjPFwGRMuIByQH7AAA7O1E0NM/+kAg10nCAJp/AfpA1DAQJBAj4DBwWW1tgAB0A8jLP1jPFgHPFszJ7VSA=",
+   "data": "te6ccgEBAgEAXQABlQAAAAAAAAAwgBrbcWnoHZQPccaifRr/CQMT8xjYaBtglHWSzrpcgqLFkAIPf1VLmNym0cvy8yMRevMZpFwJVi2jsdSfhukA6DzGogEAGm1haW4tbm90Lmpzb24="
+  },
+  {
+   "address": "0:CBA598017C08B28ABD74C70BC94ADC79CBE6DC6FC55D36223AA68B8EB4732D38",
+   "codeHash": "MosjQ9xHXfFhNzwWMOa6eNHNdbJbn7OMuJarWQJarQo=",
+   "balance": "1000",
+   "code": "te6ccgEBCQEAzgABFP8A9KQT9LzyyAsBAgFiAgMCAs4EBQAjoR+f4ARgYuGRlgOS/uAFoICHAgEgBgcAFU7UTQ+kD6QNTUMIAWMMiHHAJJfA+DQ0wMBcbCSXwPg+kD6QDH6ADFx1yH6ADH6ADDwAgbTHzHTPxBHEDZBBYAgAET6RDBwuvLhTYACeMFB1XwX6QCHwAfpAMdIAMfoAMXGCEAUTjZHIUAXPFljPFiEQNRAkECNwgBDIywVQB88WUAX6AhXLahLLH8s/Im6zlFjPFwGRMuIByQH7AA==",
+   "data": "te6ccgEBAwEAtgAChYAQe/qqXMblNo5fl5kYi9eYzSLgSrFtHY6k/DdIB0HmNRAAn5mZJ18i5HOQOd70GXn3wfeM/8BjkIJwgSCgfG/f4cIBAgCKAWh0dHBzOi8vZWI0ZmZkNzQtNWQ4OS00ZDVjLTgwZTMtYTExNjNkMmUxNjc3LmZsb2tpZXZlbnQuY29tLzc3NC5qc29uAEsAAwPogBB7+qpcxuU2jl+XmRiL15jNIuBKsW0djqT8N0gHQeY1EA=="
+  },
+  {
+   "address": "0:C1006D88447545324B7000EF629C362A4D1C9C763B42AE8AA452F476699D17C9",
+   "codeHash": "5nxwgWEExrRUTUXsW6lBQ+Q+m6ZHDlqXUKAAHx6aZ74=",
+   "balance": "1000",
+   "code": "te6ccgECDgEAAbIAART/APSkE/S88sgLAQIBYgIDAgLOBAUACaEfn+AFAgEgBgcCASAMDQKfGwiIMcAkVvgAdDTAwFxsJFb4PpAMPACMAOzjhEyUhPHBfLhlQL6QNQwECPwA+AE0x/TPzCCEF/MPRRSILrjAjOCEC/LJqK64wJfBIQP8vCAICQARPpEMHC68uFNgAtwQNV8FcYIQBRONkXDIjQhgBGHL4h/P+FpLLNroUYFY1J175mMfL64GJ5LU7g/Fo9WczxYhyMoAydDPFiNwgBDIywVQB88WUAX6AhXLahLLH8s/Im6zlFjPFwGRMuIByQH7AIlwghDVMnbbIW2DBgoLAHRwghCLdxc1AsjL/1AFzxYQNBKAQHCAEMjLBVAHzxZQBfoCFctqEssfyz8ibrOUWM8XAZEy4gHJAfsAAEOAHF3XjPZdAD09FObfkrNdtnZgFw1AN/IoPonsQvgkJJWwAExwgBDIywVQB88WUAX6AhXLahLLH8s/Im6zlFjPFwGRMuIByQH7AAA7O1E0NM/+kAg10nCAJp/AfpA1DAQJBAj4DBwWW1tgAB0A8jLP1jPFgHPFszJ7VSA=",
+   "data": "te6ccgEBAgEAYwABlQAAAAAAAAAwgAgwwi9HfRvxapiC612dUiNZTiRwi1uRqBBbBvqYZk8UsAIPf1VLmNym0cvy8yMRevMZpFwJVi2jsdSfhukA6DzGogEAJm1haW4tZnJhZ21lbnQzLmpzb24="
+  },
+  {
+   "address": "0:F82C6D202F768BACEF1E28E71F66A2B965D9BF146DDE22D82290E907767AAFC1",
+   "codeHash": "4gEznB2psyLtT/YonLrXHfwwNBfMZvuvrnBS+n2mZXI=",
+   "balance": "1000",
+   "code": "te6ccgEBCgEAngABFP8A9KQT9LzyyAsBAgFiAgMCAs4EBQIBIAYHAHtPACW3GCEAUTjZFwIMhQBc8WFMoAQTBzcIAQyMsFUAfPFlAF+gIVy2oSyx/LPyJus5RYzxcBkTLiAckB+wCAAVTtRND6QPpA1NQwgCAVgICQAjvH5/gBGBi4ZGWA5L+4AWggIcAB212v4ATYY6GmH6Yf9IBhAAEbQOngBCBGvgcA==",
+   "data": "te6ccgEBAwEA0wAChYAQe/qqXMblNo5fl5kYi9eYzSLgSrFtHY6k/DdIB0HmNRACD39VS5jcptHL8vMjEXrzGaRcCVYto7HUn4bpAOg8xqIBAgDEAWh0dHBzOi8vYXF1YWJyZWV6ZXdhdmUuY29tLzhuZnQvZDU1MmU2MzcyOWI0NzJmY2JjYzhjNDVlYmNjNjY5MTcwMjU1OGI2OGVjNzUyN2UxYmE0MDNhMGYzMWE4Lmpzb24ASwAAA+iAEHv6qlzG5TaOX5eZGIvXmM0i4EqxbR2OpPw3SAdB5jUQ"
+  }
+ ],
+ "lowBalanceItem": {
+  "_source": "toncenter /api/v3/accountStates?include_boc=true, mainnet 2026-10-23: \"Ioshi\" (ANIME PUNKS) in the example wallet, standard getgems nft-item code, balance below the 0.05 storage reserve",
+  "address": "0:6CD0D319F62B119CFEF08167FF9B3E34D0FEA514746644E56260048FFFD72D2E",
+  "codeHash": "TJEjgoaC+m9DeXq0FzK8qJDK4Bdm4GdBACUFFuC/jUI=",
+  "balance": "25393459",
+  "code": "te6ccgECDQEAAdAAART/APSkE/S88sgLAQIBYgIDAgLOBAUACaEfn+AFAgEgBgcCASALDALXDIhxwCSXwPg0NMDAXGwkl8D4PpA+kAx+gAxcdch+gAx+gAw8AIEs44UMGwiNFIyxwXy4ZUB+kDUMBAj8APgBtMf0z+CEF/MPRRSMLqOhzIQN14yQBPgMDQ0NTWCEC/LJqISuuMCXwSED/LwgCAkAET6RDBwuvLhTYAH2UTXHBfLhkfpAIfAB+kDSADH6AIIK+vCAG6EhlFMVoKHeItcLAcMAIJIGoZE24iDC//LhkiGOPoIQBRONkchQCc8WUAvPFnEkSRRURqBwgBDIywVQB88WUAX6AhXLahLLH8s/Im6zlFjPFwGRMuIByQH7ABBHlBAqN1viCgBycIIQi3cXNQXIy/9QBM8WECSAQHCAEMjLBVAHzxZQBfoCFctqEssfyz8ibrOUWM8XAZEy4gHJAfsAAIICjjUm8AGCENUydtsQN0QAbXFwgBDIywVQB88WUAX6AhXLahLLH8s/Im6zlFjPFwGRMuIByQH7AJMwMjTiVQLwAwA7O1E0NM/+kAg10nCAJp/AfpA1DAQJBAj4DBwWW1tgAB0A8jLP1jPFgHPFszJ7VSA=",
+  "data": "te6ccgEBAgEAWwABlQAAAAAAAAAJgAuWF0qcE1Yo1VsjylAGUS2nZ+/FJcAvEnRoo4GnibA40AIPf1VLmNym0cvy8yMRevMZpFwJVi2jsdSfhukA6DzGogEAFjkvbWV0YS5qc29u"
+ }
+}

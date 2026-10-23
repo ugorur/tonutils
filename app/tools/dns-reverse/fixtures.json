@@ -1,0 +1,149 @@
+{
+ "_source": "toncenter.com /api/v3/dns/records?wallet= and /api/v3/nft/items?owner_address=&collection_address=, 2026-10-22",
+ "tolyaRecords": {
+  "records": [
+   {
+    "nft_item_address": "0:98AD8168DAAF888E9CF746CC79081709C3000AA069999D0264B52F58D3255FC5",
+    "nft_item_owner": "0:9DA971AF38D2F03ABDF308D5F91636A97E5A2B07A66C39D71D7CBAE3B032EDDC",
+    "domain": "tolya.ton",
+    "dns_next_resolver": null,
+    "dns_wallet": "0:9DA971AF38D2F03ABDF308D5F91636A97E5A2B07A66C39D71D7CBAE3B032EDDC",
+    "dns_site_adnl": null,
+    "dns_storage_bag_id": "H2sTOxqxHu8StsFdm4LmLbfZlVCKg+/JEmTspybLwOs=",
+    "self_assigned": true
+   },
+   {
+    "nft_item_address": "0:50E0814B32C147EF3BDBB5D6E8DD083422B5999BD3D025510C3500C92EFDC958",
+    "nft_item_owner": "0:9DA971AF38D2F03ABDF308D5F91636A97E5A2B07A66C39D71D7CBAE3B032EDDC",
+    "domain": "baronpunycode.ton",
+    "dns_next_resolver": null,
+    "dns_wallet": "0:9DA971AF38D2F03ABDF308D5F91636A97E5A2B07A66C39D71D7CBAE3B032EDDC",
+    "dns_site_adnl": null,
+    "dns_storage_bag_id": null,
+    "self_assigned": false
+   }
+  ],
+  "address_book": {
+   "0:50E0814B32C147EF3BDBB5D6E8DD083422B5999BD3D025510C3500C92EFDC958": {
+    "user_friendly": "EQBQ4IFLMsFH7zvbtdbo3Qg0IrWZm9PQJVEMNQDJLv3JWGvh",
+    "domain": null
+   },
+   "0:98AD8168DAAF888E9CF746CC79081709C3000AA069999D0264B52F58D3255FC5": {
+    "user_friendly": "EQCYrYFo2q-Ijpz3Rsx5CBcJwwAKoGmZnQJktS9Y0yVfxXjF",
+    "domain": null
+   },
+   "0:9DA971AF38D2F03ABDF308D5F91636A97E5A2B07A66C39D71D7CBAE3B032EDDC": {
+    "user_friendly": "UQCdqXGvONLwOr3zCNX5FjapflorB6ZsOdcdfLrjsDLt3AF4",
+    "domain": "tolya.ton"
+   }
+  }
+ },
+ "foundationOldRecords": {
+  "records": [
+   {
+    "nft_item_address": "0:78DFE54299FD7B3BB60C779D5F02F3A370C902C38E8DFF724C0A87A01FF643A3",
+    "nft_item_owner": "0:9DA971AF38D2F03ABDF308D5F91636A97E5A2B07A66C39D71D7CBAE3B032EDDC",
+    "domain": "foundation.ton",
+    "dns_next_resolver": null,
+    "dns_wallet": "0:83DFD552E63729B472FCBCC8C45EBCC6691702558B68EC7527E1BA403A0F31A8",
+    "dns_site_adnl": "UWYYz2y+kAT2iD50LJouPKU+0C4+NvTO9iqY7h5EkXQ=",
+    "dns_storage_bag_id": "f+p68jJfCltpCJOcnXL5LbTAylLMqM4sSLsnCL8YhUE=",
+    "self_assigned": false
+   },
+   {
+    "nft_item_address": "0:9AA18FA6C1CF0B4A119C020795B2AD37822054B1A93EF61D8EB89F5CB47ED064",
+    "nft_item_owner": "0:9DA971AF38D2F03ABDF308D5F91636A97E5A2B07A66C39D71D7CBAE3B032EDDC",
+    "domain": "just-for-test.ton",
+    "dns_next_resolver": null,
+    "dns_wallet": "0:83DFD552E63729B472FCBCC8C45EBCC6691702558B68EC7527E1BA403A0F31A8",
+    "dns_site_adnl": null,
+    "dns_storage_bag_id": null,
+    "self_assigned": false
+   }
+  ],
+  "address_book": {
+   "0:78DFE54299FD7B3BB60C779D5F02F3A370C902C38E8DFF724C0A87A01FF643A3": {
+    "user_friendly": "EQB43-VCmf17O7YMd51fAvOjcMkCw46N_3JMCoegH_ZDo40e",
+    "domain": null
+   },
+   "0:83DFD552E63729B472FCBCC8C45EBCC6691702558B68EC7527E1BA403A0F31A8": {
+    "user_friendly": "UQCD39VS5jcptHL8vMjEXrzGaRcCVYto7HUn4bpAOg8xqEBI",
+    "domain": null
+   },
+   "0:9AA18FA6C1CF0B4A119C020795B2AD37822054B1A93EF61D8EB89F5CB47ED064": {
+    "user_friendly": "EQCaoY-mwc8LShGcAgeVsq03giBUsak-9h2OuJ9ctH7QZG3y",
+    "domain": null
+   },
+   "0:9DA971AF38D2F03ABDF308D5F91636A97E5A2B07A66C39D71D7CBAE3B032EDDC": {
+    "user_friendly": "UQCdqXGvONLwOr3zCNX5FjapflorB6ZsOdcdfLrjsDLt3AF4",
+    "domain": "tolya.ton"
+   }
+  }
+ },
+ "hershyRecords": {
+  "records": [
+   {
+    "nft_item_address": "0:B84B79100CF157513CD0A5E269A253092BA3429C9D9006781413FFBF390C6BCD",
+    "nft_item_owner": "0:9CF953CD3F98243EFA6BACA30FA3D6DA0E288CB45068E466F4D413B27BC329AE",
+    "domain": "hershy.t.me",
+    "dns_next_resolver": null,
+    "dns_wallet": "0:9CF953CD3F98243EFA6BACA30FA3D6DA0E288CB45068E466F4D413B27BC329AE",
+    "dns_site_adnl": null,
+    "dns_storage_bag_id": null,
+    "self_assigned": true
+   }
+  ],
+  "address_book": {
+   "0:9CF953CD3F98243EFA6BACA30FA3D6DA0E288CB45068E466F4D413B27BC329AE": {
+    "user_friendly": "UQCc-VPNP5gkPvprrKMPo9baDiiMtFBo5Gb01BOye8MpriXQ",
+    "domain": "hershy.t.me"
+   },
+   "0:B84B79100CF157513CD0A5E269A253092BA3429C9D9006781413FFBF390C6BCD": {
+    "user_friendly": "EQC4S3kQDPFXUTzQpeJpolMJK6NCnJ2QBngUE_-_OQxrzSdy",
+    "domain": null
+   }
+  }
+ },
+ "hershyUsernames": [
+  {
+   "address": "0:B639C1D09587C46E122642459091DF484530C390D921AF6681188EDED9F29024",
+   "index": "849147809169641495578724426034676424285244347757541454777693171847111275658",
+   "owner_address": "0:9CF953CD3F98243EFA6BACA30FA3D6DA0E288CB45068E466F4D413B27BC329AE",
+   "content": {
+    "domain": "neurobyte.t.me"
+   }
+  },
+  {
+   "address": "0:A1064FB57F4FC47AB037EC2BA75222AB4AC005C83E8AD197A5DA4A334E0ADDDA",
+   "index": "21082911566577821041992256730106513872872196428340947716136437026358477557744",
+   "owner_address": "0:9CF953CD3F98243EFA6BACA30FA3D6DA0E288CB45068E466F4D413B27BC329AE",
+   "content": {
+    "domain": "mrxpp.t.me"
+   }
+  },
+  {
+   "address": "0:93442E8D3AA24FC6679347A74C47CE58EDF5F0618EF4829B3ABD8A752D53D31C",
+   "index": "78537244753969124149363803755882313078024793059477781854312415420545686459828",
+   "owner_address": "0:9CF953CD3F98243EFA6BACA30FA3D6DA0E288CB45068E466F4D413B27BC329AE",
+   "content": {
+    "domain": "oxoca.t.me"
+   }
+  },
+  {
+   "address": "0:B84B79100CF157513CD0A5E269A253092BA3429C9D9006781413FFBF390C6BCD",
+   "index": "87015838492147723189955214322631787307909105615903281011439926399096503722848",
+   "owner_address": "0:9CF953CD3F98243EFA6BACA30FA3D6DA0E288CB45068E466F4D413B27BC329AE",
+   "content": {
+    "domain": "hershy.t.me"
+   }
+  },
+  {
+   "address": "0:980D993ED3CDAE4C7292661F364B90F51AA02F17F72E3ECA8F685D481F0AF18B",
+   "index": "98040645067767713478556098164136722080035617526559683496217916528279393818796",
+   "owner_address": "0:9CF953CD3F98243EFA6BACA30FA3D6DA0E288CB45068E466F4D413B27BC329AE",
+   "content": {
+    "domain": "forgue.t.me"
+   }
+  }
+ ]
+}
