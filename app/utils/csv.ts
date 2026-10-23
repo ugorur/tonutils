@@ -4,7 +4,9 @@ export type CsvRow = Record<string, unknown>
 
 function cell(v: unknown): string {
   if (v === null || v === undefined) return ''
-  const s = typeof v === 'bigint' ? v.toString() : v instanceof Date ? v.toISOString() : typeof v === 'object' ? JSON.stringify(v, (_, x) => (typeof x === 'bigint' ? x.toString() : x)) : String(v)
+  let s = typeof v === 'bigint' ? v.toString() : v instanceof Date ? v.toISOString() : typeof v === 'object' ? JSON.stringify(v, (_, x) => (typeof x === 'bigint' ? x.toString() : x)) : String(v)
+  // Formula injection (OWASP CSV injection): on-chain text like NFT names can start with = + - @. Plain numbers stay as is.
+  if (typeof v === 'string' && /^[=+\-@\t\r]/.test(s) && !/^[+-]?\d[\d.,]*(e[+-]?\d+)?$/i.test(s)) s = `'${s}`
   return /[",\r\n]/.test(s) || /^\s|\s$/.test(s) ? `"${s.replace(/"/g, '""')}"` : s
 }
 

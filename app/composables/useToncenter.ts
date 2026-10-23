@@ -15,6 +15,7 @@ type Query = Record<string, string | number | boolean | undefined>
  *   const tc = useToncenter()
  *   const balance = await tc.v2<string>('getAddressBalance', { address })
  *   const { accounts } = await tc.v3<{ accounts: unknown[] }>('accountStates', { address })
+ *   const run = await tc.post<{ exit_code: number }>('runGetMethod', { address, method: 'seqno', stack: [] })
  */
 export function useToncenter(network?: MaybeRefOrGetter<TonNetwork>) {
   const global = useTonNetwork().network
@@ -33,5 +34,10 @@ export function useToncenter(network?: MaybeRefOrGetter<TonNetwork>) {
     return rateLimitedJson<T>(buildUrl(`${base()}/v3`, path, query), { provider: 'toncenter' })
   }
 
-  return { v2, v3, baseUrl: base }
+  /** v3 POST with a JSON body (runGetMethod, decode, …): returns the JSON body as is. */
+  function post<T>(path: string, body: unknown): Promise<T> {
+    return rateLimitedJson<T>(buildUrl(`${base()}/v3`, path), { provider: 'toncenter' }, jsonPost(body))
+  }
+
+  return { v2, v3, post, baseUrl: base }
 }

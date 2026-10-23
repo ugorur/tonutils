@@ -46,7 +46,7 @@ app/tools/<slug>/
   *.vue / *.ts   any extra files the tool needs (sub-components, a *.worker.ts), imported explicitly
 ```
 
-- **meta.ts fields** (`ToolMeta` in `app/utils/tool.ts`): `slug` (must equal the folder name, kebab-case), `name` (sentence case), `short` (≤100 chars, cards/search), `description` (1–2 sentences, page + SEO), `category` (one id from `app/utils/categories.ts`; do not add categories casually), `audience: 'user' | 'dev' | 'both'`, `network: 'offline' | 'read' | 'wallet'`, `keywords: string[]`, optional `related: string[]` (existing slugs), `icon` (literal `'i-lucide-*'` string so the icon bundler finds it; check the name exists in `@iconify-json/lucide`), optional `featured`.
+- **meta.ts fields** (`ToolMeta` in `app/utils/tool.ts`): `slug` (must equal the folder name, kebab-case), `name` (sentence case), `short` (≤100 chars, cards/search), `description` (1–2 sentences, page + SEO), `category` (one id from `app/utils/categories.ts`; do not add categories casually), `audience: 'user' | 'dev' | 'both'`, `network: 'offline' | 'read' | 'wallet'`, `keywords: string[]`, optional `related: string[]` (existing slugs), optional `privacyNote` (replaces the network privacy line under the tool: set it when the browser also calls a non-TON API such as CoinGecko/STON.fi/DexScreener, or when the tool relays through `server/api/tools/*`), `icon` (literal `'i-lucide-*'` string so the icon bundler finds it; check the name exists in `@iconify-json/lucide`), optional `featured`.
 - Categories: `address`, `wallet-keys`, `units-format`, `cells-boc`, `contracts`, `transactions`, `jettons`, `nfts`, `dns-domains`, `explorer-lookup`, `network-stats`, `crypto-encoding`, `developer-misc`, `security`, `wallet-actions` (send & sign through TonConnect), `token-launch` (create jettons/NFT collections, vesting), `staking`, `payments` (payment links, QR, checkout), `defi` (prices, DEX pools, swaps), `telegram` (usernames, numbers, Mini Apps), `reference` (exit codes, op codes, TVM, TEPs, cheat sheets).
 - `app/utils/registry.test.ts` checks every meta.ts (slug = folder, valid category, icon prefix, related slugs exist). Keep it green.
 - **Tool.vue** has no props. It may import `@ton/*` freely: it only ever runs in the browser. Pages and shared layout must not import `@ton/*` (SSR/prerender must stay crypto-free). Read the network with `useTonNetwork()` and default tabs to it.
@@ -73,7 +73,8 @@ Auto-imported components (no import needed in .vue files):
 - `<JsonView :value label?>`: pretty, bigint-safe JSON with copy.
 - `<NetworkSwitch>`: mainnet/testnet pill (in the header). `<WalletButton>`: TonConnect button (in the header).
 - `<WalletGate purpose?>` (slot `{ wallet: ConnectedAccount }`), `<TxPreview :messages="TonConnectMessage[]">`: see Wallet tools.
-- `<QrCode :value size=220 level='M'>`: inline SVG QR (white background), `defineExpose({ svg })` for downloads.
+- `<QrCode :value size=220 level='M'>`: inline SVG QR (white background), `defineExpose({ svg })` for downloads. `<QrScan @result="(text) => …">`: camera / image QR reader (jsQR fallback), processed locally.
+- `<BocInput v-model="string" label? hint? :examples="{ label, value }[]">`: BOC text area + .boc file drop (binary files become base64).
 - `<FileDrop accept? text? maxBytes=10MB label? @file="(f: DroppedFile) => …">`: `{ name, size, type, bytes: Uint8Array, text? }`, read locally (type from `~/components/FileDrop.vue`).
 - `<CsvExportButton :rows="CsvRow[]" filename columns? label?>`: UTF-8 CSV download (uses `toCsv`).
 - `<ErrorNotice :error="unknown" title? @retry>`: friendly box for `TonApiError` (rate limit, network, 5xx get a retry button), wallet rejections and plain errors.
@@ -86,8 +87,8 @@ Auto-imported components (no import needed in .vue files):
 
 Auto-imported composables:
 - `useTonNetwork()` → `{ network: Ref<'mainnet'|'testnet'>, isTestnet, toggle }` (cookie-persisted; read it only client-side).
-- `useToncenter(network?)` → `{ v2<T>(method, query?) /* returns result */, v3<T>(path, query?), baseUrl() }`.
-- `useTonapi(network?)` → `{ get<T>(path, query?), baseUrl() }`.
+- `useToncenter(network?)` → `{ v2<T>(method, query?) /* returns result */, v3<T>(path, query?), post<T>(path, body) /* v3 POST, e.g. runGetMethod */, baseUrl() }`.
+- `useTonapi(network?)` → `{ get<T>(path, query?), post<T>(path, body), baseUrl() }`.
   Both: keyless, one queue per host (~1 req/s), retry with backoff on 429/5xx/network errors, throw `TonApiError { provider, status, url, body, isRateLimit }`. Always use them (never raw `fetch` to toncenter/tonapi).
 - `useTonConnect()` → `{ getUi(): Promise<TonConnectUI>, ui, wallet: Readonly<Ref<ConnectedAccount | null>>, connected, restored, networkMismatch, supportsSignMessage, connect(), disconnect(), sendTransaction({ messages: TonConnectMessage[], validUntil? }): Promise<{ boc, hash }>, signData(payload: SignDataPayload), signMessage({ messages, validUntil? }): Promise<{ internalBoc }>, waitForTransaction(bocOrHash, { timeoutMs = 120000, intervalMs = 4000 }?): Promise<TonTrace> }`.
   - `ConnectedAccount = { address /* 0:hex */, friendly /* UQ…/0Q… */, chain, network, publicKey?, walletStateInit, device, walletName, walletImage? }`.
@@ -98,8 +99,9 @@ Auto-imported composables:
 Auto-imported utils (`app/utils/*.ts`):
 - `parseUnits(str, decimals=9): bigint`, `formatUnits(bigint, decimals=9): string`, `formatAmount(bigint, decimals=9, { group=true, maxDecimals? }): string`, `groupThousands(str)` (`units.ts`).
 - `COIN_*`, `NANO_NAME`, `NANO_FORMER`, `NANO_PER_COIN`, `COIN_RENAME_NOTE`, `formatCoin(nano: bigint, { symbol=true, group=true, maxDecimals? }): string` → `"1.5 GRAM"` (`currency.ts`).
-- `toCsv(rows: CsvRow[], columns?: string[]): string`, `downloadText(content, filename, type?)` (`csv.ts`).
-- `toolRegistry`, `getTool`, `toolsInCategory`, `searchTools` (`registry.ts`); `CATEGORIES`, `CATEGORY_IDS`, `isCategoryId` (`categories.ts`); `rateLimitedJson`, `buildUrl`, `TonApiError` (`api-client.ts`).
+- `toCsv(rows: CsvRow[], columns?: string[]): string` (text cells starting with = + - @ get a leading `'` against formula injection), `downloadText(content, filename, type?)` (`csv.ts`).
+- `ipfsToHttp(uri)`, `IPFS_GATEWAY`, `DEAD_GATEWAY` (`ipfs.ts`): the one public IPFS gateway (ipfs.io no longer serves embedded content); also maps `ar://`.
+- `toolRegistry`, `getTool`, `toolsInCategory`, `searchTools` (`registry.ts`); `CATEGORIES`, `CATEGORY_IDS`, `isCategoryId` (`categories.ts`); `rateLimitedJson`, `buildUrl`, `jsonPost(body)`, `TonApiError`, types `V2Fetch` / `V3Fetch` (what `useToncenter().v2` / `.v3` look like, so pure logic.ts can take them and tests can pass fakes) (`api-client.ts`). Non-TON public APIs (STON.fi, CoinGecko, …) also go through `rateLimitedJson` with their own `provider` label.
 
 Shared TON library, `app/utils/ton/` (NOT auto-imported: `import { … } from '~/utils/ton/<file>'`; pure TS with vitest vectors; `messages.ts` and `wallets.ts` import `@ton/*`, so client/logic.ts only):
 - `opcodes.ts`: `OPCODES: OpcodeInfo[]` (`{ op, name, title, group, source, tlb? }`: TEP-74/89 jettons + minter admin ops, TEP-62/66 NFT, TEP-85 SBT, TEP-81 DNS, comments, W5/v4 wallet ops, STON.fi v1/v2, DeDust, Tonstakers, TON Whales, elector, highload v3, multisig v2, vesting; verified with toncenter `/api/v3/decode`), `opcodeInfo(op): OpcodeInfo | undefined`, `OP(name): number` (e.g. `OP('jetton_transfer') === 0x0f8a7ea5`), `opHex(op): '0x…'`, `parseOp(input): number | null` (hex or signed/unsigned decimal).
@@ -119,6 +121,11 @@ Lazy loaders for heavy libraries, `import { … } from '~/utils/lazy'` (client o
 
 ### Server routes
 - Tool-specific server routes live in `server/api/tools/<slug>/**` (served at `/api/tools/<slug>/…`) and nowhere else. Use them only for what a browser cannot do (e.g. a call that needs a Worker secret or has no CORS). There is no general API-key proxy, and none will be added: one route per concrete need, validate every input, never forward arbitrary URLs.
+
+### Shared code between tools
+- `app/lib/<group>/` holds code shared by a group of tools (e.g. `wallet-actions/` SendFlow, RecipientInput, `recipientNotes`; `accounts/`; `nfts-read/`). Change it with every importer in mind: grep for the folder before editing.
+- Some tools import another tool's `logic.ts` (contract-deployer and library-publisher → stateinit-builder / unfreeze-account, dns-record-editor → adnl-address-converter, local-get-method-emulator → tvm-stack-codec, verify-signature → sign-message, metadata-validator → jetton-metadata-codec). Keep those exports stable or move them to `app/utils/ton/` when you change them.
+- `server/api/tools/metadata-validator/fetch` (client side: `checkUrl` in `app/lib/jettons-dev/fetchCheck.ts`) is the site's one URL checker: public http(s) only, private hosts refused, redirects re-checked, JSON/SVG bodies only. metadata-validator, jetton-metadata-codec and tonconnect-link-decoder use it.
 
 ### Links and projects
 - `app/data/links/<id>.ts` → `export default defineLinkCategory({...})`; `app/data/projects/<id>.ts` → `export default defineProjectCategory({...})` (types in `app/data/types.ts`). Auto-discovered, sorted by `order`. Verify every URL resolves before adding it.

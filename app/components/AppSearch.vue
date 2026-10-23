@@ -14,19 +14,23 @@ const go = (to: string) => () => {
   navigateTo(to)
 }
 
+const term = ref('')
+const toolItem = (t: ToolMeta): CommandPaletteItem => ({
+  label: t.name,
+  suffix: t.short,
+  icon: t.icon,
+  // Fuse searches these too
+  keywords: t.keywords,
+  onSelect: go(`/tools/${t.slug}`)
+})
+const allTools = toolRegistry.map(toolItem)
+const popular = toolRegistry.filter(t => t.featured).map(toolItem)
+
+// The palette shows at most 12 results per group, so an empty search lists the popular tools, not the first 12 A–Z.
 const groups = computed<CommandPaletteGroup<CommandPaletteItem>[]>(() => [
-  {
-    id: 'tools',
-    label: 'Tools',
-    items: toolRegistry.map(t => ({
-      label: t.name,
-      suffix: t.short,
-      icon: t.icon,
-      // Fuse searches these too
-      keywords: t.keywords,
-      onSelect: go(`/tools/${t.slug}`)
-    }))
-  },
+  term.value.trim()
+    ? { id: 'tools', label: 'Tools', items: allTools }
+    : { id: 'tools', label: 'Popular tools', items: popular },
   {
     id: 'categories',
     label: 'Categories',
@@ -53,6 +57,7 @@ const groups = computed<CommandPaletteGroup<CommandPaletteItem>[]>(() => [
   <UModal v-model:open="open" title="Search tools" description="Search every tool, category and page" :ui="{ content: 'sm:max-w-2xl' }">
     <template #content>
       <UCommandPalette
+        v-model:search-term="term"
         :groups="groups"
         placeholder="Search tools: address, mnemonic, nanoTON…"
         :fuse="{ fuseOptions: { keys: ['label', 'suffix', 'keywords'] } }"

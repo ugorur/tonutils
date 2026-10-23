@@ -178,6 +178,9 @@ importers:
       '@ton-community/func-js':
         specifier: 0.11.0
         version: 0.11.0
+      '@ton-community/tlb-codegen':
+        specifier: 2.0.0-beta.3
+        version: 2.0.0-beta.3(@ton/crypto@3.3.0)
       '@ton-community/tlb-parser':
         specifier: 0.1.5
         version: 0.1.5

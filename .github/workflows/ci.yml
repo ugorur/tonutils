@@ -1,12 +1,22 @@
 name: CI
 
+# PRs: test, typecheck, build.
+# Push to master: same checks, then deploy the preview to https://tonutils-staging.mrnasil.workers.dev.
+# Production (https://tonutils.io) deploys only by hand: Actions > CI > Run workflow > target: production.
 on:
   pull_request:
   push:
     branches: [master]
+  workflow_dispatch:
+    inputs:
+      target:
+        description: Where to deploy
+        type: choice
+        options: [staging, production]
+        default: staging
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ inputs.target || 'auto' }}
   cancel-in-progress: true
 
 jobs:
@@ -23,9 +33,18 @@ jobs:
       - run: pnpm test
       - run: pnpm typecheck
       - run: pnpm build
-      - if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+
+      # GitHub Actions repository secrets (see AGENTS.md > Secrets)
+      - name: Deploy preview (tonutils-staging.mrnasil.workers.dev)
+        if: github.ref == 'refs/heads/master' && (github.event_name == 'push' || inputs.target == 'staging')
+        run: pnpm exec wrangler deploy --env staging
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Deploy production (tonutils.io)
+        if: github.ref == 'refs/heads/master' && github.event_name == 'workflow_dispatch' && inputs.target == 'production'
         run: pnpm exec wrangler deploy
         env:
-          # GitHub Actions repository secrets (see AGENTS.md > Secrets)
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

@@ -24,4 +24,9 @@ describe('tool registry', () => {
   it('searches by keyword', () => {
     expect(searchTools('nanoton').map(t => t.slug)).toContain('ton-units')
   })
+
+  it('ranks name matches first', () => {
+    expect(searchTools('send ton')[0]?.slug).toBe('send-ton')
+    expect(searchTools('exit code')[0]?.slug).toBe('tvm-exit-codes')
+  })
 })

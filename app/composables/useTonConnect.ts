@@ -76,12 +76,12 @@ function toBase64(x: Cell | string | undefined): string | undefined {
 export function useTonConnect() {
   const { network } = useTonNetwork()
   const toncenter = useToncenter()
-  const manifestUrl = `${useRuntimeConfig().public.siteUrl}/tonconnect-manifest.json`
 
   function getUi(): Promise<TonConnectUI> {
     if (import.meta.server) return Promise.reject(new Error('TonConnect is client-only'))
     loading ??= import('@tonconnect/ui').then(({ TonConnectUI, toUserFriendlyAddress }) => {
-      const instance = new TonConnectUI({ manifestUrl, analytics: { mode: 'off' } })
+      // Same-origin manifest, so the workers.dev preview and production each serve their own.
+      const instance = new TonConnectUI({ manifestUrl: `${location.origin}/tonconnect-manifest.json`, analytics: { mode: 'off' } })
       instance.onStatusChange((w) => {
         if (!w) {
           account.value = null

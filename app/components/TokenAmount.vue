@@ -22,5 +22,6 @@ const shown = computed(() => (units.value === null ? '—' : formatAmount(units.
 </script>
 
 <template>
-  <span class="font-mono tabular-nums whitespace-nowrap" :title="`${full} ${symbol}`">{{ shown }}<span v-if="symbol" class="font-sans text-muted">{{ ` ${symbol}` }}</span></span>
+  <!-- The number never breaks; the symbol may wrap to the next line in narrow containers. -->
+  <span class="font-mono tabular-nums" :title="`${full} ${symbol}`"><span class="whitespace-nowrap">{{ shown }}</span><span v-if="symbol" class="font-sans text-muted">{{ ` ${symbol}` }}</span></span>
 </template>

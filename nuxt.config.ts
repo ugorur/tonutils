@@ -67,7 +67,7 @@ export default defineNuxtConfig({
       include: [
         'buffer', '@ton/core', '@ton/crypto', '@ton/ton',
         'qrcode', 'jsqr', '@ton/tasm', '@ton-community/tlb-parser', '@ton-community/tlb-runtime',
-        '@ton/tolk-js', '@ton-community/func-js',
+        '@ton/tolk-js', '@ton-community/func-js', '@ton-community/tlb-codegen',
         '@ton/sandbox/dist/executor/Executor', '@ton/sandbox/dist/config/defaultConfig'
       ]
     },
@@ -76,6 +76,11 @@ export default defineNuxtConfig({
   },
 
   hooks: {
+    // Every tool page would otherwise <link rel=prefetch> all ~320 lazy chunks (every Tool.vue, the 7–9 MB
+    // compiler/sandbox workers): ~29 MB downloaded in the background on each visit. Load chunks on demand only.
+    'build:manifest': (manifest) => {
+      for (const chunk of Object.values(manifest)) chunk.prefetch = false
+    },
     // Dev-only smoke page for the lazy WASM loaders. TONUTILS_DEV_PAGES=1 also adds it to a production build.
     'pages:extend': (pages) => {
       if (process.env.NODE_ENV !== 'production' || process.env.TONUTILS_DEV_PAGES) {

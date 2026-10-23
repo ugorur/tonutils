@@ -17,7 +17,8 @@ const view = computed(() => {
   }
   const err = e as Error
   if (err?.name === 'UserRejectsError') return { title: 'Rejected in wallet', text: 'You declined the request in your wallet. Nothing was sent.', retry: false }
-  return { title: props.title ?? 'Something went wrong', text: err?.message ?? String(e), retry: false }
+  // Plain errors are mostly input checks thrown by logic.ts, so the default title stays calm.
+  return { title: props.title ?? (err instanceof Error ? 'That did not work' : 'Something went wrong'), text: err?.message ?? String(e), retry: false }
 })
 </script>
 

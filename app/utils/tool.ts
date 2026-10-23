@@ -22,6 +22,11 @@ export interface ToolMeta {
   related?: string[]
   /** Lucide icon, e.g. 'i-lucide-at-sign'. Write it as a literal so the icon bundler finds it. */
   icon: string
+  /**
+   * Replaces the network privacy line under the tool when it is not the whole story: name every third-party
+   * host the browser calls and any server/api/tools route the tool relays through.
+   */
+  privacyNote?: string
   /** Shown in the "Popular" strip on the home page. */
   featured?: boolean
 }
@@ -45,7 +50,7 @@ export const NETWORK_INFO: Record<ToolNetwork, { label: string, icon: string, de
   read: {
     label: 'Reads public chain data',
     icon: 'i-lucide-radio-tower',
-    detail: 'Your browser queries public TON APIs (toncenter, tonapi) directly. We run no server in between.'
+    detail: 'Your browser queries public TON APIs (toncenter, tonapi) directly. We run no server in between and store nothing you enter.'
   },
   wallet: {
     label: 'Signs with your wallet',

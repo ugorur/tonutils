@@ -15,5 +15,14 @@
     { "pattern": "www.tonutils.io/*", "zone_id": "1488cd4455682db22ea082e40374d7e3" }
   ],
   "workers_dev": true,
-  "observability": { "enabled": true }
+  "observability": { "enabled": true },
+  "env": {
+    // Preview: `wrangler deploy --env staging` -> https://tonutils-staging.mrnasil.workers.dev
+    // (CI deploys it on every push to master). Same account as production, no domain.
+    "staging": {
+      "name": "tonutils-staging",
+      "routes": [],
+      "workers_dev": true
+    }
+  }
 }

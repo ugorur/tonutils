@@ -13,7 +13,7 @@ watch(() => route.path, () => (mobileOpen.value = false))
 
 <template>
   <header class="sticky top-0 z-40 border-b border-default bg-default/85 backdrop-blur-md">
-    <div class="mx-auto flex h-16 max-w-(--ui-container) items-center gap-3 px-4 sm:px-6">
+    <div class="mx-auto flex h-16 max-w-(--ui-container) items-center gap-2 px-4 sm:gap-3 sm:px-6">
       <NuxtLink to="/" class="flex shrink-0 items-center gap-2" aria-label="TonUtils home">
         <AppLogo class="size-7" />
         <span class="font-display text-lg font-semibold tracking-tight text-highlighted">ton<span class="text-primary">utils</span></span>

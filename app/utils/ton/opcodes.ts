@@ -58,6 +58,7 @@ export const OPCODES: readonly OpcodeInfo[] = [
 
   // TEP-81 DNS
   { op: 0x4eb1f0f9, name: 'dns_change_record', title: 'Change DNS record', group: 'dns', source: 'TEP-81', tlb: 'change_dns_record#4eb1f0f9 query_id:uint64 key:uint256 value:(Maybe ^DNSRecord) = InternalMsgBody;' },
+  { op: 0x4ed14b65, name: 'dns_balance_release', title: 'Release expired DNS domain', group: 'dns', source: 'ton-blockchain/dns-contract (nft-item.fc)', tlb: 'dns_balance_release#4ed14b65 query_id:uint64 = InternalMsgBody;' },
 
   // Wallets (W5 = wallet v5r1, v4 plugins)
   { op: 0x73696e74, name: 'w5_internal_signed', title: 'W5 signed request (internal)', group: 'wallet', source: 'wallet v5r1', tlb: 'internal_signed#73696e74 signed:SignedRequest = InternalMsgBody;' },
@@ -89,6 +90,8 @@ export const OPCODES: readonly OpcodeInfo[] = [
   { op: 0x1674b0a0, name: 'tonstakers_payout_mint_jettons', title: 'Tonstakers payout (mint tsTON)', group: 'staking', source: 'Tonstakers' },
   { op: 0x7bcd1fef, name: 'whales_deposit', title: 'TON Whales nominator deposit', group: 'staking', source: 'TON Whales' },
   { op: 0xda803efd, name: 'whales_withdraw', title: 'TON Whales nominator withdraw', group: 'staking', source: 'TON Whales' },
+  { op: 0x00001000, name: 'single_nominator_withdraw', title: 'Single nominator: owner withdraw', group: 'staking', source: 'ton-blockchain/single-nominator', tlb: 'withdraw#00001000 query_id:uint64 amount:Coins = InternalMsgBody;' },
+  { op: 0x00001001, name: 'single_nominator_change_validator', title: 'Single nominator: change validator', group: 'staking', source: 'ton-blockchain/single-nominator', tlb: 'change_validator_address#00001001 query_id:uint64 new_validator_address:MsgAddress = InternalMsgBody;' },
   { op: 0x4e73744b, name: 'elector_new_stake', title: 'Elector: new stake', group: 'elector', source: 'elector-code.fc' },
   { op: 0xf374484c, name: 'elector_new_stake_ok', title: 'Elector: stake accepted', group: 'elector', source: 'elector-code.fc' },
   { op: 0x47657424, name: 'elector_recover_stake', title: 'Elector: recover stake', group: 'elector', source: 'elector-code.fc' },

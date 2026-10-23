@@ -1,7 +1,14 @@
 // Tiny rate-limited JSON client for keyless public TON APIs (toncenter ~1 rps, tonapi similar).
 // One queue per host, spaced requests, retry on 429/5xx with backoff. Pure TS, no Vue.
 
-export type ApiProvider = 'toncenter' | 'tonapi'
+/** API label shown in errors. Other public APIs (STON.fi, CoinGecko, …) pass their own name. */
+export type ApiProvider = 'toncenter' | 'tonapi' | (string & {})
+
+export type Query = Record<string, string | number | boolean | undefined>
+/** toncenter v2 caller, e.g. `useToncenter().v2`: returns the unwrapped `result`. Lets pure logic.ts take a fake in tests. */
+export type V2Fetch = <T>(method: string, query?: Query) => Promise<T>
+/** toncenter v3 caller, e.g. `useToncenter().v3`. */
+export type V3Fetch = <T>(path: string, query?: Query) => Promise<T>
 
 export class TonApiError extends Error {
   constructor(
@@ -41,6 +48,11 @@ export function buildUrl(base: string, path: string, query?: Record<string, stri
     if (v !== undefined) url.searchParams.set(k, String(v))
   }
   return url.toString()
+}
+
+/** RequestInit for a JSON POST body. */
+export function jsonPost(body: unknown): RequestInit {
+  return { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) }
 }
 
 export async function rateLimitedJson<T>(url: string, opts: ClientOptions, init?: RequestInit): Promise<T> {

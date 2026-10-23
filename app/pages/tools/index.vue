@@ -32,6 +32,11 @@ const results = computed(() => {
   return searchTools(q.value, list)
 })
 
+// Unfiltered (or audience-only) view: one section per category, so 160+ cards stay scannable.
+const grouped = computed(() => (q.value.trim() || category.value !== 'all')
+  ? null
+  : CATEGORY_IDS.map(id => ({ id, ...CATEGORIES[id], tools: results.value.filter(t => t.category === id) })).filter(g => g.tools.length))
+
 const categoryItems = computed(() => [
   { label: `All categories (${toolRegistry.length})`, value: 'all' },
   ...CATEGORY_IDS.map(id => ({ label: `${CATEGORIES[id].name} (${toolsInCategory(id).length})`, value: id }))
@@ -74,7 +79,19 @@ useSeoMeta({
     <p class="mt-6 text-sm text-muted" aria-live="polite">
       {{ results.length }} {{ results.length === 1 ? 'tool' : 'tools' }}
     </p>
-    <div v-if="results.length" class="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+    <div v-if="grouped?.length" class="mt-3 space-y-10">
+      <section v-for="g in grouped" :key="g.id" :aria-labelledby="`cat-${g.id}`">
+        <h2 :id="`cat-${g.id}`" class="flex items-center gap-2 font-display text-lg font-semibold tracking-tight text-highlighted">
+          <UIcon :name="g.icon" class="size-5 text-primary" />
+          <NuxtLink :to="`/categories/${g.id}`" class="hover:text-primary">{{ g.name }}</NuxtLink>
+          <span class="font-mono text-xs font-normal text-muted tabular-nums">{{ g.tools.length }}</span>
+        </h2>
+        <div class="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          <ToolCard v-for="t in g.tools" :key="t.slug" :tool="t" />
+        </div>
+      </section>
+    </div>
+    <div v-else-if="results.length" class="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
       <ToolCard v-for="t in results" :key="t.slug" :tool="t" />
     </div>
     <div v-else class="mt-3 rounded-lg border border-dashed border-default p-10 text-center">

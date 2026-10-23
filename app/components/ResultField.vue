@@ -24,6 +24,6 @@ withDefaults(defineProps<{
         {{ hint }}
       </div>
     </div>
-    <CopyButton v-if="copy && value" :value="value" class="-mr-1.5 shrink-0" />
+    <CopyButton v-if="copy && value" :value="value" class="shrink-0" />
   </div>
 </template>

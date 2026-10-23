@@ -2,6 +2,7 @@
 const props = defineProps<{ tool: ToolMeta }>()
 const category = computed(() => CATEGORIES[props.tool.category])
 const net = computed(() => NETWORK_INFO[props.tool.network])
+const privacy = computed(() => props.tool.privacyNote ?? net.value.detail)
 </script>
 
 <template>
@@ -31,7 +32,7 @@ const net = computed(() => NETWORK_INFO[props.tool.network])
     </header>
 
     <div class="mt-5 flex flex-wrap gap-2">
-      <UTooltip :text="net.detail" :content="{ side: 'bottom' }">
+      <UTooltip :text="privacy" :content="{ side: 'bottom' }">
         <UBadge
           :icon="net.icon"
           :color="tool.network === 'offline' ? 'success' : tool.network === 'wallet' ? 'warning' : 'info'"
@@ -48,7 +49,7 @@ const net = computed(() => NETWORK_INFO[props.tool.network])
     </div>
 
     <p class="mt-3 text-xs text-dimmed">
-      {{ net.detail }}
+      {{ privacy }}
     </p>
   </article>
 </template>

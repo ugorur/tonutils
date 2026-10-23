@@ -10,11 +10,15 @@ const props = withDefaults(defineProps<{
 }>(), { kind: 'address' })
 
 const site = useTonNetwork().network
+// A caller's own display class (e.g. `hidden sm:inline-flex`) must win: two display utilities on one element
+// resolve by stylesheet order, not by attribute order, so drop the default instead of competing with it.
+const attrs = useAttrs()
+const display = computed(() => (/(^|\s)(hidden|block|inline|inline-block|flex|inline-flex|grid|contents)(\s|$)/.test(String(attrs.class ?? '')) ? '' : 'inline-flex'))
 const links = computed(() => explorerLinks(props.kind, props.value, props.network ?? site.value))
 </script>
 
 <template>
-  <span class="inline-flex flex-wrap items-center gap-x-3 gap-y-1 text-xs">
+  <span :class="[display, 'flex-wrap items-center gap-x-3 gap-y-1 text-xs']">
     <a
       v-for="l in links"
       :key="l.id"

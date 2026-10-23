@@ -20,5 +20,10 @@ export function useTonapi(network?: MaybeRefOrGetter<TonNetwork>) {
     return rateLimitedJson<T>(buildUrl(base(), path, query), { provider: 'tonapi' })
   }
 
-  return { get, baseUrl: base }
+  /** POST with a JSON body (e.g. `accounts/_bulk`). */
+  function post<T>(path: string, body: unknown): Promise<T> {
+    return rateLimitedJson<T>(buildUrl(base(), path), { provider: 'tonapi' }, jsonPost(body))
+  }
+
+  return { get, post, baseUrl: base }
 }
