@@ -1,0 +1,339 @@
+{
+ "fetched": "2026-10-23",
+ "owner": "0:95c938b9506526df277e5a1b9b74295699afa8cf1efe2154b9e0c1a7d824090f",
+ "balances": {
+  "balances": [
+   {
+    "balance": "119200000000",
+    "jetton": {
+     "address": "0:f3413379050e6840eb9ee8ded6c5816ebd2113eb2ee02c96af830cae572bcaa7",
+     "name": "LOCKED GRAM",
+     "symbol": "GRAM Unlock at gramunlock.org",
+     "decimals": 9,
+     "verification": "blacklist"
+    }
+   },
+   {
+    "balance": "5960783600738",
+    "jetton": {
+     "address": "0:6388156114b41508c4bc98a300de04bcdb79bd5debbd6978995180f84cff060e",
+     "name": "LP Token for GRAM-tsTON",
+     "symbol": "GRAM-tsTON LP",
+     "decimals": 9,
+     "verification": "none"
+    }
+   },
+   {
+    "balance": "167588336671",
+    "jetton": {
+     "address": "0:3e5ffca8ddfcf36c36c9ff46f31562aab51b9914845ad6c26cbde649d58a5588",
+     "name": "DeDust Pool: TON/USDT",
+     "symbol": "LP",
+     "decimals": 9,
+     "verification": "graylist"
+    }
+   },
+   {
+    "balance": "16358228",
+    "jetton": {
+     "address": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe",
+     "name": "Tether USD",
+     "symbol": "USD₮",
+     "decimals": 6,
+     "verification": "whitelist"
+    }
+   },
+   {
+    "balance": "149902750",
+    "jetton": {
+     "address": "0:ed6473ad55669ff54214eab9a32cf34b4c6c4d2cda20bcae7151994c46067043",
+     "name": "LP Token for STON-GRAM",
+     "symbol": "STON-GRAM LP",
+     "decimals": 9,
+     "verification": "none"
+    }
+   },
+   {
+    "balance": "2898516756",
+    "jetton": {
+     "address": "0:120592f06b6bdf76c8280c5db0f7aa5d71c049251c433575cf50becd326d1676",
+     "name": "LP Token for GRM-GRAM",
+     "symbol": "GRM-GRAM LP",
+     "decimals": 9,
+     "verification": "none"
+    }
+   }
+  ]
+ },
+ "stonfi": {
+  "EQDtZHOtVWaf9UIU6rmjLPNLTGxNLNogvK5xUZlMRgZwQ4Gt": {
+   "address": "EQDtZHOtVWaf9UIU6rmjLPNLTGxNLNogvK5xUZlMRgZwQ4Gt",
+   "reserve0": "44253950424584",
+   "reserve1": "16811984192633",
+   "token0_address": "EQA2kCVNwVsil2EM2mB0SkXytxCqQjS4mttjDpnXmwG9T6bO",
+   "token1_address": "EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c",
+   "lp_total_supply": "13875246700",
+   "apy_7d": "0.008536976",
+   "amp": null,
+   "tags": [
+    "pool:liquidity_provision:not_recommended",
+    "pool:dex_major_version:1",
+    "pool:liquidity:medium"
+   ]
+  },
+  "EQASBZLwa2vfdsgoDF2w96pdccBJJRxDNXXPUL7NMm0WdnMx": {
+   "address": "EQASBZLwa2vfdsgoDF2w96pdccBJJRxDNXXPUL7NMm0WdnMx",
+   "reserve0": "39123049611824166",
+   "reserve1": "16371316879392",
+   "token0_address": "EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O",
+   "token1_address": "EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c",
+   "lp_total_supply": "427753303837",
+   "apy_7d": "0.031621435",
+   "amp": null,
+   "tags": [
+    "pool:liquidity:medium",
+    "pool:dex_major_version:1"
+   ]
+  },
+  "EQBjiBVhFLQVCMS8mKMA3gS823m9Xeu9aXiZUYD4TP8GDvui": {
+   "address": "EQBjiBVhFLQVCMS8mKMA3gS823m9Xeu9aXiZUYD4TP8GDvui",
+   "reserve0": "70481083705405",
+   "reserve1": "94618337116313",
+   "token0_address": "EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c",
+   "token1_address": "EQC98_qAmNEptUtPc7W6xdHh_ZHrBUFpw5Ft_IzNU20QAJav",
+   "lp_total_supply": "4081086583172525",
+   "apy_7d": "0.027726872",
+   "amp": "50000000000000000000",
+   "tags": [
+    "pool:dex_major_version:2",
+    "pool:liquidity:high"
+   ]
+  }
+ },
+ "dedust": {
+  "bulk": {
+   "jettons": [
+    {
+     "total_supply": "6534088324806",
+     "metadata": {
+      "address": "0:3e5ffca8ddfcf36c36c9ff46f31562aab51b9914845ad6c26cbde649d58a5588",
+      "name": "DeDust Pool: TON/USDT",
+      "symbol": "LP",
+      "decimals": "9",
+      "image": "https://c.tonapi.io/onchain/image/f8174786dac4a09a0040a110b63ad75d"
+     },
+     "interfaces": [
+      "dedust_pool",
+      "jetton_master"
+     ]
+    }
+   ]
+  },
+  "reserves": {
+   "success": true,
+   "exit_code": 0,
+   "stack": [
+    {
+     "type": "num",
+     "num": "0xba7c331c3c5d"
+    },
+    {
+     "type": "num",
+     "num": "0x3f215c017a"
+    }
+   ],
+   "decoded": {
+    "reserve0": "205042596199517",
+    "reserve1": "271142617466"
+   }
+  },
+  "assets": {
+   "success": true,
+   "exit_code": 0,
+   "stack": [
+    {
+     "type": "cell",
+     "cell": "b5ee9c7201010101000300000108"
+    },
+    {
+     "type": "cell",
+     "cell": "b5ee9c72010101010024000043100b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe8"
+    }
+   ],
+   "decoded": {
+    "asset0": {
+     "sum_type": "Native",
+     "native": {},
+     "jetton": {
+      "workchain_id": 0,
+      "address": "0000000000000000000000000000000000000000000000000000000000000000"
+     },
+     "extra_currency": {
+      "currency_id": 0
+     }
+    },
+    "asset1": {
+     "sum_type": "Jetton",
+     "native": {},
+     "jetton": {
+      "workchain_id": 0,
+      "address": "b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe"
+     },
+     "extra_currency": {
+      "currency_id": 0
+     }
+    }
+   }
+  }
+ },
+ "tokens": {
+  "jettons": [
+   {
+    "metadata": {
+     "address": "0:bdf3fa8098d129b54b4f73b5bac5d1e1fd91eb054169c3916dfc8ccd536d1000",
+     "symbol": "tsTON",
+     "decimals": "9",
+     "name": "Tonstakers TON"
+    }
+   },
+   {
+    "metadata": {
+     "address": "0:b8ef4f77a17e5785bd31ba4da50abd91852f2b8febee97ad6ee16d941f939198",
+     "symbol": "GRM",
+     "decimals": "9",
+     "name": "Grm"
+    }
+   },
+   {
+    "metadata": {
+     "address": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe",
+     "symbol": "USD₮",
+     "decimals": "6",
+     "name": "Tether USD"
+    }
+   },
+   {
+    "metadata": {
+     "address": "0:3690254dc15b2297610cda60744a45f2b710aa4234b89adb630e99d79b01bd4f",
+     "symbol": "STON",
+     "decimals": "9",
+     "name": "STON"
+    }
+   }
+  ]
+ },
+ "rates": {
+  "rates": {
+   "0:3690254dc15b2297610cda60744a45f2b710aa4234b89adb630e99d79b01bd4f": {
+    "prices": {
+     "USD": 0.4987827161596736
+    }
+   },
+   "0:b8ef4f77a17e5785bd31ba4da50abd91852f2b8febee97ad6ee16d941f939198": {
+    "prices": {
+     "USD": 0.0005536238919858016
+    }
+   },
+   "0:bdf3fa8098d129b54b4f73b5bac5d1e1fd91eb054169c3916dfc8ccd536d1000": {
+    "prices": {
+     "USD": 1.5496386202720323
+    }
+   },
+   "TON": {
+    "prices": {
+     "USD": 1.3230123851378344
+    }
+   },
+   "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe": {
+    "prices": {
+     "USD": 0.9988014382740709
+    }
+   }
+  }
+ },
+ "farmer": {
+  "owner": "0:859216202cd2ebda381cf96de9c608a8c5044c0efb33974691167a64f1259ae4",
+  "farms": {
+   "farm_list": [
+    {
+     "pool_address": "EQDRsIMhEH4O2Q4OkopgmBprA9WwstiLcW0U61cudAlCdx7S",
+     "status": "retired",
+     "nft_infos": [
+      {
+       "address": "EQAFya22sS9fmUwQpxYuxXhhDfflVd--uRA1_j6gkx7G8OC8",
+       "staked_tokens": "4846252344540",
+       "status": "unstaked",
+       "rewards": [
+        {
+         "address": "EQCFVNlRb-NHHDQfv3Q9xvDXBLJlay855_xREsq5ZDX6KN-w",
+         "amount": "990724721903"
+        },
+        {
+         "address": "EQA2kCVNwVsil2EM2mB0SkXytxCqQjS4mttjDpnXmwG9T6bO",
+         "amount": "121350599716"
+        },
+        {
+         "address": "EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c",
+         "amount": "24961858494"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "pool_address": "EQBbsMjyLRj-xJE4eqMbtgABvPq34TF_hwiAGEAUGUb5sNGO",
+     "status": "operational",
+     "nft_infos": [
+      {
+       "address": "EQA9kU1j4nZyOVSRyA2d_wZbNqjvmT8pjC9jDQcufYpVwiDc",
+       "staked_tokens": "93633357941",
+       "status": "active",
+       "rewards": [
+        {
+         "address": "EQA2kCVNwVsil2EM2mB0SkXytxCqQjS4mttjDpnXmwG9T6bO",
+         "amount": "583227869605"
+        }
+       ]
+      },
+      {
+       "address": "EQBex_0-6O-h9lgW9h0hfwY6Lfa5v-dyl2BstQuJthqGR4Pc",
+       "staked_tokens": "83632020878",
+       "status": "unstaked",
+       "rewards": [
+        {
+         "address": "EQA2kCVNwVsil2EM2mB0SkXytxCqQjS4mttjDpnXmwG9T6bO",
+         "amount": "520935434799"
+        }
+       ]
+      },
+      {
+       "address": "EQDLmJvoTnflFQrcnLo5TAkhkR78pdWRNZ247kwLt_B-qVaa",
+       "staked_tokens": "51363072204",
+       "status": "unstaked",
+       "rewards": [
+        {
+         "address": "EQA2kCVNwVsil2EM2mB0SkXytxCqQjS4mttjDpnXmwG9T6bO",
+         "amount": "1015640413292"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "pool": {
+   "address": "EQBbsMjyLRj-xJE4eqMbtgABvPq34TF_hwiAGEAUGUb5sNGO",
+   "reserve0": "803440056011526",
+   "reserve1": "401222903825",
+   "token0_address": "EQA2kCVNwVsil2EM2mB0SkXytxCqQjS4mttjDpnXmwG9T6bO",
+   "token1_address": "EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs",
+   "lp_total_supply": "17208775617787",
+   "apy_7d": "0.006799612",
+   "amp": null,
+   "tags": [
+    "pool:liquidity:high",
+    "pool:dex_major_version:2"
+   ]
+  }
+ }
+}

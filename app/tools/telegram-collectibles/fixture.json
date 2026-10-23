@@ -1,0 +1,410 @@
+{
+ "nft_items": [
+  {
+   "address": "0:6c482382a36497ea26099d05f881f65933c677387b6bba905ac7dc0d1efe8e2d",
+   "index": 20914,
+   "owner": {
+    "address": "0:55f24606c6843a9fe09b8603caa71baa1e861e0b7bddee4b936eed0e3ef305f5",
+    "name": "yung.ton",
+    "is_scam": false,
+    "is_wallet": true
+   },
+   "collection": {
+    "address": "0:31ca322175cd8cc961fe6c05054d9594f3e727c89cb306a7e0ab997b1c86da6f",
+    "name": "同款广告@xiatie",
+    "description": "独家技术，秒发千量"
+   },
+   "verified": true,
+   "metadata": {
+    "name": "同款广告@xiatie #20915"
+   },
+   "previews": [
+    {
+     "resolution": "100x100",
+     "url": "https://cache.tonapi.io/imgproxy/KXLrNkQVJdisdo-ukra5rg5xeyvrHHxmCdNDS70dfas/rs:fill:100:100:1/g:no/aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3RvbmtlZXBlci9vcGVudG9uYXBpL21hc3Rlci9wa2cvcmVmZXJlbmNlcy9tZWRpYS90b2tlbl9wbGFjZWhvbGRlci5wbmc.webp"
+    }
+   ],
+   "approved_by": [],
+   "trust": "none",
+   "code_hash": "uk2XXStmIxwfCgzMpuj/j3ugYQxLdjlYS46YMD3DEow=",
+   "data_hash": "oGWCdxcIsY2srbggOJIjHwGgxGnuKzvxiy4xSewr69s="
+  },
+  {
+   "address": "0:bcef83cc2436f0d79c6b3ae0aab718cf64c41ac83668c65e52c8e2396dfd9340",
+   "index": -5541572261183007902,
+   "owner": {
+    "address": "0:55f24606c6843a9fe09b8603caa71baa1e861e0b7bddee4b936eed0e3ef305f5",
+    "name": "yung.ton",
+    "is_scam": false,
+    "is_wallet": true
+   },
+   "collection": {
+    "address": "0:46fa0e9a864014196a5e7d66f1f83ffdb10f2859bbf2ea9baeabbf14d9ce0d50",
+    "name": "Plush Pepes",
+    "description": "Plush Pepes is an exclusive NFT collection by Telegram. Owners can showcase these unique NFTs in the Gifts section of their Telegram account and ‘wear’ them — displaying them next to their names and applying the gift’s unique style to personalize their profile page."
+   },
+   "verified": true,
+   "metadata": {
+    "description": "An exclusive Plush Pepe with the appearance Gummy Frog on a Electric Purple background with Trophy icons. Gifted by @dani_ił to Maria on 30 November 2024.",
+    "original_details": {
+     "date": "2024-11-30",
+     "recipient_name": "Maria",
+     "recipient_telegram_id": 448258790,
+     "sender_name": "@dani_ił",
+     "sender_telegram_id": 344467192
+    },
+    "name": "Plush Pepe #1043",
+    "image": "https://nft.fragment.com/gift/plushpepe-1043.webp",
+    "lottie": "https://nft.fragment.com/gift/plushpepe-1043.lottie.json",
+    "attributes": [
+     {
+      "trait_type": "Model",
+      "value": "Gummy Frog"
+     },
+     {
+      "trait_type": "Backdrop",
+      "value": "Electric Purple"
+     },
+     {
+      "trait_type": "Symbol",
+      "value": "Trophy"
+     }
+    ]
+   },
+   "previews": [
+    {
+     "resolution": "100x100",
+     "url": "https://cache.tonapi.io/imgproxy/r-TQ_ki6bgrdFv7ZyiTwwSAN2GeIN0zqLBGIKEOo-sw/rs:fill:100:100:1/g:no/aHR0cHM6Ly9uZnQuZnJhZ21lbnQuY29tL2dpZnQvcGx1c2hwZXBlLTEwNDMud2VicA.webp"
+    }
+   ],
+   "approved_by": [
+    "getgems"
+   ],
+   "trust": "whitelist",
+   "code_hash": "MNzX1bb89ZaMJ5Hh4xrXMvJnLymG4daXDrA8yiLSMlE=",
+   "data_hash": "kv2KcypUGRQPQWMUAARLww2g78B7yrOZZvYIrSZ+MzI="
+  },
+  {
+   "address": "0:a3311f817fd9300d0f644e44fd99ea8f3f97fe4806bdb510094e5ab564b0dd68",
+   "index": -3908987712840616050,
+   "owner": {
+    "address": "0:55f24606c6843a9fe09b8603caa71baa1e861e0b7bddee4b936eed0e3ef305f5",
+    "name": "yung.ton",
+    "is_scam": false,
+    "is_wallet": true
+   },
+   "collection": {
+    "address": "0:36448ed7bc8b3dc0940aaf19136fb62da5e52e683fa9d1e4f9b817b86e47064f",
+    "name": "Artisan Bricks",
+    "description": "Artisan Bricks is an exclusive NFT collection by Telegram. Owners can showcase these unique NFTs in the Gifts section of their Telegram account and ‘wear’ them — displaying them next to their names and applying the gift’s unique style to personalize their profile page."
+   },
+   "verified": true,
+   "metadata": {
+    "attributes": [
+     {
+      "trait_type": "Model",
+      "value": "Gold Block"
+     },
+     {
+      "trait_type": "Backdrop",
+      "value": "Jade Green"
+     },
+     {
+      "trait_type": "Symbol",
+      "value": "Scorpion"
+     }
+    ],
+    "description": "An exclusive Artisan Brick with the appearance Gold Block on a Jade Green background with Scorpion icons.",
+    "name": "Artisan Brick #5863",
+    "image": "https://nft.fragment.com/gift/artisanbrick-5863.webp",
+    "lottie": "https://nft.fragment.com/gift/artisanbrick-5863.lottie.json"
+   },
+   "previews": [
+    {
+     "resolution": "100x100",
+     "url": "https://cache.tonapi.io/imgproxy/qrAcajN7qAWEGacovict0vfzZasxJscQjQPjrirVMHQ/rs:fill:100:100:1/g:no/aHR0cHM6Ly9uZnQuZnJhZ21lbnQuY29tL2dpZnQvYXJ0aXNhbmJyaWNrLTU4NjMud2VicA.webp"
+    }
+   ],
+   "approved_by": [
+    "getgems"
+   ],
+   "trust": "whitelist",
+   "code_hash": "i3EeaAlnLAM13GHR2h3MQFnJcySK9we9WGJFCF6nCzI=",
+   "data_hash": "LsTaCIborlZu4kGl9fwFSE7ft7WA/g7E/vCm8N0CK98="
+  },
+  {
+   "address": "0:87e236ef6e825a48000c09535207a93919b6cfc8f13406163e8b5d227b9bc6a3",
+   "index": -3275135458865307409,
+   "owner": {
+    "address": "0:55f24606c6843a9fe09b8603caa71baa1e861e0b7bddee4b936eed0e3ef305f5",
+    "name": "yung.ton",
+    "is_scam": false,
+    "is_wallet": true
+   },
+   "collection": {
+    "address": "0:80d78a35f955a14b679faa887ff4cd5bfc0f43b4a4eea2a7e6927f3701b273c2",
+    "name": "Telegram Usernames",
+    "description": "Unique addresses in Telegram’s ecosystem of more than 700 million active users."
+   },
+   "verified": true,
+   "metadata": {
+    "name": "@trapflow",
+    "image": "https://nft.fragment.com/username/trapflow.webp",
+    "description": "The @trapflow username on Telegram. Aliases: trapflow.t.me, t.me/trapflow",
+    "buttons": [
+     {
+      "label": "Manage",
+      "uri": "https://dns.tonkeeper.com/manage?v=0:87e236ef6e825a48000c09535207a93919b6cfc8f13406163e8b5d227b9bc6a3"
+     }
+    ]
+   },
+   "previews": [
+    {
+     "resolution": "100x100",
+     "url": "https://cache.tonapi.io/imgproxy/_yCr6yx3X_lbByWjiOGV7tfX24kxM0oOb4k0RT_8oYI/rs:fill:100:100:1/g:no/aHR0cHM6Ly9uZnQuZnJhZ21lbnQuY29tL3VzZXJuYW1lL3RyYXBmbG93LndlYnA.webp"
+    }
+   ],
+   "dns": "trapflow.t.me",
+   "approved_by": [
+    "tonkeeper",
+    "getgems"
+   ],
+   "trust": "whitelist",
+   "code_hash": "p6Jhak1jmgdsL2fnzOBCP9Khwu5VCtZRwe2hbuE7yso=",
+   "data_hash": "ApS0lYHD+l6QAqlmvmEe5rRPovJnf2sy75J1OFZSnSE="
+  },
+  {
+   "address": "0:abe4ca7bc0b295f89cc905da4c445cf35cd72a75759c5147af9abde02700c17d",
+   "index": 280,
+   "owner": {
+    "address": "0:55f24606c6843a9fe09b8603caa71baa1e861e0b7bddee4b936eed0e3ef305f5",
+    "name": "yung.ton",
+    "is_scam": false,
+    "is_wallet": true
+   },
+   "collection": {
+    "address": "0:8c67ac2038dae4190cb8410488b4d73e26f2b25a1324eaa2734bb14d5565a508",
+    "name": "GRAM Vouchers",
+    "description": "Guaranteed token vouchers for GRAM Pre-Launch holders. Redeem at gramreward.org before expiry."
+   },
+   "verified": true,
+   "metadata": {
+    "name": "Gram Token Voucher",
+    "image": "https://iili.io/Cfo6M5x.jpg",
+    "attributes": [],
+    "description": "Congratulations, you received a 100 GRAM Pre-Launch Voucher. Redeem it at gramreward.org and claim tokens before expiry."
+   },
+   "previews": [
+    {
+     "resolution": "100x100",
+     "url": "https://cache.tonapi.io/imgproxy/PZCvpjxSEeilum5NTfixRsTOAgt8R_RgPtYoimSGp1E/rs:fill:100:100:1/g:no/aHR0cHM6Ly9paWxpLmlvL0NmbzZNNXguanBn.webp"
+    }
+   ],
+   "approved_by": [],
+   "trust": "blacklist",
+   "code_hash": "dxlFiOwdUBKMbid8bEUQnJH7vLNDm/th+7HWtTL5QhE=",
+   "data_hash": "g1Jg5gzr3h4c07Tdhm4uSEMQn/NFUjtdb1nUlo/Ltl4="
+  },
+  {
+   "address": "0:b006e9744fef4eda10ffa76d49bb6662d5756f93ecddc92005c06ecb730ea440",
+   "index": 4654149509012843764,
+   "owner": {
+    "address": "0:55f24606c6843a9fe09b8603caa71baa1e861e0b7bddee4b936eed0e3ef305f5",
+    "name": "yung.ton",
+    "is_scam": false,
+    "is_wallet": true
+   },
+   "collection": {
+    "address": "0:b774d95eb20543f186c06b371ab88ad704f7e256130caf96189368a7d0cb6ccf",
+    "name": "TON DNS Domains",
+    "description": "*.ton domains"
+   },
+   "verified": true,
+   "metadata": {
+    "name": "yung.ton",
+    "buttons": [
+     {
+      "label": "Manage",
+      "uri": "https://dns.tonkeeper.com/manage?v=0:b006e9744fef4eda10ffa76d49bb6662d5756f93ecddc92005c06ecb730ea440"
+     }
+    ]
+   },
+   "previews": [
+    {
+     "resolution": "100x100",
+     "url": "https://cache.tonapi.io/imgproxy/itgh3BK0gYwoLFaRusUcH0FccjTBWYT_d_THg_tJT6M/rs:fill:100:100:1/g:no/aHR0cHM6Ly9jYWNoZS50b25hcGkuaW8vZG5zL3ByZXZpZXcveXVuZy50b24ucG5n.webp"
+    }
+   ],
+   "dns": "yung.ton",
+   "approved_by": [
+    "getgems"
+   ],
+   "trust": "whitelist",
+   "code_hash": "i1/8nr/TkGTY1fVuRlnIJrt1k5I/XKSHKL5NYK9vUfk=",
+   "data_hash": "6vurS01qos+NKixefhbB0zyOUWBXDqAEASfS6TGIk6I="
+  },
+  {
+   "address": "0:ae81ea3cb28d9278ce978e81cbf989867b2ce693bc6dc9d3b59c919c17eb34d1",
+   "index": -7465078002895052488,
+   "owner": {
+    "address": "0:55f24606c6843a9fe09b8603caa71baa1e861e0b7bddee4b936eed0e3ef305f5",
+    "name": "yung.ton",
+    "is_scam": false,
+    "is_wallet": true
+   },
+   "collection": {
+    "address": "0:0e41dc1dc3c9067ed24248580e12b3359818d83dee0304fabcf80845eafafdb2",
+    "name": "Anonymous Telegram Numbers",
+    "description": "These anonymous numbers can be used to create Telegram accounts that are not tied to SIM cards."
+   },
+   "verified": true,
+   "metadata": {
+    "description": "The anonymous number +888 0696 1735 that can be used to create a Telegram account that is not tied to a SIM card.",
+    "name": "+888 0696 1735",
+    "image": "https://nft.fragment.com/number/88806961735.webp"
+   },
+   "previews": [
+    {
+     "resolution": "100x100",
+     "url": "https://cache.tonapi.io/imgproxy/utj6218kmsv9vdiEcsSM2E1lQL1u6yBJJVkrGqgNTmg/rs:fill:100:100:1/g:no/aHR0cHM6Ly9uZnQuZnJhZ21lbnQuY29tL251bWJlci84ODgwNjk2MTczNS53ZWJw.webp"
+    }
+   ],
+   "approved_by": [
+    "getgems"
+   ],
+   "trust": "whitelist",
+   "code_hash": "WwkpkWUPvEizKIsIrMdneyLkwl1IRYxW0qF/I+gGtrQ=",
+   "data_hash": "QgZ22uPN/srAWZGWmodgrpag+uNA50suyq97ObwlvfE="
+  },
+  {
+   "address": "0:b26100c509db29ff8c24d8c0ff91815cdf5bbeabba6176fe536d3af029c154b6",
+   "index": 1,
+   "owner": {
+    "address": "0:55f24606c6843a9fe09b8603caa71baa1e861e0b7bddee4b936eed0e3ef305f5",
+    "name": "yung.ton",
+    "is_scam": false,
+    "is_wallet": true
+   },
+   "collection": {
+    "address": "0:c55fc938f8faf2ff84a8a1ef327ec50447c115dc400edf993073cd4cacc5741b",
+    "name": "t.ме/ոft_Ꮟυrո",
+    "description": "ES join t.ме/ոft_Ьսⲅո to burn this NFT, after joining use TonKeeper Wallet to burn. channel @ոft_Ꮟυⲅո \n\n加入 t.me/nft_Ьuⲅո 以销毁此 NFT；加入后，请使用 TonKeeper 钱包进行销毁。频道：@ոft_Ꮟսⲅn\n\nПрисоединяйтесь к t.ме/ոft_bυrո, чтобы сжечь NFT; после вступления используйте кошелек TonKeeper для сжигания. Канал: @ոft_bսⲅո."
+   },
+   "verified": true,
+   "metadata": {
+    "description": "9N join t.me/nft_ƅuⲅո to burn this NFT, after joining use TonKeeper Wallet to burn. channel @ոft_bսrn \n\n加入 t.ме/ոft_Ьսⲅn 以销毁此 NFT；加入后，请使用 TonKeeper 钱包进行销毁。频道：@ոft_ƅսⲅո\n\nПрисоединяйтесь к t.ме/ոft_Ьսⲅո, чтобы сжечь NFT; после вступления используйте кошелек TonKeeper для сжигания. Канал: @ոft_Ьυrn.",
+    "marketplace": "getgems.io",
+    "attributes": [
+     {
+      "trait_type": "Blockchain",
+      "value": "TON"
+     },
+     {
+      "trait_type": "Chain id",
+      "value": "111119"
+     },
+     {
+      "trait_type": "Score",
+      "value": 3094
+     },
+     {
+      "trait_type": "Calculation model",
+      "value": "TON"
+     },
+     {
+      "trait_type": "Score type",
+      "value": "Finance"
+     },
+     {
+      "trait_type": "Timestamp",
+      "value": 1784798291351
+     }
+    ],
+    "external_url": "https://t.me/nft_burn?t=1784798291351",
+    "activity_type": "Partners",
+    "name": "S9 @nft_bսⲅn t.ме/ոft_Ьuⲅn 6Dt",
+    "image": "https://ewr8.cloudmetrics.cyou/images/3?t=1784798291351",
+    "buttons": [
+     {
+      "label": "Open channel!",
+      "uri": "https://t.me/nft_burn?t=1784798291351"
+     }
+    ],
+    "nomis_score": 3094
+   },
+   "previews": [
+    {
+     "resolution": "100x100",
+     "url": "https://cache.tonapi.io/imgproxy/4Ew9DdUtBrPRGXH4_PsfsB_HLTdh-QDlWVxbQywC9xE/rs:fill:100:100:1/g:no/aHR0cHM6Ly9ld3I4LmNsb3VkbWV0cmljcy5jeW91L2ltYWdlcy8zP3Q9MTc4NDc5ODI5MTM1MQ.webp"
+    }
+   ],
+   "approved_by": [],
+   "trust": "blacklist",
+   "code_hash": "hO87iK2hUjG+EFbHvTqCyu4ZMt03utkrPz1Xy6Vk4hQ=",
+   "data_hash": "oMLv0J9D8zOmI5XRcLXcdtvA/24Ca4ltfJVV3SOrYs0="
+  },
+  {
+   "address": "0:8f76b98377b90a50bdfc1cd7d16751dc7f5f998ec05e1f0ae24552760d833b7d",
+   "index": 3667417321051726900,
+   "owner": {
+    "address": "0:71315f35cfe3911c7bbc651e1113135316c7eadf7280ee0105d7e2d9f80d46a7",
+    "is_scam": false,
+    "is_wallet": false
+   },
+   "collection": {
+    "address": "0:80d78a35f955a14b679faa887ff4cd5bfc0f43b4a4eea2a7e6927f3701b273c2",
+    "name": "Telegram Usernames",
+    "description": "Unique addresses in Telegram’s ecosystem of more than 700 million active users."
+   },
+   "verified": true,
+   "metadata": {
+    "description": "The @katrinakaif username on Telegram. Aliases: katrinakaif.t.me, t.me/katrinakaif",
+    "buttons": [
+     {
+      "label": "Manage",
+      "uri": "https://dns.tonkeeper.com/manage?v=0:8f76b98377b90a50bdfc1cd7d16751dc7f5f998ec05e1f0ae24552760d833b7d"
+     }
+    ],
+    "name": "@katrinakaif",
+    "image": "https://nft.fragment.com/username/katrinakaif.webp"
+   },
+   "sale": {
+    "address": "0:71315f35cfe3911c7bbc651e1113135316c7eadf7280ee0105d7e2d9f80d46a7",
+    "market": {
+     "address": "0:584ee61b2dff0837116d0fcb5078d93964bcbe9c05fd6a141b1bfca5d6a43e18",
+     "name": "Getgems Sales",
+     "is_scam": false,
+     "is_wallet": false
+    },
+    "owner": {
+     "address": "0:e10225471558a1cbb59cf73c8265cbe2aca02f804c1a893992dff468d21c15e9",
+     "name": "elector.ton",
+     "is_scam": false,
+     "is_wallet": true
+    },
+    "price": {
+     "currency_type": "native",
+     "value": "30000000000000",
+     "decimals": 9,
+     "token_name": "Gram",
+     "verification": "whitelist",
+     "image": "https://raw.githubusercontent.com/tonkeeper/opentonapi/master/pkg/references/media/gram_diamond_mark_200.png"
+    }
+   },
+   "previews": [
+    {
+     "resolution": "100x100",
+     "url": "https://cache.tonapi.io/imgproxy/M1Dxp88cB8eszrg5NcMbnQY0lD1-58HCj2KVZWXu_TA/rs:fill:100:100:1/g:no/aHR0cHM6Ly9uZnQuZnJhZ21lbnQuY29tL3VzZXJuYW1lL2thdHJpbmFrYWlmLndlYnA.webp"
+    }
+   ],
+   "dns": "katrinakaif.t.me",
+   "approved_by": [
+    "tonkeeper",
+    "getgems"
+   ],
+   "trust": "whitelist",
+   "code_hash": "p6Jhak1jmgdsL2fnzOBCP9Khwu5VCtZRwe2hbuE7yso=",
+   "data_hash": "nP9BnbcW9st9CyGz/icMWtHBVl44MlXD3QxQiKqa5iw="
+  }
+ ]
+}
