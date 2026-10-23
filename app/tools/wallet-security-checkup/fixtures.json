@@ -1,0 +1,1574 @@
+{
+ "_source": "mainnet, 2026-10-23. w5/v4: tonapi GET /v2/blockchain/accounts/{id} (code/data hex re-encoded as base64, as toncenter /api/v3/account returns them); tf_jettons: tonapi GET /v2/accounts/EQCD39VS…qB2N/jettons (fields trimmed); expiring: tonapi GET /v2/accounts/0:9da971af…eddc/dns/expiring?period=60 (owner of foundation.ton, dns_item dropped).",
+ "w5": {
+  "address": "0:35794c6d51740cd09dc4e77c9d44a702248256388da9add08a63a520baa19e7a",
+  "status": "active",
+  "code": "te6ccgECFAEAAoEAART/APSkE/S88sgLAQIBIAIDAgFIBAUBAvIOAtzQINdJwSCRW49jINcLHyCCEGV4dG69IYIQc2ludL2wkl8D4IIQZXh0brqOtIAg1yEB0HTXIfpAMPpE+Cj6RDBYvZFb4O1E0IEBQdch9AWDB/QOb6ExkTDhgEDXIXB/2zzgMSDXSYECgLmRMOBw4hAPAgEgBgcCASAICQAZvl8PaiaECAoOuQ+gLAIBbgoLAgFIDA0AGa3OdqJoQCDrkOuF/8AAGa8d9qJoQBDrkOuFj8AAF7Ml+1E0HHXIdcLH4AARsmL7UTQ1woAgAR4g1wsfghBzaWduuvLgin8PAeaO8O2i7fshgwjXIgKDCNcjIIAg1yHTH9Mf0x/tRNDSANMfINMf0//XCgAK+QFAzPkQmiiUXwrbMeHywIffArNQB7Dy0IRRJbry4IVQNrry4Ib4I7vy0IgikvgA3gGkf8jKAMsfAc8Wye1UIJL4D95w2zzYEAP27aLt+wL0BCFukmwhjkwCIdc5MHCUIccAs44tAdcoIHYeQ2wg10nACPLgkyDXSsAC8uCTINcdBscSwgBSMLDy0InXTNc5MAGk6GwShAe78uCT10rAAPLgk+1V4tIAAcAAkVvg69csCBQgkXCWAdcsCBwS4lIQseMPINdKERITAJYB+kAB+kT4KPpEMFi68uCR7UTQgQFB1xj0BQSdf8jKAEAEgwf0U/Lgi44UA4MH9Fvy4Iwi1woAIW4Bs7Dy0JDiyFADzxYS9ADJ7VQAcjDXLAgkji0h8uCS0gDtRNDSAFETuvLQj1RQMJExnAGBAUDXIdcKAPLgjuLIygBYzxbJ7VST8sCN4gAQk1vbMeHXTNA=",
+  "data": "te6ccgEBAQEAKwAAUYAAACQ///+I2X8ZSrUTsZqkOnnPCzyvs0gHOL8xsq/oE/CRkaWZBAcg"
+ },
+ "v4": {
+  "address": "0:6a73c209a8e9c828a37bf052f14c41518bb9ad8acc4d88843ff34122141616c3",
+  "status": "active",
+  "code": "te6ccgECFAEAAtQAART/APSkE/S88sgLAQIBIAIDAgFIBAUE+PKDCNcYINMf0x/THwL4I7vyZO1E0NMf0x/T//QE0VFDuvKhUVG68qIF+QFUEGT5EPKj+AAkpMjLH1JAyx9SMMv/UhD0AMntVPgPAdMHIcAAn2xRkyDXSpbTB9QC+wDoMOAhwAHjACHAAuMAAcADkTDjDQOkyMsfEssfy/8QERITAubQAdDTAyFxsJJfBOAi10nBIJJfBOAC0x8hghBwbHVnvSKCEGRzdHK9sJJfBeAD+kAwIPpEAcjKB8v/ydDtRNCBAUDXIfQEMFyBAQj0Cm+hMbOSXwfgBdM/yCWCEHBsdWe6kjgw4w0DghBkc3RyupJfBuMNBgcCASAICQB4AfoA9AQw+CdvIjBQCqEhvvLgUIIQcGx1Z4MesXCAGFAEywUmzxZY+gIZ9ADLaRfLH1Jgyz8gyYBA+wAGAIpQBIEBCPRZMO1E0IEBQNcgyAHPFvQAye1UAXKwjiOCEGRzdHKDHrFwgBhQBcsFUAPPFiP6AhPLassfyz/JgED7AJJfA+ICASAKCwBZvSQrb2omhAgKBrkPoCGEcNQICEekk30pkQzmkD6f+YN4EoAbeBAUiYcVnzGEAgFYDA0AEbjJftRNDXCx+AA9sp37UTQgQFA1yH0BDACyMoHy//J0AGBAQj0Cm+hMYAIBIA4PABmtznaiaEAga5Drhf/AABmvHfaiaEAQa5DrhY/AAG7SB/oA1NQi+QAFyMoHFcv/ydB3dIAYyMsFywIizxZQBfoCFMtrEszMyXP7AMhAFIEBCPRR8qcCAHCBAQjXGPoA0z/IVCBHgQEI9FHyp4IQbm90ZXB0gBjIywXLAlAGzxZQBPoCFMtqEssfyz/Jc/sAAgBsgQEI1xj6ANM/MFIkgQEI9Fnyp4IQZHN0cnB0gBjIywXLAlAFzxZQA/oCE8tqyx8Syz/Jc/sAAAr0AMntVA==",
+  "data": "te6ccgEBAQEAKwAAUQAAAAwpqaMXMXqLbKYE3+HN/PxIbB91kzJ1hs7+wyXA1UvPZkAQNgFA"
+ },
+ "tf_jettons": [
+  {
+   "balance": "1000000000",
+   "jetton": {
+    "address": "0:749ed6c9ecda14f077203687f24327e609bc959decff92b36166f4097e8d9183",
+    "name": "Nova BIT",
+    "symbol": "NVB",
+    "decimals": 9,
+    "verification": "blacklist"
+   },
+   "wallet_address": {
+    "address": "0:da4ecce819f637e2fd7fb8ee26c406088db2df84205f215eec6b88611cbb91fd"
+   }
+  },
+  {
+   "balance": "1000000000",
+   "jetton": {
+    "address": "0:50edd4c23d7cad14ffaeaebd7ce79fcc5bff4a34f23bcbfae1a3bdaeb6d0f7d9",
+    "name": "Things",
+    "symbol": "Thick",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:5baf8bae7435114dfb9190e8734153dee5ddcc6843dd41b47f3ccdb8740fb0dd"
+   }
+  },
+  {
+   "balance": "10000000000000",
+   "jetton": {
+    "address": "0:e7b6133a0e364b22543f950942c2d8fe133d94ad8ce9594578f776dc71ccfe46",
+    "name": "Make Gram Great Again",
+    "symbol": "MGRMGA",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:a248867b53df51936832710e4c403d8d32204e77e8a666567604729521230be9"
+   }
+  },
+  {
+   "balance": "4280000000000",
+   "jetton": {
+    "address": "0:e9688a0d14f794f2db27195034b915eeba2b15da55d676ea22eb66e0989d0d63",
+    "name": "LOCKED TONNEL",
+    "symbol": "TONNEL 💎 Unlock at TONNEL.ME",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:6f316bbd141577f407bc8467bbd7309cc1652512106f53fd0efc0ed878eecb5b"
+   }
+  },
+  {
+   "balance": "119200000000",
+   "jetton": {
+    "address": "0:19e5bc74a0a2445fec46c632ac597932feda8168f860c0f02dffe21ee2d3340f",
+    "name": "LOCKED GRAM",
+    "symbol": "GRAM Unlock at gramunlock.org",
+    "decimals": 9,
+    "verification": "blacklist"
+   },
+   "wallet_address": {
+    "address": "0:90653886dba04d5746cd3bd5613f76e332325c71cba0ae0b3b08557b7f87695b"
+   }
+  },
+  {
+   "balance": "100000000000",
+   "jetton": {
+    "address": "0:6320a6c56fd7835b72fce82d24e9fa57e79ce7feba8ecdc0fce4e4f119d7df7a",
+    "name": "GRAM AIRDROP",
+    "symbol": "GRAM AT GRAMEVENT.ORG",
+    "decimals": 9,
+    "verification": "blacklist"
+   },
+   "wallet_address": {
+    "address": "0:83a41ba6c45c6a61df42754243048d37b7443a23a885d763b73891a30eac20a7"
+   }
+  },
+  {
+   "balance": "2500000000000",
+   "jetton": {
+    "address": "0:f4d5f9d9f0603cfe8a784ac99b2c505ffab2fcfc629c3dd6873c7fba31dc7682",
+    "name": "Ursi",
+    "symbol": "Usi",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:1a24c3a9ef7324f636e308975bf342240f3621b869db546d5407bf57a85c28ab"
+   }
+  },
+  {
+   "balance": "1000000000",
+   "jetton": {
+    "address": "0:746de4f14ad99d855ae2e2cf9c625c1825a1bf6624799692ee7c2342d95594c5",
+    "name": "TASTE AI",
+    "symbol": "TAI",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:ed6f0a9e1f6ba110a8d0a4c47680f3e3883e03001e27b702c11256c1503bdef5"
+   }
+  },
+  {
+   "balance": "200",
+   "jetton": {
+    "address": "0:894fb7c896195ad20ee66e23f6090e8ab6cb2a7a3e605ebe466519406dfb3305",
+    "name": "Crazy Llama Token",
+    "symbol": "LAMA",
+    "decimals": 2,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:eadabb44f0648b88a1615efdb79759b7db6f198a754d0066abc9f3fa0993d3ae"
+   }
+  },
+  {
+   "balance": "5000000000000",
+   "jetton": {
+    "address": "0:acaa668360f98f40494762279d72238f04e5141fb6ec7d31be582f4f5c510132",
+    "name": "Зря ты это купил",
+    "symbol": "Зря",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:e85b2ee733c888ea92b75db4fd7fc75d2b255f7068b4640edea81201017730ec"
+   }
+  },
+  {
+   "balance": "9999823519128000000000",
+   "jetton": {
+    "address": "0:4cc2fc3dced98b87bdee719b5e062dc8841edac9bf60a510b9821fb4799ce4ab",
+    "name": "Barekat",
+    "symbol": "BAREKAT",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:e3c1da53e37585675e052e8c6746a26df394ffc040b0ad5610f6b046f8b3300f"
+   }
+  },
+  {
+   "balance": "1000000000000000000000000",
+   "jetton": {
+    "address": "0:5f5fd28ee72205a6b1d63e9269dceb17fba7232e310917e879b88404dde2c963",
+    "name": "Virtuals Worlds",
+    "symbol": "VWS",
+    "decimals": 18,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:e176f5e7aff2686c4a6f52686746d9f7caefb8d687b54d1a9741f18caeaeade2"
+   }
+  },
+  {
+   "balance": "1000000000",
+   "jetton": {
+    "address": "0:55d5607e1ee1c0b3f2f4b875261e0328188afd0ffbd610899de194f933ddbdbe",
+    "name": "In The Crypton",
+    "symbol": "ITC",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:ded057753fe71d4d101c2416e534b5514a7146c5132bad6c5bdc24600e10804e"
+   }
+  },
+  {
+   "balance": "350000000",
+   "jetton": {
+    "address": "0:896e9d240693f03e8046f94e42f9c59f3ff8e792cbe8b467c0acf179d10f508a",
+    "name": "Ton Raffles Token",
+    "symbol": "RAFF",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:dd9454f5254e9013ec09b36036fac21a4b0f9b9a2de81a049623a5b64a687d6f"
+   }
+  },
+  {
+   "balance": "10000000000000",
+   "jetton": {
+    "address": "0:cc19284c33da0cb48d998d5f9884ad26ee7c086833977d0adc68b58bae14cd01",
+    "name": "Kaution TON",
+    "symbol": "KTU",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:d51a969d6270775cecbb6bd3cce717c9070c5618544647bdff839e37daf836d1"
+   }
+  },
+  {
+   "balance": "1000000000",
+   "jetton": {
+    "address": "0:ef851a56740905c45206f8e629d15c56ed39219812ec7d3f21808b99397c2667",
+    "name": "Iredium",
+    "symbol": "IDU",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:d14619776c9fba09e925ecfb6fd4f410e125f63089bc8733c9fd178461b2e111"
+   }
+  },
+  {
+   "balance": "100000",
+   "jetton": {
+    "address": "0:0d877300dd6aadd9a9bb3fe511b2e4e6363bcbd195fb629dfc1dcfc7db83e513",
+    "name": "NOTx coin",
+    "symbol": "NOTX",
+    "decimals": 0,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:d09fb579ed73704327f7740199f6d2f551d9d6090c4fd5a4046757cdbbda7a71"
+   }
+  },
+  {
+   "balance": "400100000000",
+   "jetton": {
+    "address": "0:722d939a05ba6bf44c0da275ca11f92464bd6f88db181decf1c390952b8061d3",
+    "name": "DINJA",
+    "symbol": "DINJA",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:cccd57776aac5913d9a047c1bd3232cd28e596c2072fc33429451379cd5638ad"
+   }
+  },
+  {
+   "balance": "51000000000",
+   "jetton": {
+    "address": "0:4be4c4aa517f1d6e53826107f62cec6330382b9b4a3d9eb7132db8bab717e093",
+    "name": "LandWolfNOT",
+    "symbol": "WolfNOT",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:c87e5efbda4737f69490813ea2ccdb897a63e6190128ab61cd7f9fdb41f25cfd"
+   }
+  },
+  {
+   "balance": "45000000000",
+   "jetton": {
+    "address": "0:1950e849515b8a16ad76799b009d949d5d85aa920decfa6f23ac9fca34da1c56",
+    "name": "adassm",
+    "symbol": "fsfsczcxzcsdcsdsdfsf",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:c0a403cc7fcf60f65f73ffb0c7813748800b36981f6e027deeded428c9cac722"
+   }
+  },
+  {
+   "balance": "1000000000000000000000000",
+   "jetton": {
+    "address": "0:d831c65fe8e01db6f84999af3cef01ddc87fdda308d85a888e7fdcf2e4c9b9fa",
+    "name": "BUBATZ COIN  official (CSC/DCV).",
+    "symbol": "BBC",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:b110a4cdc5555c343b315bfd6dfcf25e000e14c76777d106cc161aa69f96cb88"
+   }
+  },
+  {
+   "balance": "13",
+   "jetton": {
+    "address": "0:57e8af5a5d59779d720d0b23cf2fce82e0e355990f2f2b7eb4bba772905297a4",
+    "name": "GEMSTON",
+    "symbol": "GEMSTON",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:b1dbbd194631849b505dbd097b7c1f7e054ed334655c30978f8c4e1d90e49865"
+   }
+  },
+  {
+   "balance": "10000000000",
+   "jetton": {
+    "address": "0:9896f1698b4e0015e6de174c7829ac8a8a813176f3f6de2c2d4c9e3919a6934c",
+    "name": "PAPA",
+    "symbol": "PAPA",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:a86df9579f14ec6224882440a69d26c156e941ef56565b97e19de941ac96af68"
+   }
+  },
+  {
+   "balance": "1000000000000000000000",
+   "jetton": {
+    "address": "0:c0897c57f09d821e8e2e9f6980605b9ec48eb6d18df70967cb1592beecb711f4",
+    "name": "Magic Vip People",
+    "symbol": "MVP",
+    "decimals": 18,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:a72744e72834437f4e93276ac299bfbba22865a00e83e2b1a8293829ca0fac1e"
+   }
+  },
+  {
+   "balance": "30000000000000",
+   "jetton": {
+    "address": "0:31fdc0185b4369cf458bf2709024632d41741db626c2a8ca141818935ccfe664",
+    "name": "Democratic Digital Shekels",
+    "symbol": "DILS",
+    "decimals": 6,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:a30ff577702aca90b237d9b3061e91f3e30bd97007c8c3ec6254e0d03ef34d89"
+   }
+  },
+  {
+   "balance": "11201000000000",
+   "jetton": {
+    "address": "0:421705bcb85521f9a99d466358f4dc9e0c469e0d85ddf608091ac89ca6a55c1e",
+    "name": "DHD Coin",
+    "symbol": "DHD",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:a2eede6fed10cc73e7b23062d4d20f43f33d161292e62166d2ced5d4a7f62c32"
+   }
+  },
+  {
+   "balance": "959000000000",
+   "jetton": {
+    "address": "0:76993cf91e65ffeaf0c07e26d935eb9cd43ac040f0e068ac1f2c9515b28e9e39",
+    "name": "adassm",
+    "symbol": "fsfsczcxzcsdcsdsdfsf",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:9e193fa00e1169639301e9a359067c42feb67c563d4b10a9fff98e6560628624"
+   }
+  },
+  {
+   "balance": "10000000000",
+   "jetton": {
+    "address": "0:bab4c22877b8dbe2fa9d898f5accc65a01f75142eca4c341240b703f6be7f25d",
+    "name": "Foton coin",
+    "symbol": "FOTON",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:9edd8ec55f5ac5c850c899147505472e81cdb5dc617f373e12d98403f8463b2d"
+   }
+  },
+  {
+   "balance": "1000000000000",
+   "jetton": {
+    "address": "0:6f161d9ffe6890119fbca4665657a1fc9e379afe124bc4b65faeffcd0e71eba1",
+    "name": "Gold of cryptoSparta",
+    "symbol": "SPARTAGOLD",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:9a4f123c6c50c6d84898095af1b26a8a17ea4efb84efbe9f8f95149301ff1ac5"
+   }
+  },
+  {
+   "balance": "100000",
+   "jetton": {
+    "address": "0:7448761cc49b972bee28b8d6c8be9d699b0ad0ef2af5a98c232567dd86cdad8b",
+    "name": "FF Testing Jetton",
+    "symbol": "FFUSDT",
+    "decimals": 6,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:bf9ce6efae8410a35ad881eb7fafd847a1eeb222ad7e232c9e9a64453f161860"
+   }
+  },
+  {
+   "balance": "24900000000000000",
+   "jetton": {
+    "address": "0:d36306b4819f9e981571799ec9c6fec5faa8a1b1b8e3194a126e0f1fddc71120",
+    "name": "S | Kanal",
+    "symbol": "SKC",
+    "decimals": 9,
+    "verification": "blacklist"
+   },
+   "wallet_address": {
+    "address": "0:99289022a5dacdffb8837cc995e3a782049bb7e775a531f1d710688729a937b4"
+   }
+  },
+  {
+   "balance": "1100000",
+   "jetton": {
+    "address": "0:729c13b6df2c07cbf0a06ab63d34af454f3d320ec1bcd8fb5c6d24d0806a17c2",
+    "name": "jUSDT",
+    "symbol": "jUSDT",
+    "decimals": 6,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:99277a41a11e70704b4e16c4af2fd435edac72e41f9e3992c4f2efafd050bf9a"
+   }
+  },
+  {
+   "balance": "100000000",
+   "jetton": {
+    "address": "0:73c9eb19de9d5618dae080d4898ba2452b7bebd0686a269e20c647abf68ba38d",
+    "name": "TonTake",
+    "symbol": "TAKE",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:97f367ca09bb278ecf207d7668d28fd73afa1b3c8cde5a7d3bd11db300f03cf3"
+   }
+  },
+  {
+   "balance": "1330000000",
+   "jetton": {
+    "address": "0:aac11fc890fbd314f0fb6b57b8041862c3e2002362c1de1c9410502d45e5ca12",
+    "name": "TechEscrow US₮D",
+    "symbol": "US₮D",
+    "decimals": 9,
+    "verification": "blacklist"
+   },
+   "wallet_address": {
+    "address": "0:9612d73baae453e5df024f7d0353eff1b4e0bc5f4cb1ff9227f626db65bc7b65"
+   }
+  },
+  {
+   "balance": "100000000000",
+   "jetton": {
+    "address": "0:9b26227d94684bb1ab7a265a2d8b9c85002fbc83ab4574fb9cec61bc558df4e8",
+    "name": "Dejoy",
+    "symbol": "DJ",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:946a024aa9c20c84bfc427f2ecf77651f9bd0a96ed2beb012c0ae69ba9d733de"
+   }
+  },
+  {
+   "balance": "99000000000000000000000",
+   "jetton": {
+    "address": "0:19485a103c7df6c0ed34b25a2eba2d982b6e78ab5d11da42c00d33dab0632823",
+    "name": "HAMESTER KOMBAT",
+    "symbol": "HAMSTER",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:92d56311fb3ac7df988d5edaf0bf3cead1e1a2c1b80f891502cf8604b90c489d"
+   }
+  },
+  {
+   "balance": "3000000000000",
+   "jetton": {
+    "address": "0:d8e4be58b8d529f93a21bbe16a7ada73d11dbabfc7bb1f4157463a76c212f840",
+    "name": "Test token",
+    "symbol": "TST",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:9176f3f833a2b058af3868de2828a802f2952ebd0d4f57172b29ce9328e8046d"
+   }
+  },
+  {
+   "balance": "6228000000000",
+   "jetton": {
+    "address": "0:afc49cb8786f21c87045b19ede78fc6b46c51048513f8e9a6d44060199c1bf0c",
+    "name": "Dogs",
+    "symbol": "DOGS",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:8cd7da273767448a85f276c05304892886b2fc19b335399a2382d0cb63062634"
+   }
+  },
+  {
+   "balance": "10000000000000000000",
+   "jetton": {
+    "address": "0:3d01d579546b0a0b1d935e1b6df9979151e6e36ca7086dee100fc35b7741c1f5",
+    "name": "Hinzir Coin",
+    "symbol": "HINZIR",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:87d4983570afcbfdb853519a9f5f10b37a685165dde4a8c9df7a462823195d0f"
+   }
+  },
+  {
+   "balance": "100000000",
+   "jetton": {
+    "address": "0:ad09528f62218022f8035a34e213da04a44209fcb9cd97aa254f722ad8539ae3",
+    "name": "TOH",
+    "symbol": "TOH",
+    "decimals": 9,
+    "verification": "blacklist"
+   },
+   "wallet_address": {
+    "address": "0:85b692017f06e0f3859eeaf7fd7ae2fb9cac678ce65fab6768fdc46b2e7fae4c"
+   }
+  },
+  {
+   "balance": "5000000000",
+   "jetton": {
+    "address": "0:41ed158ed2ace8e898629172e398a25cf35212e094747327396cf00bfe1d061a",
+    "name": "Portal Network Token",
+    "symbol": "POE",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:bb59401ba72f24375a12ddc143274fa75b2b8df28bfcf69b2539870b89bf052f"
+   }
+  },
+  {
+   "balance": "39000450000000000",
+   "jetton": {
+    "address": "0:75f58fbc28a4ecef7c58bbac5356176042055a201483d3e6988e19ee9fa361d7",
+    "name": "Troll",
+    "symbol": "Troll TON",
+    "decimals": 9,
+    "verification": "blacklist"
+   },
+   "wallet_address": {
+    "address": "0:b86a0b6a4557dd2fe1983f31ba684e6d54a87621cd4857e93fbddae12ead6e5c"
+   }
+  },
+  {
+   "balance": "256000000000000",
+   "jetton": {
+    "address": "0:7090f2441a457f9dee309ec1d835fc6d46826d2efecd96c28863db2f277a9520",
+    "name": "WWW",
+    "symbol": "WWW",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:b790f8b3fa95efcfeec4821cbd090c6f5a8454451ac5957d1e55fdd9940157ae"
+   }
+  },
+  {
+   "balance": "2000000000",
+   "jetton": {
+    "address": "0:beb5d4638e860ccf7317296e298fde5b35982f4725b0676dc98b1de987b82ebc",
+    "name": "KINGYTON",
+    "symbol": "KINGY",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:b6bec875eef5b12a37b0aac50af86e5b390b989869d8a6a11b4d70ec84c4fbcc"
+   }
+  },
+  {
+   "balance": "200010000000000000000",
+   "jetton": {
+    "address": "0:bbae71c7b4c5412b28621a701bb58225cc6c52d1d7e2dd96c7131157d0b622f5",
+    "name": "@BTC25 MEMECOIN TonMiner",
+    "symbol": "@BTC25",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:73d78b1143b7d5e9564a43e735861984a0a661252b814b472e90e684e49dd2b2"
+   }
+  },
+  {
+   "balance": "333000000000",
+   "jetton": {
+    "address": "0:b0089eb0d90f37425514dda88116881eefa57b4f802f3564dc82e01911365109",
+    "name": "USDTest",
+    "symbol": "USDTest",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:72048ad95ccbfff21d0dde97ffb5570d665b3451dab75bfac9d4ac01672644d7"
+   }
+  },
+  {
+   "balance": "100000000000",
+   "jetton": {
+    "address": "0:9c3737962aac1825bd53f9a2142e8cf4c42802741bb74a88dcbd501333e8d534",
+    "name": "Anthill World",
+    "symbol": "ANT",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:6d942d8e69d7cc9188237df28522f2cb5cac8c31227d66217eca96dbfe62c151"
+   }
+  },
+  {
+   "balance": "100000000000000",
+   "jetton": {
+    "address": "0:795a3a3bc9775a07bd32068376604bfc8953e301d30e6dffc3ab8d042cb68f96",
+    "name": "Ton Miner",
+    "symbol": "1RUS",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:6d10565431fc78102ec161e547c19ab1df3871f4bd13589a9d64e1e4ee2860db"
+   }
+  },
+  {
+   "balance": "167568854780000000",
+   "jetton": {
+    "address": "0:09bcb8a08acbca6075ef07559880ed60e7bbfa029ad6ea9b3db39e3fc30f233b",
+    "name": "Moon TON",
+    "symbol": "MoonTON",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:696aec4b90fa9cd5c02266a55f72d95560f54ab261de0784a6f09e077e807425"
+   }
+  },
+  {
+   "balance": "2000000000000000",
+   "jetton": {
+    "address": "0:e3d6f5933c92f93cdfa4efd9172e3e228e9b192c34e779e4c30dbb96d7f71ea5",
+    "name": "Bonk on Ton",
+    "symbol": "TBONK",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:5be7e916e96b709792de979d95bc7f695b7885009b29736eb09de2f9e96c6030"
+   }
+  },
+  {
+   "balance": "100000000",
+   "jetton": {
+    "address": "0:8211d4e174d0ba8905dfcf8ce80b5badb988978bfba40beb36e63eed463d741f",
+    "name": "GameCoin Cash",
+    "symbol": "GCC",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:5a9d9619f1f37c9c689b9cc8b7771089a1ce46aae3c543778a91d6ddbdf204c5"
+   }
+  },
+  {
+   "balance": "4",
+   "jetton": {
+    "address": "0:81771a4409f10f1f6c14c62d5ae9088e9127fee6a0e3516a8b094b8ab43f862c",
+    "name": "Art Coin",
+    "symbol": "ART",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:57616bea626563d5d276a437b66dc4a9be0eb4beda25a4a13ad2d0355b1391b7"
+   }
+  },
+  {
+   "balance": "1000000000000000000",
+   "jetton": {
+    "address": "0:54f41c38cc6482ba30dfc247c6b3b96e39e7eba43a10e3e0db038045d3928d1e",
+    "name": "Ton Of Karrots",
+    "symbol": "TOK",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:561e98d2fae5ff8f531bf8ae7ce8bf715a543c1ab8188c5a6468bf2fd0684fde"
+   }
+  },
+  {
+   "balance": "10002000000000",
+   "jetton": {
+    "address": "0:04f2c01bbf132822b376b40b8e7b8bc8e47e098671c8fb39f6568472f9a807ec",
+    "name": "KISS Coin",
+    "symbol": "KISS",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:5605f1797043b6f9ebdf035d21cd2f36a6012b02d85215ab744740349455e928"
+   }
+  },
+  {
+   "balance": "999000000000",
+   "jetton": {
+    "address": "0:d7c5881c63b548f7bbaa0676ef1e117110729772f2fd02c58ef6fa8488765643",
+    "name": "Q2N AI",
+    "symbol": "Q2N",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:52e96af72f2a938e7d12ca257c7a2cff78cb207c05e2bc2ca9ef92bfe6142053"
+   }
+  },
+  {
+   "balance": "152624",
+   "jetton": {
+    "address": "0:cd0efe78bff4c4539b76eab17293296c74f42cbf99ec499687fefec94893ed32",
+    "name": "Tonnel Network Token",
+    "symbol": "TONNEL",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:4e82a29f3ce67e7a4acc4a3fcc254854b9c449d19002ff8fbcb76574c2d07eec"
+   }
+  },
+  {
+   "balance": "666000000000",
+   "jetton": {
+    "address": "0:14d7fd40738a37c4f81498d7d1c5455865bac7ed0de2525f41a8de0055c93d85",
+    "name": "PEPPER",
+    "symbol": "PEPPER",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:4c433584ae68a1ac6593ed234d8d0e337cf9913ef075e787e23d59f72d2afc1e"
+   }
+  },
+  {
+   "balance": "1100000000000",
+   "jetton": {
+    "address": "0:fe5597d0a9daa70cd7ffb4f81251f7047ce0aff86ec195ccb73f786edee3a1bd",
+    "name": "Travelingo_test",
+    "symbol": "trvtest",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:4b2070508ab1e0d62d19485c712555e72ca086ac7434d14f6a3970b5b003cdfb"
+   }
+  },
+  {
+   "balance": "119331875",
+   "jetton": {
+    "address": "0:74d8327471d503e2240345b06fe1a606de1b5e3c70512b5b46791b429dab5eb1",
+    "name": "povel durev",
+    "symbol": "durev",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:4af86feb047a0fe985beee2ebdf1ebbacfa625f67d3fd80229f271e09e4e8511"
+   }
+  },
+  {
+   "balance": "1000000000",
+   "jetton": {
+    "address": "0:7250bc81f3abf56ac0ba207c11c9f5ff60b00931f34df4d470b7cacc8844aeb0",
+    "name": "MultiTrast Coin",
+    "symbol": "USDT-Flash",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:492fc128cd9b15c779543117a1649e6156137d492af98b84b86727b19d945f40"
+   }
+  },
+  {
+   "balance": "3973000000",
+   "jetton": {
+    "address": "0:0d716e395b44e9f756f3bc76b268f3bafba85fd4b9b85e5599e2b37a2f9a1f3d",
+    "name": "AI Trading Forex",
+    "symbol": "ATF",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:48a5a67dba6244a9260b1b56f2818b03d930f240ab70fc0061d5776eb1673e70"
+   }
+  },
+  {
+   "balance": "25000000000",
+   "jetton": {
+    "address": "0:ff2a93b6fa215e1cf4f8745d2eafd13488016db367f08694762a3c009982a971",
+    "name": "ЖЮ",
+    "symbol": "LIFEYT",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:4828f6c0950ff9f27621d51cb639095f1e699a7d142d1bfab0a4493856727e9c"
+   }
+  },
+  {
+   "balance": "1000000000",
+   "jetton": {
+    "address": "0:c540d56ac6b085e0e3feffd245b60b96e3ae2d86de939576552ac8b80afe6dd4",
+    "name": "TonMoneyBox",
+    "symbol": "TMB",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:436a362e925e3d7d595daf16aa4daf90edadff059c9bd43e66ea3f1566e31e26"
+   }
+  },
+  {
+   "balance": "300000000",
+   "jetton": {
+    "address": "0:dac5366304ead343d07b260ed69fb195803199970cb3c9a9740ca601b4f842e7",
+    "name": "KENDAR",
+    "symbol": "KENDAR",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:7a8cfce8ffea3d90ec97d47fc6293eee8c00be35475f1786daaac185893c3b46"
+   }
+  },
+  {
+   "balance": "50000",
+   "jetton": {
+    "address": "0:989b4a68620ec1b7131854cff1cd26e7ecdec3b5f8c391957f26c5421e1f5cd9",
+    "name": "RUB",
+    "symbol": "RUB",
+    "decimals": 2,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:7741b678787b2f0922afbb01aed9d8552ac29ded40f37ffac2ba7db2ed68feb9"
+   }
+  },
+  {
+   "balance": "1000000",
+   "jetton": {
+    "address": "0:ae3e6d351e576276e439e7168117fd64696fd6014cb90c77b2f2cbaacd4fcc00",
+    "name": "Major",
+    "symbol": "MAJOR",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:75ec691d3d46ba68c7ca44b4f6a5b8f769c178621a5095a3cfb223c83ad12e18"
+   }
+  },
+  {
+   "balance": "20000000000000000",
+   "jetton": {
+    "address": "0:4a2046f201ff67e784c462739540ec7c4d62ae458350f29e35c49a36138b22db",
+    "name": "Non-removable",
+    "symbol": "NoR",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:2cc201592c708afbb5815fe9d826ae1189ca1786fbf43cf94f6eb5ff1c9cdfef"
+   }
+  },
+  {
+   "balance": "900000000000",
+   "jetton": {
+    "address": "0:daeb5ea7eb0f4e47e63f8c28ce02df9ffd795c8e60c518ed9304b425cc37b181",
+    "name": "PEPE airdrop Jetton(tonpepe.xyz)",
+    "symbol": "TONPEPE.XYZ",
+    "decimals": 9,
+    "verification": "blacklist"
+   },
+   "wallet_address": {
+    "address": "0:2aab5cb29531b21f0b27830b7362c0da8d599cf90bf268dfe737006e0300aed1"
+   }
+  },
+  {
+   "balance": "10000000000",
+   "jetton": {
+    "address": "0:de2f20df5e78ed1f70ef201c3b7df8ff74c81b940c30a8dca25d557353929568",
+    "name": "Peravel",
+    "symbol": "PERAVEL",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:257741f7f5772d3eaf564364a7ea8bce256f84c3e0e473e5e12d1addb76988f8"
+   }
+  },
+  {
+   "balance": "1000000000",
+   "jetton": {
+    "address": "0:47569621d77f53a8a87b25bf3fd7d310a6e81e8bd07d5a1445574dba48f379f7",
+    "name": "EARNY  OpenAI Project and Hamster Kombat Project token",
+    "symbol": "EARNY",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:23388477a3194972090487929c37a206cf2e37070cfdf6475327cbbb90c66fe9"
+   }
+  },
+  {
+   "balance": "300000000",
+   "jetton": {
+    "address": "0:91535482df135ffebdf7abc359ccbba0866bdd136d494582198f8a1129475129",
+    "name": "BEETON",
+    "symbol": "BEE",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:1ddeb39008bd725c249f5a705a89c3968a105daa53ba7f429150b4d5ebc41d89"
+   }
+  },
+  {
+   "balance": "54541000000000",
+   "jetton": {
+    "address": "0:e702d7f16546bd2d5b9b199baee965d7738c603978775bfdc1f00da314f8571a",
+    "name": "adam",
+    "symbol": "loooxsxsl",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:1975d61ba15e7a41ffefee66ffc37afadb2a8fb3bff22c7108ab31f24a0b163f"
+   }
+  },
+  {
+   "balance": "1000000000000000",
+   "jetton": {
+    "address": "0:df84d0852a3db8d199c2d359bb206c8b6403f0c930be87da5c5841a2a855ae49",
+    "name": "Alfa USD",
+    "symbol": "AUSD",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:168eba72d1e7d99e4f2607e20a22a671adc8dce74208d76730b33fa1b76f8df0"
+   }
+  },
+  {
+   "balance": "5000000000000",
+   "jetton": {
+    "address": "0:d78d00b0f2e406a7e9c251d97b50cee030ea43e682f98b5c8a44bfc714518b19",
+    "name": "Magic Jetton",
+    "symbol": "MGC",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:137e343a99d67ef1e9fb64d71e1e2babccb9a68717ed7805477fb62387ac2e9c"
+   }
+  },
+  {
+   "balance": "680904225864",
+   "jetton": {
+    "address": "0:b8ef4f77a17e5785bd31ba4da50abd91852f2b8febee97ad6ee16d941f939198",
+    "name": "Grm",
+    "symbol": "GRM",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:12da5d02d3d2ad8a76fa7ad1b4f99b9c4ee164ee57170db3086d34d61a2b6a1d"
+   }
+  },
+  {
+   "balance": "4999999000000000",
+   "jetton": {
+    "address": "0:4f7086269775af29e22a57f1a534257b9145851f369e8bdc46fcb107a04446ef",
+    "name": "FECK TOKEN",
+    "symbol": "FECK",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:02c311b2e3aabe09d3310bf2a2db9a6e96948594c964a2138efb352b9758650d"
+   }
+  },
+  {
+   "balance": "1000000000",
+   "jetton": {
+    "address": "0:87e3837bdc15c4853f34eb72802bfdbba02a26bc99e601a79bb28f9d668c80cb",
+    "name": "MMM2049",
+    "symbol": "MMM",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:011060b6e6fef064781db2fef0541c8361299fafbf3cc725deccfe777da6ddfa"
+   }
+  },
+  {
+   "balance": "100000000000000000",
+   "jetton": {
+    "address": "0:4b3a61454a47400546f14d620829d8472971d5c4317d4c4757124b0e5b87a2a8",
+    "name": "Corgi Ton",
+    "symbol": "CRG",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:3654a465c5ac459690dacac4d95fb5a00fd7f02ba2b66ab5825c3d322587a8e2"
+   }
+  },
+  {
+   "balance": "999845789314558",
+   "jetton": {
+    "address": "0:aea86f14cd3661ed4334151001494d4071eb655e790bc008f8c33b013e1c9811",
+    "name": "GLUON Token",
+    "symbol": "GLUON",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:359bd246c36190e37903b74d50ac5e86bb1747e1a3035163e2a9b2999df4c5bf"
+   }
+  },
+  {
+   "balance": "0",
+   "jetton": {
+    "address": "0:ea767787fe573c9d2b43fae4d437cc8ffd5b641168a5bff648a8f38d1ddf90da",
+    "name": "adassm",
+    "symbol": "fsfsczcxzcsdcsdsdfsf",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:792be0445185aaf515a1993a2d116ee85a1c33a2b486565f61737f69bd9f6cf3"
+   }
+  },
+  {
+   "balance": "1000000000000",
+   "jetton": {
+    "address": "0:e9efe9a7a6bb53e00dcf7d6285afc122d8de30c64a2277ede7b4b044d11ea0c7",
+    "name": "Lavka Gigachad Coin",
+    "symbol": "LAVKA",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:531e3563e8277ab3204f5d435ac7d20a79dd8298d07df87ba8bca68076c6ea89"
+   }
+  },
+  {
+   "balance": "21000000000",
+   "jetton": {
+    "address": "0:cb51f54dfc38ecd538c8e325517a0a76a92f5f1997114be4bf4ad42fb8ca61d9",
+    "name": "VIVO test",
+    "symbol": "VVT",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:3ff164dec1a7eb9028084f2b7adfab444b9e6126cadce0ce6a4f14d59659b428"
+   }
+  },
+  {
+   "balance": "100000000000000000",
+   "jetton": {
+    "address": "0:2a0b17b3f247b060d1f4e10825f8541cc6e0e355434d0d1a0a82ec016d870fe5",
+    "name": "Unknown Token5Z9c",
+    "symbol": "UKWN5Z9c",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:0bc5e4ad0ffde696194ea0e64bc4fd614e47fea1475a615c475c9b106e50cfbb"
+   }
+  },
+  {
+   "balance": "1000000000000000",
+   "jetton": {
+    "address": "0:b4423ece30c9511504e016013248a917cff548967ca17730aaee2c412e92e1ee",
+    "name": "t.me/psylopunk 👨‍💻",
+    "symbol": "PSYLO",
+    "decimals": 9,
+    "verification": "blacklist"
+   },
+   "wallet_address": {
+    "address": "0:be1b43d52bcf8ac0541192722b6b94d3a86f068e41e4b880cbb1ff6d20eda415"
+   }
+  },
+  {
+   "balance": "42493050000000",
+   "jetton": {
+    "address": "0:2f956143c461769579baef2e32cc2d7bc18283f40d20bb03e432cd603ac33ffc",
+    "name": "Notcoin",
+    "symbol": "NOT",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:aaab97c1c531de19407472de15678927466d01d2a46843e42e0199d3730d5c8d"
+   }
+  },
+  {
+   "balance": "10000",
+   "jetton": {
+    "address": "0:6c2825490ee87e3ae448fd49327a206da364b205145e405d2f512d413d014a6f",
+    "name": "Kitos Ton Token",
+    "symbol": "KTC",
+    "decimals": 1,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:9343633cfe8c1617e49836b06bafa28ed4db32ba0d67890df172cd504f127fc1"
+   }
+  },
+  {
+   "balance": "81919000000000",
+   "jetton": {
+    "address": "0:94cc2e448e2add397dae80fc0ad50469c47b8a5da4a0c5360193fd0b0b3e7dd0",
+    "name": "Farm Game",
+    "symbol": "FARM",
+    "decimals": 9,
+    "verification": "blacklist"
+   },
+   "wallet_address": {
+    "address": "0:57b3956e684f949c2d6dcdd8a5674a8892bba61a52aac2db41eeaffced13f784"
+   }
+  },
+  {
+   "balance": "1000000000000",
+   "jetton": {
+    "address": "0:78a0a6bab2452ec08681333c779841a3712259ddfcb756a3faf29cca2ce7bc5a",
+    "name": "HAMSTER",
+    "symbol": "HAMSTER",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:ce3137895eed7136c606aabfd45404968df0ce24d9e1d650d597497b052854e5"
+   }
+  },
+  {
+   "balance": "1000000000",
+   "jetton": {
+    "address": "0:e976693d0f20fc275c3c719579478d752a2dfcb779fec235eb908043ffe18367",
+    "name": "Siberian TON",
+    "symbol": "SIBT",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:fc8ec3269d3b417baea86dc3d75633e28dfd84f4725d80dc6d859a294ae6391a"
+   }
+  },
+  {
+   "balance": "100000000000000000",
+   "jetton": {
+    "address": "0:d7fff299ec0fbea683f735ec29a3fcf1e2d43eca5f72cd1c259a0fef89fc4c10",
+    "name": "Du Rove's Shannel",
+    "symbol": "DuRove's",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:89f5311d83f34a7df9d45b3e1babc8ce44331d981a27206f3ae95916d6e51997"
+   }
+  },
+  {
+   "balance": "100",
+   "jetton": {
+    "address": "0:86b718be27bd1663830c63f07aefb02b0e7a5b3466a74107b93465bfcd73248e",
+    "name": "RealCoin",
+    "symbol": "BRLT",
+    "decimals": 2,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:9885dbd8e46b1fb2d8806ce3fa448b9f28bf4926758c528915b9e44c3b9bc632"
+   }
+  },
+  {
+   "balance": "195000000000",
+   "jetton": {
+    "address": "0:a2821d07c97169a021677ca43223c8d610aeca85b12c3a93058e8de051124a3b",
+    "name": "Crystals",
+    "symbol": "CRYSTALS",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:4955ab4aa39aef665f2c6d0a242fe68c9d589f2160b1ec0eeddc280b8855c440"
+   }
+  },
+  {
+   "balance": "100000000000000000",
+   "jetton": {
+    "address": "0:c47099533c1ca6cd4a8e275e50478e2f2253c81e1b16965ac869f5a93dd7878a",
+    "name": "Donation",
+    "symbol": "DON",
+    "decimals": 9,
+    "verification": "blacklist"
+   },
+   "wallet_address": {
+    "address": "0:d0ddb4c84d53dc8c235de2640b3995fbcfd9ac3a7e1fdc84b8afbfaf8f62108f"
+   }
+  },
+  {
+   "balance": "777000000000",
+   "jetton": {
+    "address": "0:f02d7831fb9bca4801632d6cfafeba1caee0bdb222095b4d6515509fc969054b",
+    "name": "EasyCash ",
+    "symbol": "Easy ",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:87e8224f6b1379f3d695635aa2b74d7baba1d331e60e381814a4e40693211da1"
+   }
+  },
+  {
+   "balance": "100000000000000",
+   "jetton": {
+    "address": "0:36a53e1df13ed3c91b235b60691a919881afa5300e098d06f80f6b5cd4f5cc5f",
+    "name": "Duckcoin",
+    "symbol": "DUCK",
+    "decimals": 9,
+    "verification": "blacklist"
+   },
+   "wallet_address": {
+    "address": "0:a725bfbe44c3152a44621658889278f99932a2b3db6bb94ade6e168fb5431184"
+   }
+  },
+  {
+   "balance": "2045010",
+   "jetton": {
+    "address": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe",
+    "name": "Tether USD",
+    "symbol": "USD₮",
+    "decimals": 6,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:2f2f33ae6dd9c0b6fee08cef597eb00a9d5925152ff8c46ee2417ceb7f296598"
+   }
+  },
+  {
+   "balance": "10000000000000000",
+   "jetton": {
+    "address": "0:a564f369616b99122e625d9683c087fbe688a8889f50024382f664336091022c",
+    "name": "Tomli",
+    "symbol": "Tomli",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:40f1221584591dee30c8fee7d67fc67cd33a031cfd81cc885667f411b7ccf87a"
+   }
+  },
+  {
+   "balance": "1000000000",
+   "jetton": {
+    "address": "0:0ec6a89b22daab9b79dc7742e8c3ac35b54e6d8659424d4cf2ac6aaa8a77d95a",
+    "name": "SALT",
+    "symbol": "ST",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:a3fb27bec0f9db4720f5d6db4acb03fab0f1a30f714d48bcb210ab9e6be367cb"
+   }
+  },
+  {
+   "balance": "10000000000000000",
+   "jetton": {
+    "address": "0:e0ab562078fc59e383bf2f5dde33b0e7f98e716772cd46759e388c6dc6a28003",
+    "name": "PeaceTon",
+    "symbol": "PeacT",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:e587f9b1188f8b9401c39fccab0e8bb2ed39be5dc44b2dba6be8a686ce1da32c"
+   }
+  },
+  {
+   "balance": "300000000000000",
+   "jetton": {
+    "address": "0:65de083a0007638233b6668354e50e44cd4225f1730d66b8b1f19e5d26690751",
+    "name": "Lavandos",
+    "symbol": "LAVE",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:f260b0e1bcd1bd333d7fbeda23f1a9502c4ded410c18d15f7af13699cb9ed0ce"
+   }
+  },
+  {
+   "balance": "1731545064",
+   "jetton": {
+    "address": "0:e4d954ef9f4e1250a26b5bbad76a1cdd17cfd08babad6f4c23e372270aef6f76",
+    "name": "Moonston Token",
+    "symbol": "MOON",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:92ac020aff0493c67e02c27a80c1d0353f087376fc18050b5f493e31600bc2ca"
+   }
+  },
+  {
+   "balance": "100000000000000000",
+   "jetton": {
+    "address": "0:74652e48679f04b7e0451cb627d7f26f464467ac5d1fc8ede09f811ea3834a2e",
+    "name": "Unknown TokenLnp-",
+    "symbol": "UKWNLnp-",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:191547529795a69852edc9b15e8aaf9cd226338c0a884007ed321d4f1cff1f4e"
+   }
+  },
+  {
+   "balance": "1000000000000",
+   "jetton": {
+    "address": "0:921f5fbfe83f65c3872edce6a511e83201d66ee88b92323f8823a0762a756344",
+    "name": "Auction username telegram ",
+    "symbol": "t.me/bigunt",
+    "decimals": 9,
+    "verification": "blacklist"
+   },
+   "wallet_address": {
+    "address": "0:d9b43c95d244dead3297c477e665b16ac57f564101b76a08b3ccd9cde88e85d6"
+   }
+  },
+  {
+   "balance": "1000000000",
+   "jetton": {
+    "address": "0:939184282a8f3e9745dfc6d972c13bc8fa90e5c6aa5b8e912664c5d4519f8cb9",
+    "name": "motherfuckers",
+    "symbol": "MFC",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:8b6a9d7e996f7ab7486dfc0c2f94665eb27f027d1dc65ad8d36e104e924c11f6"
+   }
+  },
+  {
+   "balance": "2000000000",
+   "jetton": {
+    "address": "0:d4bb28d6539d0337deeb42228832777cd6413b330a631526fd49fd37e08bd14a",
+    "name": "Tonyc",
+    "symbol": "TNC",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:714db6e06b76ffc9c6c3fa3badbf1898e52991620f047068d6f20ffd4639addb"
+   }
+  },
+  {
+   "balance": "1000000000000",
+   "jetton": {
+    "address": "0:d9eb1c74715850f3c3a73507a4af70b4f283b4f528c4068f9766d74f21617a78",
+    "name": "❤️ promo  - 90% ❤️ Only 1 week",
+    "symbol": "t.me/ip_tg 🟢 ",
+    "decimals": 9,
+    "verification": "blacklist"
+   },
+   "wallet_address": {
+    "address": "0:3db8cdb4162f8b39c63d3abf9f09fb4297c2e770a47c390ed1501ea1645187d0"
+   }
+  },
+  {
+   "balance": "230360000000000",
+   "jetton": {
+    "address": "0:21442fe867807d560325b5f36410d49d2e4b653000cf13bdf322221c2fa7acda",
+    "name": "TON Drift",
+    "symbol": "DRIFT",
+    "decimals": 10,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:f603497d7aac4fe9272eaa681f836e11d6a38f6c75bbcb8eabb18f945a6fbcea"
+   }
+  },
+  {
+   "balance": "100000",
+   "jetton": {
+    "address": "0:3a4d2191094e3a33d4601efa51bb52dc5baa354516e162b7706955385f8144a7",
+    "name": "FragmentChecker",
+    "symbol": "FCK",
+    "decimals": 5,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:75a3ae1246560d64d510c4bfa5fd89580b6f3d1ac1bb7308eb27fee4d2e9b5e4"
+   }
+  },
+  {
+   "balance": "10000000000000000",
+   "jetton": {
+    "address": "0:5ad666e278c0555d61f7672f14095fc1515ffa5b8a63647b01a4675cb57bcbc8",
+    "name": "VK Classic ",
+    "symbol": "VKC",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:a4a3a0851a7c6f4fa7b1fdda0c18033b710c5eff14c30d3a4212b7663c1aa6e0"
+   }
+  },
+  {
+   "balance": "100000000000000",
+   "jetton": {
+    "address": "0:8ba4ba132b49c8a8ae6bd7ad6e3ab92ed2eacf792e5193d3264f18fe5ecc9d96",
+    "name": "Short&Long",
+    "symbol": "STLG",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:4a9ce6ce5a984e7fc521ba65be5e72c8ec0c9c39b9ec13453853686be2970d9a"
+   }
+  },
+  {
+   "balance": "110",
+   "jetton": {
+    "address": "0:6553fb4a2128297a978c153f6ddf14c37a2566a36e5d5bfe2f50e97a8c877f04",
+    "name": "Kote Coin",
+    "symbol": "KOTE",
+    "decimals": 9,
+    "verification": "blacklist"
+   },
+   "wallet_address": {
+    "address": "0:e82974d13650033f3860290408d0914e6c615e083eb98a606e008ea904cdd7e1"
+   }
+  },
+  {
+   "balance": "1000000000000",
+   "jetton": {
+    "address": "0:6f323f84b83f1f606a65f06fa365e123e1281fe1334e2fadaaf38aa812d6375f",
+    "name": "777",
+    "symbol": "777",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:03e9ba6f05722d7ad04c940d2ddc774f6e93a5f97fbbe59aa48d54b36a37c6bb"
+   }
+  },
+  {
+   "balance": "1332000000000",
+   "jetton": {
+    "address": "0:b185604e38135e807e56cf6dca3703597ebf72ad0a220e9a96e2eda955179481",
+    "name": "Andrrusha Coin",
+    "symbol": "ANDRR",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:656d17cebf859ddff84b5df54a959ed3b8ba8519b0284b8d81c2a6a1dadf03ad"
+   }
+  },
+  {
+   "balance": "69000000000",
+   "jetton": {
+    "address": "0:6db83b946ede1ca87d0f74e02b082d4eb7032a734f521280208f8624a00eac23",
+    "name": "GCOIN",
+    "symbol": "GCN",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:ca209acf8ecee3afee78ef08a0bd63608b35c07693d50287026ebc31a667627e"
+   }
+  },
+  {
+   "balance": "50000000000",
+   "jetton": {
+    "address": "0:ed3ebe5ca49ae5de41d8d6a84af5b6733a8fba9e4de4132f8d247f38bc3abfa8",
+    "name": "Fake USD",
+    "symbol": "FUSD",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:d4c993b830978c55c646e574999a395cb42ee29c1f6c84c27649c108ff96d4e0"
+   }
+  },
+  {
+   "balance": "1440",
+   "jetton": {
+    "address": "0:4f028c68e3c08f0e322fcfa3aaddeeb59f4ad842b9317cd60a9fc523a7840373",
+    "name": "VadimCoin",
+    "symbol": "VDC",
+    "decimals": 0,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:a3eeb05891bc06190233a0f52171fd8137b4a5c69ccd664590345308997faf61"
+   }
+  },
+  {
+   "balance": "1000000000",
+   "jetton": {
+    "address": "0:f4bdd480fcd79d47dbaf6e037d1229115feb2e7ac0f119e160ebd5d031abdf2e",
+    "name": "Huebel Bolt",
+    "symbol": "BOLT",
+    "decimals": 9,
+    "verification": "whitelist"
+   },
+   "wallet_address": {
+    "address": "0:1cba9d50a1a146540440a0d30577ab227c57bfdfd038a64aedd7fc9b5d8a464f"
+   }
+  },
+  {
+   "balance": "8000000000",
+   "jetton": {
+    "address": "0:e74bdcd7e5b2fd54e71906d3dbb55847995dbc13881f42437b1acdd346700fd5",
+    "name": "SchDecentraChat DAO",
+    "symbol": "SDD",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:3fd43fa8a4077e495b060df4b5e385c5388a9c9ef348005429b008158fd07393"
+   }
+  },
+  {
+   "balance": "1000000000000000",
+   "jetton": {
+    "address": "0:29d72ef7728c572218c974e7340c8710db19528ce12ae197a122d94025d188a4",
+    "name": "HopeSwap",
+    "symbol": "HOPE",
+    "decimals": 9,
+    "verification": "none"
+   },
+   "wallet_address": {
+    "address": "0:4ca40f702eb6139ac2ac2bc71419638786c0345ca8945cdb285072ef5c13db5d"
+   }
+  }
+ ],
+ "expiring": [
+  {
+   "name": "foundation.ton",
+   "expiring_at": 1796149277
+  },
+  {
+   "name": "solanasucks.ton",
+   "expiring_at": 1795171812
+  }
+ ]
+}

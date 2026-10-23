@@ -10,6 +10,5 @@ export default defineTool({
   network: 'offline',
   keywords: ['seed', 'seed phrase', 'mnemonic', 'recovery phrase', '24 words', 'private key', 'public key', 'keypair', 'wallet', 'v3r2', 'v4r2', 'v5r1', 'w5', 'create wallet', 'generate'],
   related: ['address-converter'],
-  icon: 'i-lucide-key-round',
-  featured: true
+  icon: 'i-lucide-key-round'
 })

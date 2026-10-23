@@ -1,0 +1,1007 @@
+{
+ "_source": "mainnet, 2026-10-23. jetton: tonapi GET /v2/jettons/{m}; holders: tonapi GET /v2/jettons/{m}/holders?limit=10 (USD₮: limit=20); master: toncenter GET /api/v3/jetton/masters?address={m} (metadata dropped); dex: DexScreener GET https://api.dexscreener.com/latest/dex/tokens/{m} (descriptive fields dropped).",
+ "not": {
+  "jetton": {
+   "mintable": true,
+   "total_supply": "102452655868343930134",
+   "metadata": {
+    "address": "0:2f956143c461769579baef2e32cc2d7bc18283f40d20bb03e432cd603ac33ffc",
+    "name": "Notcoin",
+    "symbol": "NOT",
+    "decimals": "9",
+    "image": "https://cdn.joincommunity.xyz/clicker/not_logo.png"
+   },
+   "verification": "whitelist",
+   "holders_count": 2856204,
+   "code_hash": "+D0FSQr3ycxYAZSIx7JTyUktScJdEtCTg+UugVN+NDo=",
+   "data_hash": "u9ZPx5+yy0E0gsONtxCxYKxJg4IZRuEyrQzIqTJ4vyY=",
+   "name": "notcoin-minter.ton",
+   "interfaces": [
+    "jetton_master"
+   ]
+  },
+  "holders": {
+   "addresses": [
+    {
+     "address": "0:7da639a8e77eca737f0ca8101b368d1dc4c7630301c0092aed01dc7a5c998a0a",
+     "owner": {
+      "address": "0:f8b8635d0786b77f9da660e65fd31d670a675dd4302facba692f46b571eb5360",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "18000000000000000000"
+    },
+    {
+     "address": "0:6d53a26839d358a924ea0c9217069512f384c5b6b36536a62c4c9ab02a0c4435",
+     "owner": {
+      "address": "0:cf7ea235ed6f6517edce98026ef7618e9f6d81a1331d4e65ba718e2cd15f80ad",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "10680460344618531512"
+    },
+    {
+     "address": "0:2354aa689eba7d1c500faf329620f5e90e06f74b3ffc3e5cfa8348748ad81381",
+     "owner": {
+      "address": "0:3791a10cfca22538579d9a3a648b98b56e95bdcbde08fd1e1dba647d9f258df3",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "3223095087456320000"
+    },
+    {
+     "address": "0:f871e21be975e8337003b85c0e594aac4665ccbfc9ff761eda24626fcbd26d8b",
+     "owner": {
+      "address": "0:0116e7242111824deaeba2b8acb6c34e0484c45f5d75d75d75d75d75d75d75d7",
+      "name": "use-ton-dns.ton",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "3023350001613102866"
+    },
+    {
+     "address": "0:a59b1284f7b5a952c10f87d2025335a2ae97bbfdddced1f964bda466d7b42bad",
+     "owner": {
+      "address": "0:66a1e72196d64d6faf48fa4b2ea861f67b0484d2d14a59caf701d8c286ce44e5",
+      "name": "OKX 11",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "2492329229221949518"
+    },
+    {
+     "address": "0:3d89d4412bb4d8d401742f60a9bb1af07633ebeeacca4908db81a91445619045",
+     "owner": {
+      "address": "0:ca1d9edeef40b3a9dbd9082f3767859547c3ce0bf641d09d58e33a3cf06fb309",
+      "name": "Binance Hot Wallet",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "2210410772252603755"
+    },
+    {
+     "address": "0:747ebe9973fe576fd959dbda4340a2f4ac31c3b7d1dd176f1830a9eeea874d36",
+     "owner": {
+      "address": "0:6ce8da34fc8f0ac49da75bd8486a04248d149a1822129d2ea7b220b02069bdcd",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "1812780123563926635"
+    },
+    {
+     "address": "0:bd3e2349ba1b6826f4fb999939d79d0a0a40ea6ab3d2e13d94b4cf1ddcb2db06",
+     "owner": {
+      "address": "0:35376072a02379119a540c197b10d943881e252878751be9192c7f03811a7cc2",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "1800000000000000000"
+    },
+    {
+     "address": "0:d3432cd559302e8beaf26b984910898c7f675e3311228d1a9b138474ba2cca06",
+     "owner": {
+      "address": "0:a212b811feed94df4108d86e51ccb7cb00d3a1ccecfc8d75392b66e454eb5ccd",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "1753834084290000000"
+    },
+    {
+     "address": "0:34eae501d5ecee5f5d879bdc370b5607aed7376768ed4532d4e32db628d4550d",
+     "owner": {
+      "address": "0:85ba9ab88ba4fdc7db48d56bd5039c6a476f795ae947db7ba436be20102aedfc",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "1716485771705425079"
+    }
+   ],
+   "total": 2856204
+  },
+  "master": {
+   "jetton_masters": [
+    {
+     "address": "0:2F956143C461769579BAEF2E32CC2D7BC18283F40D20BB03E432CD603AC33FFC",
+     "total_supply": "102452655868343930134",
+     "mintable": true,
+     "admin_address": null,
+     "jetton_content": {
+      "decimals": "9",
+      "uri": "https://cdn.joincommunity.xyz/clicker/not.json"
+     },
+     "jetton_wallet_code_hash": "jSjqQht36AX+pSrPM1KWSZ8Drsjp/SHdtfJWSqZcSN4=",
+     "code_hash": "+D0FSQr3ycxYAZSIx7JTyUktScJdEtCTg+UugVN+NDo=",
+     "data_hash": "u9ZPx5+yy0E0gsONtxCxYKxJg4IZRuEyrQzIqTJ4vyY=",
+     "last_transaction_lt": "111748072000023"
+    }
+   ],
+   "address_book": {
+    "0:2F956143C461769579BAEF2E32CC2D7BC18283F40D20BB03E432CD603AC33FFC": {
+     "user_friendly": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+     "domain": null,
+     "interfaces": [
+      "jetton_master"
+     ]
+    }
+   }
+  },
+  "dex": {
+   "schemaVersion": "1.0.0",
+   "pairs": [
+    {
+     "chainId": "ton",
+     "dexId": "stonfi",
+     "pairAddress": "EQCaY8Ifl2S6lRBMBJeY35LIuMXPc8JfItWG4tl7lBGrSoR2",
+     "baseToken": {
+      "address": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "name": "Notcoin",
+      "symbol": "NOT"
+     },
+     "quoteToken": {
+      "address": "EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c",
+      "name": "Gram",
+      "symbol": "GRAM"
+     },
+     "priceNative": "0.0002957",
+     "priceUsd": "0.0003922",
+     "liquidity": {
+      "usd": 159483.19,
+      "base": 204332648,
+      "quote": 59835
+     },
+     "pairCreatedAt": 1715808468000
+    },
+    {
+     "chainId": "ton",
+     "dexId": "stonfi",
+     "pairAddress": "EQD9BmgQQ2_nzk-9LfxthcoLYC3yBHWK5WqEv_FyMU2riRvE",
+     "baseToken": {
+      "address": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "name": "Notcoin",
+      "symbol": "NOT"
+     },
+     "quoteToken": {
+      "address": "EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c",
+      "name": "Gram",
+      "symbol": "GRAM"
+     },
+     "priceNative": "0.0002953",
+     "priceUsd": "0.0003896",
+     "liquidity": {
+      "usd": 53054.04,
+      "base": 68185552,
+      "quote": 20081
+     },
+     "pairCreatedAt": 1729270929000
+    },
+    {
+     "chainId": "ton",
+     "dexId": "stonfi",
+     "pairAddress": "EQARK5MKz_MK51U5AZjK3hxhLg1SmQG2Z-4Pb7Zapi_xwmrN",
+     "baseToken": {
+      "address": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "name": "Notcoin",
+      "symbol": "NOT"
+     },
+     "quoteToken": {
+      "address": "EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs",
+      "name": "Tether USD",
+      "symbol": "USD₮"
+     },
+     "priceNative": "0.0003904",
+     "priceUsd": "0.0003906",
+     "liquidity": {
+      "usd": 35734.71,
+      "base": 45968151,
+      "quote": 17770
+     },
+     "pairCreatedAt": 1715814844000
+    },
+    {
+     "chainId": "ton",
+     "dexId": "dedust",
+     "pairAddress": "EQCUhnOllvxtLDEj3_9k0yMeTQ4Wv6rFBtXr2wnzKzucZeER",
+     "baseToken": {
+      "address": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "name": "Notcoin",
+      "symbol": "NOT"
+     },
+     "quoteToken": {
+      "address": "EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c",
+      "name": "Gram",
+      "symbol": "GRAM"
+     },
+     "priceNative": "0.0002938",
+     "priceUsd": "0.0003879",
+     "liquidity": {
+      "usd": 22444.15,
+      "base": 28893755,
+      "quote": 8511.8551
+     },
+     "pairCreatedAt": 1715095668000
+    },
+    {
+     "chainId": "ton",
+     "dexId": "dedust",
+     "pairAddress": "EQA26n1eVOKbzxZQr7hIswf7_kykj8gGhybp_7w5FFmwyA21",
+     "baseToken": {
+      "address": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "name": "Notcoin",
+      "symbol": "NOT"
+     },
+     "quoteToken": {
+      "address": "EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs",
+      "name": "Tether USD",
+      "symbol": "USDT"
+     },
+     "priceNative": "0.0003845",
+     "priceUsd": "0.0003838",
+     "liquidity": {
+      "usd": 101.42,
+      "base": 131063,
+      "quote": 51.2168
+     },
+     "pairCreatedAt": 1715837982000
+    },
+    {
+     "chainId": "ton",
+     "dexId": "dedust",
+     "pairAddress": "EQD7Pe0IZumjTReYabF0vvswSj455aSbZTWpu3v-9_7Ei_zH",
+     "baseToken": {
+      "address": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "name": "Notcoin",
+      "symbol": "NOT"
+     },
+     "quoteToken": {
+      "address": "EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c",
+      "name": "Gram",
+      "symbol": "GRAM"
+     },
+     "priceNative": "0.0003273",
+     "priceUsd": "0.0004337",
+     "liquidity": {
+      "usd": 80.79,
+      "base": 97509,
+      "quote": 29.05361
+     },
+     "pairCreatedAt": 1770761261000
+    },
+    {
+     "chainId": "ton",
+     "dexId": "stonfi",
+     "pairAddress": "EQB5lkxzGQCSkee92F_RTB91yVKo8wl0HwwRIZbvCWBKV1I1",
+     "baseToken": {
+      "address": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "name": "Notcoin",
+      "symbol": "NOT"
+     },
+     "quoteToken": {
+      "address": "EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c",
+      "name": "Gram",
+      "symbol": "GRAM"
+     },
+     "priceNative": "0.0002876",
+     "priceUsd": "0.0003854",
+     "liquidity": {
+      "usd": 2.81,
+      "base": 3657.1718,
+      "quote": 1.04882
+     },
+     "pairCreatedAt": 1727372120000
+    },
+    {
+     "chainId": "ton",
+     "dexId": "dedust",
+     "pairAddress": "EQAR_lci9b--Xjlwx3gcR7hK40a0Wj3WWF89dPYPir1uNIx-",
+     "baseToken": {
+      "address": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "name": "Notcoin",
+      "symbol": "NOT"
+     },
+     "quoteToken": {
+      "address": "EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS",
+      "name": "Dogs",
+      "symbol": "DOGS"
+     },
+     "priceNative": "9.8741",
+     "priceUsd": "0.0003770",
+     "liquidity": {
+      "usd": 7.41,
+      "base": 10203,
+      "quote": 93326
+     },
+     "pairCreatedAt": 1768163050000
+    },
+    {
+     "chainId": "ton",
+     "dexId": "dedust",
+     "pairAddress": "EQD6HeOmANzTeh49Z6rICwd-ZtvpuIydWU9_YMQJKBQS24CH",
+     "baseToken": {
+      "address": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "name": "Notcoin",
+      "symbol": "NOT"
+     },
+     "quoteToken": {
+      "address": "EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS",
+      "name": "Dogs",
+      "symbol": "DOGS"
+     },
+     "priceNative": "10.3203",
+     "priceUsd": "0.0003871",
+     "liquidity": {
+      "usd": 3.76,
+      "base": 4919.1864,
+      "quote": 49534
+     },
+     "pairCreatedAt": 1768163588000
+    },
+    {
+     "chainId": "ton",
+     "dexId": "stonfi",
+     "pairAddress": "EQCDO48La-o_QlCEnX--iHANr3Mgl8_Uv1u3WG4-9ZlLS_j3",
+     "baseToken": {
+      "address": "EQAhZDXKDDqF2bFuWAGly5FxfgVthjOKfvbyTfzTvK8yhIUb",
+      "name": "AVTOP",
+      "symbol": "AVTOP"
+     },
+     "quoteToken": {
+      "address": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "name": "Notcoin",
+      "symbol": "NOT"
+     },
+     "priceNative": "1.5905",
+     "priceUsd": "0.0006198",
+     "liquidity": {
+      "usd": 21488.38,
+      "base": 17359223,
+      "quote": 27527180
+     },
+     "pairCreatedAt": 1749376033000
+    },
+    {
+     "chainId": "ton",
+     "dexId": "stonfi",
+     "pairAddress": "EQAZIB1njTwe_MM4rgnpQIhuke4aLs1t5v7JFdJ9pIa83pAF",
+     "baseToken": {
+      "address": "EQAuco5ZEPgB19fSTo7EmtLTJysrKxbu6M_XOFDwWQiNjCsQ",
+      "name": "DOGWIFHOOD",
+      "symbol": "WIF"
+     },
+     "quoteToken": {
+      "address": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "name": "Notcoin",
+      "symbol": "NOT"
+     },
+     "priceNative": "0.1280",
+     "priceUsd": "0.00005012",
+     "liquidity": {
+      "usd": 2273.98,
+      "base": 22717528,
+      "quote": 2900682
+     },
+     "pairCreatedAt": 1715958432000
+    },
+    {
+     "chainId": "ton",
+     "dexId": "stonfi",
+     "pairAddress": "EQCzZ0QPSlkyZvw1jsxSulTUmOkUWysp-L8Ji8h0YmKFkbsK",
+     "baseToken": {
+      "address": "EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS",
+      "name": "Dogs",
+      "symbol": "DOGS"
+     },
+     "quoteToken": {
+      "address": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "name": "Notcoin",
+      "symbol": "NOT"
+     },
+     "priceNative": "0.09773",
+     "priceUsd": "0.00003805",
+     "liquidity": {
+      "usd": 367.29,
+      "base": 4818607,
+      "quote": 472339
+     },
+     "pairCreatedAt": 1725388408000
+    },
+    {
+     "chainId": "ton",
+     "dexId": "stonfi",
+     "pairAddress": "EQAmJvvCm3E_-Dky7_7L5Gj88bbJXQC6Nhf7n4P6UiPd79j8",
+     "baseToken": {
+      "address": "EQCuPm01HldiduQ55xaBF_1kaW_WAUy5DHey8suqzU_MAJOR",
+      "name": "Major",
+      "symbol": "MAJOR"
+     },
+     "quoteToken": {
+      "address": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "name": "Notcoin",
+      "symbol": "NOT"
+     },
+     "priceNative": "93.9734",
+     "priceUsd": "0.03662",
+     "liquidity": {
+      "usd": 59.22,
+      "base": 809.8299,
+      "quote": 75874
+     },
+     "pairCreatedAt": 1732797563000
+    },
+    {
+     "chainId": "ton",
+     "dexId": "stonfi",
+     "pairAddress": "EQDu9_XZqKY24vWhlPpYwCLmu-afG0VjKp6BRvxYMLs81L6M",
+     "baseToken": {
+      "address": "EQDc_nrm5oOVCVQM8GRJ5q_hr1jgpNQjsGkIGE-uztt26_Ep",
+      "name": "Ecorpay Token",
+      "symbol": "ECOR"
+     },
+     "quoteToken": {
+      "address": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "name": "Notcoin",
+      "symbol": "NOT"
+     },
+     "priceNative": "41.1642",
+     "priceUsd": "0.01607",
+     "liquidity": {
+      "usd": 2686.08,
+      "base": 83661,
+      "quote": 3433522
+     },
+     "pairCreatedAt": 1746969460000
+    },
+    {
+     "chainId": "ton",
+     "dexId": "dedust",
+     "pairAddress": "EQAlJSa5p-hIjyL9-UBNznYucIneZyVZ9x6A-cykSJkXsQ2f",
+     "baseToken": {
+      "address": "EQBaoRIaEaxboWBsotYrBdIngLmtWB8fLJzU1cH6Nyx2pSkx",
+      "name": "Puppycoin ",
+      "symbol": "PUPPY"
+     },
+     "quoteToken": {
+      "address": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "name": "Notcoin",
+      "symbol": "NOT"
+     },
+     "priceNative": "0.0003482",
+     "priceUsd": "0.0000001350",
+     "liquidity": {
+      "usd": 1173.37,
+      "base": 4317112359,
+      "quote": 1522352
+     },
+     "pairCreatedAt": 1747067581000
+    },
+    {
+     "chainId": "ton",
+     "dexId": "stonfi",
+     "pairAddress": "EQDnAN23TdCUJ8Y8t3RycjOyHbYhw50iNIKlDwLRNZN_aPub",
+     "baseToken": {
+      "address": "EQANcW45W0Tp91bzvHayaPO6-6hf1Lm4XlWZ4rN6L5ofPWdb",
+      "name": "AI Trading Forex",
+      "symbol": "ATF"
+     },
+     "quoteToken": {
+      "address": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "name": "Notcoin",
+      "symbol": "NOT"
+     },
+     "priceNative": "0.8897",
+     "priceUsd": "0.0003489",
+     "liquidity": {
+      "usd": 528.59,
+      "base": 758503,
+      "quote": 672856
+     },
+     "pairCreatedAt": 1787653734000
+    },
+    {
+     "chainId": "ton",
+     "dexId": "stonfi",
+     "pairAddress": "EQB08HlV0n49sHUOmSMv982rPGD62l1J8r5xw3tLw83q14s_",
+     "baseToken": {
+      "address": "EQDg78jU_-YAAURYUueBslHym5_Ii7DM2OcFF3W8Hu_vaaDz",
+      "name": "BIGTOIN",
+      "symbol": "BGT"
+     },
+     "quoteToken": {
+      "address": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "name": "Notcoin",
+      "symbol": "NOT"
+     },
+     "priceNative": "0.2390",
+     "priceUsd": "0.00009309",
+     "liquidity": {
+      "usd": 213.52,
+      "base": 1145084,
+      "quote": 274595
+     },
+     "pairCreatedAt": 1784453126000
+    },
+    {
+     "chainId": "ton",
+     "dexId": "dedust",
+     "pairAddress": "EQDBNIPn1h1KkIzdNWEm5XyqM8usCoGcnBABjf66dAQzHs4c",
+     "baseToken": {
+      "address": "EQC52I3c2rmZpUav0LrU6q7wuXoTmhOInvaFhKjZ6QuC5tV5",
+      "name": "SCAM",
+      "symbol": "SCAM"
+     },
+     "quoteToken": {
+      "address": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "name": "Notcoin",
+      "symbol": "NOT"
+     },
+     "priceNative": "0.003699",
+     "priceUsd": "0.000001432",
+     "liquidity": {
+      "usd": 59.84,
+      "base": 20729281,
+      "quote": 77899
+     },
+     "pairCreatedAt": 1715893247000
+    },
+    {
+     "chainId": "ton",
+     "dexId": "stonfi",
+     "pairAddress": "EQBRi4UkfSRJhcMXmprtaRIYiVisWbCZOEm9RzkffBbp8Vq4",
+     "baseToken": {
+      "address": "EQBv01Jhfmy3idu7kCeqIlvUqDI3GtNvLMVw2wXDrsgyR27A",
+      "name": "Equilibrium",
+      "symbol": "EQ"
+     },
+     "quoteToken": {
+      "address": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "name": "Notcoin",
+      "symbol": "NOT"
+     },
+     "priceNative": "0.5330",
+     "priceUsd": "0.0002086",
+     "liquidity": {
+      "usd": 297.28,
+      "base": 713574,
+      "quote": 379220
+     },
+     "pairCreatedAt": 1719317316000
+    }
+   ]
+  }
+ },
+ "scam": {
+  "jetton": {
+   "mintable": true,
+   "total_supply": "150000000000000",
+   "admin": {
+    "address": "0:a717bac1012a57f7c7b80a640991d9c7f974a6e9023175a38d5454dd4663e649",
+    "is_scam": false,
+    "is_wallet": true
+   },
+   "metadata": {
+    "address": "0:6320a6c56fd7835b72fce82d24e9fa57e79ce7feba8ecdc0fce4e4f119d7df7a",
+    "name": "GRAM AIRDROP",
+    "symbol": "GRAM AT GRAMEVENT.ORG",
+    "decimals": "9",
+    "image": "https://cache.tonapi.io/imgproxy/QfGdcG8txfGw734uCV1-SBzgSYppucacdLesesk-8Kw/rs:fill:200:200:1/g:no/aHR0cHM6Ly9jLnRvbmFwaS5pby9vbmNoYWluL2ltYWdlLzA6MjI0NjY0MTE3MDBlYjliZDg5YjQ4NWY4ZTdkZDY3OTRjZjhjZDMzZmUxZDg4NDgwZGYxMmZiZTg0ZTcxNTc4Yi9qZXR0b24.webp",
+    "description": "GRAM at GRAMEVENT.ORG #1782165709379"
+   },
+   "verification": "blacklist",
+   "holders_count": 1500,
+   "code_hash": "Ni5RF8nbRTvDe9vq3hQEN6O189t3SUNcdv6dTdTPzkY=",
+   "data_hash": "UlraxspHyXlRhFqzNcMLlF2v3u+ivpGa3UV8US7PECI=",
+   "interfaces": [
+    "jetton_master"
+   ]
+  },
+  "holders": {
+   "addresses": [
+    {
+     "address": "0:42f8200b9b1f872e30a18b3842416ae4a1b23fcd4b909be61f0eb1c4f01b810e",
+     "owner": {
+      "address": "0:58f9f91c3983fc9d75f743712e0b520900543b0a727c6895dcff06923329908d",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "100000000000"
+    },
+    {
+     "address": "0:100f9ecdf29e834dc6a3f0c7e22579de24415dbb60fc3bd68206192805b0aafb",
+     "owner": {
+      "address": "0:cccd142492977b8f05b34f66cd2fa6ce544935814e657831b001cba662b8bb1c",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "100000000000"
+    },
+    {
+     "address": "0:0b785a82c50bb5e41478e3dcfa01bd6977ada9df647805beff199ec0cc823892",
+     "owner": {
+      "address": "0:4a487601aedd730b2f7d65183ebaee22fc044d8ecf69f7ddd1d7521560c1b77d",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "100000000000"
+    },
+    {
+     "address": "0:37f90f895f793ee3db0a05b8096d556e5061bbc8dd40353c7b6fea3176b4311e",
+     "owner": {
+      "address": "0:010036ec0a18eb906733122245df88deda2c356bafbd6b69ecb471eb8bcbbe59",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "100000000000"
+    },
+    {
+     "address": "0:55a8c3a541cbfd9aa3d8e71ce7a09260b3456e475a861325f5cd0a35834f2fc8",
+     "owner": {
+      "address": "0:6977b52eb1b97744ded6697c1435beeb57cc242d1ee0604f0225d17595651ed0",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "100000000000"
+    },
+    {
+     "address": "0:28dad9d6ba065ee49ceddcbbbd4119984fa9dc22ef82c90a3c41fa568c060fcd",
+     "owner": {
+      "address": "0:00c4d82bba96b82a671a990590c62b038df776cbc043a4d43844ff06c34dd5f7",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "100000000000"
+    },
+    {
+     "address": "0:33db9994270160b512f9564f38e27c4c42b8c559691b55fe00b71a61bb693fd7",
+     "owner": {
+      "address": "0:8c5ebd0211860685e54444b9187288230a1e316dd3f39b5d7309ebb9768c8dfb",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "100000000000"
+    },
+    {
+     "address": "0:3bad452273f85add996c8e2b4c7fea34ece4bc9ad8ebb203797446fd650e3895",
+     "owner": {
+      "address": "0:c461c8373c297577cde96c67333751a7dad6834d0ba8b4009fe44e64a6550015",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "100000000000"
+    },
+    {
+     "address": "0:6426a79bfe2b5a3d89f622f973b61792886343e934c96582fc03cbd76cc8af14",
+     "owner": {
+      "address": "0:cb1ee3656110f2763e5ecbab06d27292f85df799359b251085cef5ce84ddf23a",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "100000000000"
+    },
+    {
+     "address": "0:21b791d3fc23a3688e1a3d10eae5f22b0db0e4fc03b825d31d25787f54e5cddf",
+     "owner": {
+      "address": "0:4d128078f668d35d6f8753b0404075b56e70da4104bf4cc5a14b8c65d6dbc0b1",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "100000000000"
+    }
+   ],
+   "total": 1500
+  },
+  "master": {
+   "jetton_masters": [
+    {
+     "address": "0:6320A6C56FD7835B72FCE82D24E9FA57E79CE7FEBA8ECDC0FCE4E4F119D7DF7A",
+     "total_supply": "150000000000000",
+     "mintable": true,
+     "admin_address": "0:A717BAC1012A57F7C7B80A640991D9C7F974A6E9023175A38D5454DD4663E649",
+     "jetton_content": {
+      "decimals": "9",
+      "description": "GRAM at GRAMEVENT.ORG #1782165709379",
+      "image": "https://cache.tonapi.io/imgproxy/QfGdcG8txfGw734uCV1-SBzgSYppucacdLesesk-8Kw/rs:fill:200:200:1/g:no/aHR0cHM6Ly9jLnRvbmFwaS5pby9vbmNoYWluL2ltYWdlLzA6MjI0NjY0MTE3MDBlYjliZDg5YjQ4NWY4ZTdkZDY3OTRjZjhjZDMzZmUxZDg4NDgwZGYxMmZiZTg0ZTcxNTc4Yi9qZXR0b24.webp",
+      "name": "GRAM AIRDROP",
+      "symbol": "GRAM AT GRAMEVENT.ORG"
+     },
+     "jetton_wallet_code_hash": "bmEETkEfj8qwHyBg4NFRdDaWi7bGZeyJgXNkS5ShEy0=",
+     "code_hash": "Ni5RF8nbRTvDe9vq3hQEN6O189t3SUNcdv6dTdTPzkY=",
+     "data_hash": "UlraxspHyXlRhFqzNcMLlF2v3u+ivpGa3UV8US7PECI=",
+     "last_transaction_lt": "85454510000003"
+    }
+   ],
+   "address_book": {
+    "0:6320A6C56FD7835B72FCE82D24E9FA57E79CE7FEBA8ECDC0FCE4E4F119D7DF7A": {
+     "user_friendly": "EQBjIKbFb9eDW3L86C0k6fpX55zn_rqOzcD85OTxGdffeiDy",
+     "domain": null,
+     "interfaces": []
+    },
+    "0:A717BAC1012A57F7C7B80A640991D9C7F974A6E9023175A38D5454DD4663E649": {
+     "user_friendly": "UQCnF7rBASpX98e4CmQJkdnH-XSm6QIxdaONVFTdRmPmSUIu",
+     "domain": null,
+     "interfaces": [
+      "wallet_v5r1"
+     ]
+    }
+   }
+  },
+  "dex": {
+   "schemaVersion": "1.0.0",
+   "pairs": null
+  }
+ },
+ "usdt": {
+  "jetton": {
+   "mintable": true,
+   "total_supply": "1429976002510000",
+   "admin": {
+    "address": "0:6440fe3c69410383963945173c4b11479bf0b9b4d7090e58777bda581c2f9998",
+    "is_scam": false,
+    "is_wallet": true
+   },
+   "metadata": {
+    "address": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe",
+    "name": "Tether USD",
+    "symbol": "USD₮",
+    "decimals": "6",
+    "image": "https://tether.to/images/logoCircle.png",
+    "description": "Tether Token for Tether USD"
+   },
+   "verification": "whitelist",
+   "holders_count": 3441877,
+   "code_hash": "GNW254D/C7RRJUwsdg0J1uSFY4zRQHq7lweHUsPBye4=",
+   "data_hash": "aK3lnA9GAIi/PQc78AkzfBKCm2bogkTMbUXQPZBk4lQ=",
+   "name": "Tether USD",
+   "interfaces": [
+    "jetton_master"
+   ]
+  },
+  "master": {
+   "jetton_masters": [
+    {
+     "address": "0:B113A994B5024A16719F69139328EB759596C38A25F59028B146FECDC3621DFE",
+     "total_supply": "1429976002510000",
+     "mintable": true,
+     "admin_address": "0:6440FE3C69410383963945173C4B11479BF0B9B4D7090E58777BDA581C2F9998",
+     "jetton_content": {
+      "decimals": "6",
+      "uri": "https://tether.to/usdt-ton.json"
+     },
+     "jetton_wallet_code_hash": "iUaPAseOVwgC45l5yFFvw43wfqdqSDV+BTbyuns+43s=",
+     "code_hash": "GNW254D/C7RRJUwsdg0J1uSFY4zRQHq7lweHUsPBye4=",
+     "data_hash": "aK3lnA9GAIi/PQc78AkzfBKCm2bogkTMbUXQPZBk4lQ=",
+     "last_transaction_lt": "111811271000023"
+    }
+   ],
+   "address_book": {
+    "0:6440FE3C69410383963945173C4B11479BF0B9B4D7090E58777BDA581C2F9998": {
+     "user_friendly": "EQBkQP48aUEDg5Y5RRc8SxFHm_C5tNcJDlh3e9pYHC-ZmG2M",
+     "domain": null,
+     "interfaces": [
+      "multisig_v2"
+     ]
+    },
+    "0:B113A994B5024A16719F69139328EB759596C38A25F59028B146FECDC3621DFE": {
+     "user_friendly": "EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs",
+     "domain": null,
+     "interfaces": [
+      "jetton_master"
+     ]
+    }
+   }
+  },
+  "holders": {
+   "addresses": [
+    {
+     "address": "0:2626cf30b702bdded845efc883efa45029ff59defdacc4ce7b8b0a5966d75002",
+     "owner": {
+      "address": "0:23fa979918f1fe702db9100bf843e87c7015eccd39a4721e9b6bac170bc04ce3",
+      "name": "tether-treasury.ton",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "939188090649145"
+    },
+    {
+     "address": "0:bb699fbf1bfb567929f4199d07725c19bc6201a7e091ad2b1b3226d31cdea5e2",
+     "owner": {
+      "address": "0:ca1d9edeef40b3a9dbd9082f3767859547c3ce0bf641d09d58e33a3cf06fb309",
+      "name": "Binance Hot Wallet",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "41883577839173"
+    },
+    {
+     "address": "0:2374492ce2de67fa4bca1fcaabcc9aa46d673328c38e40fffe7634a0274d1f64",
+     "owner": {
+      "address": "0:8afbcb163358eb20be1ae9b610a2938038d84a1087e7f49cccbf8046f59c859f",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "39303644678168"
+    },
+    {
+     "address": "0:6efb0bd604fa338ad3293bdc43be2d7f9df0b89de6f08fcd5feb99849da6a9d9",
+     "owner": {
+      "address": "0:7d133d4e425c8e00de015513a44e66e6d163b21e71720aec7579965e5de28c55",
+      "name": "Bybit 8",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "19702334470540"
+    },
+    {
+     "address": "0:8a359bbdf0a2362a1f67f8e9c38a68ff1c27b8298d4484c4905be3e6660ac18c",
+     "owner": {
+      "address": "0:4a1c20bc9a6f9294f75f1c87a7f383a8b73a483a2e6dcb3630ddbe78b3ccad00",
+      "name": "Bybit 10",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "18300621966552"
+    },
+    {
+     "address": "0:cd1c7e5820e05a146e1f44ed7c646196a86e94827aa662c8c15937fd1581fcc6",
+     "owner": {
+      "address": "0:a3db61dfe9c6cb7265aebd4dc484312f456ead1441fbb6cfcb15b6d9ccdc89f5",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "18000007000100"
+    },
+    {
+     "address": "0:a5b4866b420acfd22d168d39ae075f6262b8489606406041df05522ea3dc101f",
+     "owner": {
+      "address": "0:8c397c43f9ff0b49659b5d0a302b1a93af7ccc63e5f5c0c4f25a9dc1f8b47ab3",
+      "name": "Telegram",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "15375528192263"
+    },
+    {
+     "address": "0:69884128d07de140f313e1238557261f4e5f849315df3eadc7b56961356bdf61",
+     "owner": {
+      "address": "0:4cba7341e14953ca88065231d32d1def6142ae25b1d4c61d3e6f99d01e677a44",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "14500010000095"
+    },
+    {
+     "address": "0:6f1e4816f18f6e49389effc6a82763d06ed74e79941cf7784385dc88f1288bb0",
+     "owner": {
+      "address": "0:3b865f3176d329c18280bb36477a2ece4a726955ace73bb27014b5588d8e00b7",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "13219797753594"
+    },
+    {
+     "address": "0:ebc4137cd61777015f8b182ea5d21593dca4961ee3f0906fa069bfd42e51490a",
+     "owner": {
+      "address": "0:ee706c4341d8d143b2c6e9c9acb5e339b12ab42bab869f47ca97756b086949ef",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "10800005000100"
+    },
+    {
+     "address": "0:7f024f7ec0cc57b87eaf017046adaf9f6c521afb809a159cb2a2194f4153356f",
+     "owner": {
+      "address": "0:f8b8635d0786b77f9da660e65fd31d670a675dd4302facba692f46b571eb5360",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "10000000000100"
+    },
+    {
+     "address": "0:f58e50ae14edaa7045ea057e76112a981f1d41f033e38fe329556248a4555fff",
+     "owner": {
+      "address": "0:6c53cd87cc0d33486db42c1c7fc03dfaeb2f7b815afc368ab1aee567edda3f72",
+      "name": "Coinspot",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "9606136200407"
+    },
+    {
+     "address": "0:0ae0dad4765b70b3a480cd4426c259e879e0f95a0bf0b3517d3ecc0de8d90b50",
+     "owner": {
+      "address": "0:5feac51c0a452b4423339a9396db63f704e0f85e02ffb2894ea773389fa55bf3",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "8492000000200"
+    },
+    {
+     "address": "0:1b0d941477f6429212946d7215b57a8e2bbd73152593ff6abb94c2baaa99d31f",
+     "owner": {
+      "address": "0:a9658004c0bf226d7b3ed20b7de0658eb430490e625daf5eda0982cb7c0adff3",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "7906906630661"
+    },
+    {
+     "address": "0:52a63c1d92e23ea97e60b7613b723ccf20f4f6a13512d276f77ae899850a3af4",
+     "owner": {
+      "address": "0:408da3b28b6c065a593e10391269baaa9c5f8caebc0c69d9f0aabbab2a99256b",
+      "name": "Fragment",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "7160314607528"
+    },
+    {
+     "address": "0:c539323d37152928d91ac479fd59ce31dd06dd750ad7ed847df76998fb4f7919",
+     "owner": {
+      "address": "0:6a5a76a1538cf9596590ec3708470649c342624bf92e63a6a7a15254ededa904",
+      "name": "Bitfinex",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "6642488898931"
+    },
+    {
+     "address": "0:2f259b3aa3bae8179f180a25bd54cea23580ae62c443492f7cabf5a8a0eb6d25",
+     "owner": {
+      "address": "0:c8bf49921e75f113a0bf0932195d192b89c189c2950d8393d753705a656d6716",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "6000838404776"
+    },
+    {
+     "address": "0:32081d54752b9340a75c777a94af0483f07329dd296eb4f915bb45e477b93f8a",
+     "owner": {
+      "address": "0:852443f8599fe6a5da34fe43049ac4e0beb3071bb2bfb56635ea9421287c283a",
+      "name": "Fragment",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "4680670191999"
+    },
+    {
+     "address": "0:f33a9f090e9b5065ff1c9bbb83ca4a6d53211ea69ed96306c30555c4663c1365",
+     "owner": {
+      "address": "0:31407f2136834e1b810b91708060c3fbd42ae8ad45635032a8fd414ff7a7dd65",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     "balance": "4502710500000"
+    },
+    {
+     "address": "0:4eec921b9d4d56a0d94676016d49c26b39b1d7901a7e153e66033f146a0886f4",
+     "owner": {
+      "address": "0:779dcc815138d9500e449c5291e7f12738c23d575b5310000f6a253bd607384e",
+      "name": "STON.fi DEX",
+      "is_scam": false,
+      "is_wallet": false
+     },
+     "balance": "3646252081184"
+    }
+   ],
+   "total": 3441743
+  }
+ }
+}
