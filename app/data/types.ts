@@ -3,6 +3,8 @@ export interface LinkItem {
   /** Real, verified URL. No placeholders. */
   url: string
   description: string
+  /** Lowercase keywords for search and the tag filter. */
+  tags?: string[]
 }
 
 /** One file per category in app/data/links/<id>.ts, default-exported. */
@@ -21,6 +23,8 @@ export interface Project {
   /** Real, verified URL. */
   url: string
   description: string
+  /** Lowercase kebab-case labels for filtering on /projects. */
+  tags?: string[]
   /** Shown on the home page strip. */
   featured?: boolean
 }
