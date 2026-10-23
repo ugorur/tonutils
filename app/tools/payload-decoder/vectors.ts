@@ -1,0 +1,36 @@
+// Real mainnet message bodies (read from toncenter /api/v3 on 2026-10-22). Used as examples and test vectors.
+
+/** Jetton transfer, in_msg of tx 11bc3126c2b89275c9cde1d74c6099ccc5042186a6bba2fc542a414d3b614b5f. */
+export const JETTON_TRANSFER = 'te6cckEBAQEAWwAAsg+KfqWMopTCAAAAAFF0h26ACAG9eNt/eIwztBa1u8bZC5eJ482PlYsfWPSRHl2OSAsYTQA3rxtv7xGGdoLWt3jbIXLxPHmx8rFj6x6SI8uxyQFjCYgIWDsA979GDw=='
+export const JETTON_TX_HASH = '11bc3126c2b89275c9cde1d74c6099ccc5042186a6bba2fc542a414d3b614b5f'
+
+/** W5 external signed request (DNS delete record inside), tx XnIuXrobrPo0s1J3b/QiiAgDgC2fMalHvRNMroMZ6Co=, wallet 0:E9767AAA…7438. */
+export const W5_EXTERNAL = 'te6cckEBBAEAwQABoXNpZ25///8RatppMgAAABO+C/lko7mq6gfz1jR3j0gMssw3I1p2xaxqRVFiel58rRvSJegHQ6ZoNA8xRP8VtJyVr/vclw6yXh6wlvvcxGkAYAECCg7DyG0DAgMAAADAYgAj9yhFGzAg4SXCp4nlhrcWktwwal0UgraZYKZ6Dj4BRaAJiWgAAAAAAAAAAAAAAAAAAE6x8PkAAAAAatpoB+jUQFCHPbqGWqfBcKtMzmTZCDmjTc/Wz3HRTgIFRDsbA/qOuA=='
+
+/** W5 internal signed request (gasless: two jetton transfers), message pR9s0Huiy1YRuCyPMSnFaZPNvNW1jg4yJmYbMH4FFNU=. */
+export const W5_INTERNAL = 'te6cckECCQEAAYgAAaFzaW50f///EWraaWwAAAAYg+Y6RlpIRLO+blAC3SphyLBigRLxjgrIH1J2HKwfM9AKUa2nB2mieN/uo+/BLYHR9pLIKr48g7phao/ixaG3g2ABAgoOw8htAwIDAgoOw8htAwQFAWhiABrbGakfWMYAcHezC8hheQhoQjeSntWWPmB6zfWMfMo9IC+vCAAAAAAAAAAAAAAAAAABBwAAAWZiABrbGakfWMYAcHezC8hheQhoQjeSntWWPmB6zfWMfMo9GPQkAAAAAAAAAAAAAAAAAAEGAKoPin6lAAAAAGraaEFDuD0K2ABF0qJE2tnTikBZmDjdxUk+kDuvSpxEoChRcbDCqKRTowAeuUFbD/ZQG+bu+fHCJzUxAgB2QdUhsvtt84S3xGerPEICAaYPin6lAAAAAGraaEAhXzgA9coK2H+ygN83d8+OETmpiBADsg6pDZfbb5wlviM9WeMAHrlBWw/2UBvm7vnxwic1MQIAdkHVIbL7bfOEt8RnqzxCAwgACIeNpuMkjSMI'
+
+/** W5 extension request, message 9iigvbFdbWLlbIlksqbo4Ns7a7rcTzbOTj6b5lMyGfM=. */
+export const W5_EXTENSION = 'te6cckEBBAEAXwABGWV4dG4AAAAAAAAAAKABAgoOw8htAwIDAAAAhEIAGg9q/gnrKeZhzUDSGRlNu1LvmOz/UTntUgtbvyRwJ/ckYf3CUAAAAAAAAAAAAAAAAAAAAAAAVURDRUEwQjdBNlU2S5E='
+
+/** Highload v3 internal_transfer (self message), tx hjW4hDJb5ixc+qjcLGt4yDYTxdDl1J0dOWW6jUZbEdo=. */
+export const HIGHLOAD_INTERNAL = 'te6cckECCQEAAScAARiuQuWkAAAAAAAAAAABAgoOw8htAwgCAmdCAAatXGkzLkVDWZuPZxgpRKO37yRNWT3yX0MThcq7FSfsGCeWOAAAAAAAAAAAAAAAAAPAAwQCATQFBgGiBKxHtmhO1yKuS5TzuT+69huwQuFUS/LSNi+vUe6dxBdq9OMJPBr7TveW4FFSQRHfjMrBlEXvsN7kCgzLBSdpAGOJbnR//38RatpoQgAAAAADBwAw/wAgmCHXSYMIufJA34CF+DPQ7R4g7VPZAFIAAAAAAH//fxGM9rbpQSdWrTsoGl48F/eSY9AT0JoF4ybB5VnmYyL/CAFoQgBv+WCJSo1Lf3G6xtaKu5xeSZBJcMPBFSZHi6QZg8untaDuMigoAAAAAAAAAAAAAAAAAQgAAEhyrPU='
+
+/** Highload v3 external body, tx vaPr67IGHhNP1x1KAiuL4IOH2G2W4pmQ7yzGg0y/7Ag=. */
+export const HIGHLOAD_EXTERNAL = 'te6cckEBAwEAjwABgCy/92Jg4YQVEF2GrXyet8huLv7+jGiMeXZADtLmm3fQpQ5jEih0pCZxjzdU46HBNixl8nRvX/fboG2nM0S6UAQBASUAAAABA3G1DgAAAADVtM6mAqMEAgBoQgA4VYWescZmGN2Ruz3oawaoadWkoAoEE80CM9wQPEwXlqA0c7wAAAAAAAAAAAAAAAAAAGpyRzo='
+
+/** Wallet v4 external body (STON.fi swap through pTON), tx NlyFE+ladeEMRNKE6VHxW6ysZe/HJgwfn+ZcRNCiVEE=. */
+export const WALLET_V4_EXTERNAL = 'te6cckECBgEAAZIAAZyoHm+dKSp95TVXLrv3uVtGz09pAmDi3EVvaZRuLZaOoEVvjm+RJMleLqOJhl4R3MLpX+O340DTMxmr85JBTpwEKamjF2raalYAAAA2AAMBAWpiABAvbkhLUqLsruLxMVK3exmpFHKNGpMS2etItdEKa7TmqA3J538QAAAAAAAAAAAAAAAAAQIBZgHzg10AAAAAAAAAAFAabCtmKACuJ5+HpItc7OaV6HlNMp5TMLW1Ielo08zKLN1SEl2pmwMB4WZk3iqABFgzMA295pT4HIv4Jkk1zS+gKp7lPQ+Z/RdomMLOtiUQAVxPPw9JFrnZzSvQ8pplPKZha2pD0tGnmZRZuqQku1M2ACuJ5+HpItc7OaV6HlNMp5TMLW1Ielo08zKLN1SEl2pmgAAAADVtNcFABAGXUGpw/xVYAK4nn4eki1zs5pXoeU0ynlMwtbUh6WjTzMos3VISXamaEAAyQAN72KyM9h0ijw/brnh38TSHAddrhbLWcb5D5IcmA6G+eAUAHAAAJxFQaHprT3YwaTVoEmmwiQ=='
+
+/** Bounced body (original op 0xaf750d34), message sLj76WIXvjcDtbBkqcW2yjwjjj73ahs0KRPrfvX7Qew=. */
+export const BOUNCED = 'te6cckEBAQEAJgAASP////+vdQ00jdleCQACRmFhI/a+oNuYAZzmQ9AA+MvAts+WIrdmu4M='
+
+/** Encrypted comment, message 5PrxfUlIz3r3zXIrznjOZHWLg/oy5a9ok7Hf2O/kZ2E=. */
+export const ENCRYPTED_COMMENT = 'te6cckEBAgEAWQABTiFn2kv4Ezj8wGQshQEN6OfcuSrAkHcc6rPsBbcPbApIMV8JC3UAUAEAWgvmZRi/nNo9y4JhALGIEQ2DwGD0EQdVG+Oz4AcivN2iIpKUcqB3A07+0biuVWviqU4='
+
+/** Full external-in message of tx XKOsK/kVKVgGjx+Rw6XspRzSGRIzWh38VJ/Qi17HfOs= (W5 wallet 0:237ECDDE…8E0B); toncenter message hash below. */
+export const EXT_MESSAGE = 'te6cckEBBAEAtwAB5YgARv2bvfXQOMj/K8XQ37CFt9YpaM1bCQeMu7UUrx6xHBYDm0s7c///+ItW0eaoAAAB5CBfLEi6PixJ9991D8zSe/d3gi7Pj57R0cU4iVwhK/vIiya64/bNT2+xvkT0NGvikmTSdzMPVureRTR+a7WzjhkBAgoOw8htAwIDAAAAaEIARWOPmDau6/g+o7oB8cA0JA8Ydp4r1vLJ0/cFVdbgcayhNfG0AAAAAAAAAAAAAAAAAADnczte'
+export const EXT_MESSAGE_HASH_B64 = 'JSebXWCxDwOQQcBPBOd8JtHffr1xD/JWRjWpsM48Wyg='
+
+/** STON.fi v2 swap (no local field layout; toncenter decodes it as stonfi_swap_v2), message 5pFFOduzvBEpRck9Mu8VRRhh/HYYk0AA+pnj4G0M5YA=. */
+export const STONFI_SWAP_V2 = 'te6cckEBAwEA1wABZ2Zk3ioiZMQJygyI1IAQHp9L03ae4D7ijql9RT5gE/DcG/NCpnilf9csunuyQgCyisPQYBABAeFmZN4qgBJFrE+vsdt6AcnEd7YYqU7dy8PoyudDXogvCv9HxH0j8AID0+l6btPcB9xR1S+op8wCfhuDfmhUzxSv+uWXT3ZIQgBAen0vTdp7gPuKOqX1FPmAT8Nwb80KmeKV/1yy6e7JCAAAAAB/////wAIAU0MfiQvYAQHp9L03ae4D7ijql9RT5gE/DcG/NCpnilf9csunuyQgAAAAEHMSuHk='

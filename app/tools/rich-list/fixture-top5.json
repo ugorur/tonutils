@@ -1,0 +1,152 @@
+{
+ "fetched": "2026-10-23",
+ "top": [
+  {
+   "account": "-1:3333333333333333333333333333333333333333333333333333333333333333",
+   "balance": "1376409000503424695"
+  },
+  {
+   "account": "0:ED1691307050047117B998B561D8DE82D31FBF84910CED6EB5FC92E7485EF8A7",
+   "balance": "1245901672547880944"
+  },
+  {
+   "account": "0:66CD6E30625156D2D881823E6C3F50A04A52DD62CF95A633D633BA0F60F61640",
+   "balance": "248223656443090921"
+  },
+  {
+   "account": "-1:E69571E7B9F58EDFEBEFA297E547F36920532289DBE9FF1B76D107FCBAC30104",
+   "balance": "112400335045955984"
+  },
+  {
+   "account": "0:8C397C43F9FF0B49659B5D0A302B1A93AF7CCC63E5F5C0C4F25A9DC1F8B47AB3",
+   "balance": "102424467668804255"
+  }
+ ],
+ "walletStates": {
+  "wallets": [
+   {
+    "address": "-1:3333333333333333333333333333333333333333333333333333333333333333",
+    "is_wallet": false,
+    "balance": "1376414866971937942",
+    "status": "active",
+    "code_hash": "Yhf4csmfr8uHDywRo2L1kzm+lQlfcNALnP8vbc1p090=",
+    "last_transaction_hash": "O8WoF5VdgbPA/aM4UUyBmJ3f7OCvlKNjvP2W20EI/f0=",
+    "last_transaction_lt": "111809524000002"
+   },
+   {
+    "address": "0:ED1691307050047117B998B561D8DE82D31FBF84910CED6EB5FC92E7485EF8A7",
+    "is_wallet": false,
+    "balance": "1245901672547880944",
+    "status": "active",
+    "code_hash": "gwyZpEfQl0222G7X2J/k8tLsIjWMtkKH4tMeVj695Uc=",
+    "last_transaction_hash": "os/L+mSNyduhRFrKVErpPz2wHQ0B9WJVODDbdFLxZuQ=",
+    "last_transaction_lt": "111449096000003"
+   },
+   {
+    "address": "0:66CD6E30625156D2D881823E6C3F50A04A52DD62CF95A633D633BA0F60F61640",
+    "is_wallet": true,
+    "wallet_type": "wallet v3 r2",
+    "seqno": 11,
+    "wallet_id": 698983191,
+    "balance": "248223656443090921",
+    "status": "active",
+    "code_hash": "hNr6RJ+Ypph3ibojI1gHK8D3bcRSQAKl0JGLmnXS1Zk=",
+    "last_transaction_hash": "ZJenM4XTg4Gc+V+dyMK1jsFq8asJUlhzaLUnEgJtJAA=",
+    "last_transaction_lt": "109450240000013"
+   },
+   {
+    "address": "-1:E69571E7B9F58EDFEBEFA297E547F36920532289DBE9FF1B76D107FCBAC30104",
+    "is_wallet": false,
+    "balance": "112400335045955984",
+    "status": "uninit",
+    "suspended": true,
+    "last_transaction_hash": "VqXX0prVY7AkBWGEVZ8aeGIyq+w+bJfBvdnT/eI5wKQ=",
+    "last_transaction_lt": "107501026000001"
+   },
+   {
+    "address": "0:8C397C43F9FF0B49659B5D0A302B1A93AF7CCC63E5F5C0C4F25A9DC1F8B47AB3",
+    "is_wallet": true,
+    "wallet_type": "wallet v3 r2",
+    "seqno": 580,
+    "wallet_id": 698983191,
+    "balance": "102424467668804255",
+    "status": "active",
+    "code_hash": "hNr6RJ+Ypph3ibojI1gHK8D3bcRSQAKl0JGLmnXS1Zk=",
+    "last_transaction_hash": "zBQBwrcxfk+OKUonSKJMyjQJIf5JJgwdettBYdQc6IQ=",
+    "last_transaction_lt": "111703571000006"
+   }
+  ]
+ },
+ "tonapi": [
+  {
+   "address": "-1:3333333333333333333333333333333333333333333333333333333333333333",
+   "balance": 1376414869678485990,
+   "last_activity": 0,
+   "status": "active",
+   "interfaces": [
+    "elector"
+   ],
+   "name": "Elector Contract",
+   "is_scam": false,
+   "is_wallet": false
+  },
+  {
+   "address": "0:ed1691307050047117b998b561d8de82d31fbf84910ced6eb5fc92e7485ef8a7",
+   "balance": 1245901672547880944,
+   "last_activity": 1792596519,
+   "status": "active",
+   "interfaces": [
+    "locker"
+   ],
+   "name": "TON Believers Fund",
+   "is_scam": false,
+   "is_wallet": false
+  },
+  {
+   "address": "0:66cd6e30625156d2d881823e6c3f50a04a52dd62cf95a633d633ba0f60f61640",
+   "balance": 248223656443090921,
+   "last_activity": 1791797313,
+   "status": "active",
+   "interfaces": [
+    "wallet_v3r2"
+   ],
+   "name": "thedns-tg-channell.ton",
+   "is_scam": false,
+   "is_wallet": true
+  },
+  {
+   "address": "-1:e69571e7b9f58edfebefa297e547f36920532289dbe9ff1b76d107fcbac30104",
+   "balance": 112400335045955984,
+   "last_activity": 1791017863,
+   "status": "uninit",
+   "interfaces": [],
+   "is_wallet": true
+  },
+  {
+   "address": "0:8c397c43f9ff0b49659b5d0a302b1a93af7ccc63e5f5c0c4f25a9dc1f8b47ab3",
+   "balance": 102424467668804255,
+   "last_activity": 1792698250,
+   "status": "active",
+   "interfaces": [
+    "wallet_v3r2"
+   ],
+   "name": "Telegram",
+   "is_scam": false,
+   "is_wallet": true
+  }
+ ],
+ "known": [
+  {
+   "address": "-1:3333333333333333333333333333333333333333333333333333333333333333",
+   "name": "Elector Contract"
+  },
+  {
+   "address": "0:ed1691307050047117b998b561d8de82d31fbf84910ced6eb5fc92e7485ef8a7",
+   "name": "TON Believers Fund"
+  },
+  {
+   "address": "0:8c397c43f9ff0b49659b5d0a302b1a93af7ccc63e5f5c0c4f25a9dc1f8b47ab3",
+   "name": "Telegram"
+  }
+ ]
+}

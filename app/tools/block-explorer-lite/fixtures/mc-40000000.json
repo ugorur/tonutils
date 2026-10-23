@@ -1,0 +1,549 @@
+{
+ "_source": "toncenter v3 masterchainBlockShards?seqno=40000000 (blocks) and transactionsByMasterchainBlock?seqno=40000000 (account + block_ref of up to 2 transactions per shard), fetched 2026-10-22; toncenter v2 getShards?seqno=40000000 (getShards: full shard layout, shard ids as signed 64-bit decimals)",
+ "blocks": [
+  {
+   "workchain": -1,
+   "shard": "8000000000000000",
+   "seqno": 40000000,
+   "root_hash": "p1m7pXpRiAZXebDByL4qzpFt24Zz4TH6hIU5jnB3QVA=",
+   "file_hash": "E2Qd/v2mlXy4diruaCjHAzVPZk6ZmiMNTZ9yj/c+naE=",
+   "global_id": -239,
+   "version": 0,
+   "after_merge": false,
+   "before_split": false,
+   "after_split": false,
+   "want_merge": true,
+   "want_split": false,
+   "key_block": false,
+   "vert_seqno_incr": false,
+   "flags": 1,
+   "gen_utime": "1724921223",
+   "start_lt": "48782601000000",
+   "end_lt": "48782601000004",
+   "validator_list_hash_short": 125834567,
+   "gen_catchain_seqno": 601154,
+   "min_ref_mc_seqno": 39999995,
+   "prev_key_block_seqno": 39999588,
+   "vert_seqno": 1,
+   "master_ref_seqno": 0,
+   "rand_seed": "38xhP961l62MmjsghwXkgojYaWOqfzruZjEZBHNsc34=",
+   "created_by": "Zrv+onGZT6LcVojO9erNyHEdViUQpeG07nLGQSzTycQ=",
+   "tx_count": 3,
+   "masterchain_block_ref": {
+    "workchain": -1,
+    "shard": "8000000000000000",
+    "seqno": 40000000
+   },
+   "prev_blocks": [
+    {
+     "workchain": -1,
+     "shard": "8000000000000000",
+     "seqno": 39999999
+    }
+   ]
+  },
+  {
+   "workchain": 0,
+   "shard": "F800000000000000",
+   "seqno": 45358698,
+   "root_hash": "R+X8BNW0jMqiztswzakmkSLCZX4XEwtQOsd3BY6cyaM=",
+   "file_hash": "lYriBPTU6yHBGuCJE53vE2b7XpJw70WNb3UqVzIXHZU=",
+   "global_id": -239,
+   "version": 0,
+   "after_merge": false,
+   "before_split": false,
+   "after_split": false,
+   "want_merge": false,
+   "want_split": false,
+   "key_block": false,
+   "vert_seqno_incr": false,
+   "flags": 1,
+   "gen_utime": "1724921219",
+   "start_lt": "48782599000000",
+   "end_lt": "48782599000028",
+   "validator_list_hash_short": -2138615105,
+   "gen_catchain_seqno": 602832,
+   "min_ref_mc_seqno": 39999997,
+   "prev_key_block_seqno": 39999588,
+   "vert_seqno": 1,
+   "master_ref_seqno": 39999997,
+   "rand_seed": "KAiaSI7zZzrHPbZF8zsr34LV5WOsrcR2GUSz8YR2cRs=",
+   "created_by": "MpkNmQ7mztF/QFMSBSKXkMAXoW/e2lfnEkz3JpitPLk=",
+   "tx_count": 56,
+   "masterchain_block_ref": {
+    "workchain": -1,
+    "shard": "8000000000000000",
+    "seqno": 40000000
+   },
+   "prev_blocks": [
+    {
+     "workchain": 0,
+     "shard": "F800000000000000",
+     "seqno": 45358697
+    }
+   ]
+  },
+  {
+   "workchain": 0,
+   "shard": "E800000000000000",
+   "seqno": 45359012,
+   "root_hash": "muQtom8RvoV5E3ZGBMbAlm80oVr5RoUIog5A/H0PDLQ=",
+   "file_hash": "xT+Qx+/mvaXAEFlPCz5JWTAV4u4RGWMEjPTBGK2OCpw=",
+   "global_id": -239,
+   "version": 0,
+   "after_merge": false,
+   "before_split": false,
+   "after_split": false,
+   "want_merge": true,
+   "want_split": false,
+   "key_block": false,
+   "vert_seqno_incr": false,
+   "flags": 1,
+   "gen_utime": "1724921218",
+   "start_lt": "48782600000000",
+   "end_lt": "48782600000004",
+   "validator_list_hash_short": -1008279901,
+   "gen_catchain_seqno": 602832,
+   "min_ref_mc_seqno": 39999996,
+   "prev_key_block_seqno": 39999588,
+   "vert_seqno": 1,
+   "master_ref_seqno": 39999997,
+   "rand_seed": "YcGgBydC1HI6pP9U5n8F057qfPEsu6ZQ8KOOfkQPbcw=",
+   "created_by": "FGhV2HgOikybAAI3Qsa3frEZJ6hCCUydQzVdXvNyA2U=",
+   "tx_count": 25,
+   "masterchain_block_ref": {
+    "workchain": -1,
+    "shard": "8000000000000000",
+    "seqno": 40000000
+   },
+   "prev_blocks": [
+    {
+     "workchain": 0,
+     "shard": "E800000000000000",
+     "seqno": 45359011
+    }
+   ]
+  },
+  {
+   "workchain": 0,
+   "shard": "D000000000000000",
+   "seqno": 45358720,
+   "root_hash": "63Zhe5axL8Z9eKktVxq106XFzkc/iJls3utNiYZQV8I=",
+   "file_hash": "2cXvv9KGLJXZjez+G+VfNMiazq1XUg5c5DH+vGJXoCo=",
+   "global_id": -239,
+   "version": 0,
+   "after_merge": false,
+   "before_split": false,
+   "after_split": false,
+   "want_merge": false,
+   "want_split": false,
+   "key_block": false,
+   "vert_seqno_incr": false,
+   "flags": 1,
+   "gen_utime": "1724921218",
+   "start_lt": "48782599000000",
+   "end_lt": "48782599000029",
+   "validator_list_hash_short": 137484684,
+   "gen_catchain_seqno": 602833,
+   "min_ref_mc_seqno": 39999997,
+   "prev_key_block_seqno": 39999588,
+   "vert_seqno": 1,
+   "master_ref_seqno": 39999997,
+   "rand_seed": "J4kCGiLnb5xKSysbjRvraxZmz93pbgjLI8T2WLg7g78=",
+   "created_by": "KDKNwpowvnSYyEK77pFEXSq/pLqxUtAaOmJrNeafMf0=",
+   "tx_count": 120,
+   "masterchain_block_ref": {
+    "workchain": -1,
+    "shard": "8000000000000000",
+    "seqno": 40000000
+   },
+   "prev_blocks": [
+    {
+     "workchain": 0,
+     "shard": "D000000000000000",
+     "seqno": 45358719
+    }
+   ]
+  },
+  {
+   "workchain": 0,
+   "shard": "7000000000000000",
+   "seqno": 45360263,
+   "root_hash": "f3tIJpWOaG6OfeDftnPZfcglPURzbY6+LGN+b1epVn8=",
+   "file_hash": "SDz9xGfmWWK9Y7rsbXTvoMKMEkyxE5dY8LaCikAe4/A=",
+   "global_id": -239,
+   "version": 0,
+   "after_merge": false,
+   "before_split": false,
+   "after_split": false,
+   "want_merge": false,
+   "want_split": false,
+   "key_block": false,
+   "vert_seqno_incr": false,
+   "flags": 1,
+   "gen_utime": "1724921217",
+   "start_lt": "48782598000000",
+   "end_lt": "48782598000028",
+   "validator_list_hash_short": 930349147,
+   "gen_catchain_seqno": 602826,
+   "min_ref_mc_seqno": 39999996,
+   "prev_key_block_seqno": 39999588,
+   "vert_seqno": 1,
+   "master_ref_seqno": 39999996,
+   "rand_seed": "kw8O8Nerl2+UL31JDEWrdOBBARBkQuM5m4MhiQabFd8=",
+   "created_by": "3zh9CfV2mWTsUCq6yZ3xGc1j7q9Xm9Wf0e/H9GjWMJQ=",
+   "tx_count": 115,
+   "masterchain_block_ref": {
+    "workchain": -1,
+    "shard": "8000000000000000",
+    "seqno": 40000000
+   },
+   "prev_blocks": [
+    {
+     "workchain": 0,
+     "shard": "7000000000000000",
+     "seqno": 45360262
+    }
+   ]
+  },
+  {
+   "workchain": 0,
+   "shard": "5000000000000000",
+   "seqno": 45360236,
+   "root_hash": "N+IR5LZZ9702N4OJWmg5HCRpEtRhjOGcDR+9RxzuRnE=",
+   "file_hash": "HXTZcTUGe6+yga8BJr6mEqygArpULFXlhmFqCjzkyDs=",
+   "global_id": -239,
+   "version": 0,
+   "after_merge": false,
+   "before_split": false,
+   "after_split": false,
+   "want_merge": false,
+   "want_split": false,
+   "key_block": false,
+   "vert_seqno_incr": false,
+   "flags": 1,
+   "gen_utime": "1724921217",
+   "start_lt": "48782599000000",
+   "end_lt": "48782599000013",
+   "validator_list_hash_short": -1376417632,
+   "gen_catchain_seqno": 602826,
+   "min_ref_mc_seqno": 39999997,
+   "prev_key_block_seqno": 39999588,
+   "vert_seqno": 1,
+   "master_ref_seqno": 39999997,
+   "rand_seed": "MSAvhgO+xpzuXglkBn2D8vJtBTJr1W5qmrIHciShFwk=",
+   "created_by": "6K93v+LIpgt7H/PZeE1xWWb+MjysCJuGjvm9z0+S5Z0=",
+   "tx_count": 87,
+   "masterchain_block_ref": {
+    "workchain": -1,
+    "shard": "8000000000000000",
+    "seqno": 40000000
+   },
+   "prev_blocks": [
+    {
+     "workchain": 0,
+     "shard": "5000000000000000",
+     "seqno": 45360235
+    }
+   ]
+  },
+  {
+   "workchain": 0,
+   "shard": "3000000000000000",
+   "seqno": 45358787,
+   "root_hash": "ECnkQXUtt0wduinFadPt06veC4Alt1aPL16nhWi/IhM=",
+   "file_hash": "O9A13K9MLsKkJWU9Q1A2Txx5UoiRYwjS6U4ZXfkoApk=",
+   "global_id": -239,
+   "version": 0,
+   "after_merge": false,
+   "before_split": false,
+   "after_split": false,
+   "want_merge": false,
+   "want_split": false,
+   "key_block": false,
+   "vert_seqno_incr": false,
+   "flags": 1,
+   "gen_utime": "1724921215",
+   "start_lt": "48782599000000",
+   "end_lt": "48782599000028",
+   "validator_list_hash_short": -1432715599,
+   "gen_catchain_seqno": 602840,
+   "min_ref_mc_seqno": 39999997,
+   "prev_key_block_seqno": 39999588,
+   "vert_seqno": 1,
+   "master_ref_seqno": 39999997,
+   "rand_seed": "5CPSTzjKAnL6mJpoNFBFOgWeGdaa4iCP1VQI9iQEyEI=",
+   "created_by": "iY89lWYP++atXT+u7nKhByuUvj9En+KCrtsVGVBsewU=",
+   "tx_count": 124,
+   "masterchain_block_ref": {
+    "workchain": -1,
+    "shard": "8000000000000000",
+    "seqno": 40000000
+   },
+   "prev_blocks": [
+    {
+     "workchain": 0,
+     "shard": "3000000000000000",
+     "seqno": 45358786
+    }
+   ]
+  },
+  {
+   "workchain": 0,
+   "shard": "B000000000000000",
+   "seqno": 45353615,
+   "root_hash": "YpG6qTlO51zNKkta0wR0YrdP+Aca2Yf4yknLBg9S9vk=",
+   "file_hash": "Zm3Cd0rA/VejQjp+opjKjcyQ9kOXh3yvfLmk9VkpP0M=",
+   "global_id": -239,
+   "version": 0,
+   "after_merge": false,
+   "before_split": false,
+   "after_split": false,
+   "want_merge": false,
+   "want_split": false,
+   "key_block": false,
+   "vert_seqno_incr": false,
+   "flags": 1,
+   "gen_utime": "1724921215",
+   "start_lt": "48782598000000",
+   "end_lt": "48782598000028",
+   "validator_list_hash_short": 714608641,
+   "gen_catchain_seqno": 602835,
+   "min_ref_mc_seqno": 39999996,
+   "prev_key_block_seqno": 39999588,
+   "vert_seqno": 1,
+   "master_ref_seqno": 39999996,
+   "rand_seed": "6CNamJu84LRS8LF5f2zaDzL6H9bFOLc8vwfH5G+AIZY=",
+   "created_by": "comvuEyRODwj36nPvW7yQHweLReA7Sirioq0DiSDG/M=",
+   "tx_count": 134,
+   "masterchain_block_ref": {
+    "workchain": -1,
+    "shard": "8000000000000000",
+    "seqno": 40000000
+   },
+   "prev_blocks": [
+    {
+     "workchain": 0,
+     "shard": "B000000000000000",
+     "seqno": 45353614
+    }
+   ]
+  },
+  {
+   "workchain": 0,
+   "shard": "9000000000000000",
+   "seqno": 45353845,
+   "root_hash": "j7JjlvBC5GWcqpbw1+Kesw7zTvvqYyWz2FSJDDugo/M=",
+   "file_hash": "8M62effV18IGxHNuNnAp137ew5ayLv3J9rX8/pB8yUg=",
+   "global_id": -239,
+   "version": 0,
+   "after_merge": false,
+   "before_split": false,
+   "after_split": false,
+   "want_merge": false,
+   "want_split": false,
+   "key_block": false,
+   "vert_seqno_incr": false,
+   "flags": 1,
+   "gen_utime": "1724921215",
+   "start_lt": "48782599000000",
+   "end_lt": "48782599000021",
+   "validator_list_hash_short": 915412943,
+   "gen_catchain_seqno": 602835,
+   "min_ref_mc_seqno": 39999997,
+   "prev_key_block_seqno": 39999588,
+   "vert_seqno": 1,
+   "master_ref_seqno": 39999997,
+   "rand_seed": "vySTJYf0ZhBAtb2o4Aq2cb4Nr9QMiW82CpGE0O2VOwM=",
+   "created_by": "gz/ChGCj1H/XJWg7OqfO6rUhnqAd9hoophpHN+ceXu4=",
+   "tx_count": 130,
+   "masterchain_block_ref": {
+    "workchain": -1,
+    "shard": "8000000000000000",
+    "seqno": 40000000
+   },
+   "prev_blocks": [
+    {
+     "workchain": 0,
+     "shard": "9000000000000000",
+     "seqno": 45353844
+    }
+   ]
+  }
+ ],
+ "transactions": [
+  {
+   "account": "-1:5555555555555555555555555555555555555555555555555555555555555555",
+   "hash": "MigtWpMsE71jY/zeFwHrq3CQRUAmcjCiPc8GrbiiC1c=",
+   "block_ref": {
+    "workchain": -1,
+    "shard": "8000000000000000",
+    "seqno": 40000000
+   }
+  },
+  {
+   "account": "-1:3333333333333333333333333333333333333333333333333333333333333333",
+   "hash": "knzRbcbHEAb1jqFW4ePIkRUdsZ0U8z2kyUNcett/Xus=",
+   "block_ref": {
+    "workchain": -1,
+    "shard": "8000000000000000",
+    "seqno": 40000000
+   }
+  },
+  {
+   "account": "0:EFDC5E68456715F6FC44B85044EC83FE4747904208A996FAAC10C3F810659ED1",
+   "hash": "gtiMy8VBw6sh3ql7AuvY9zIvGt40PHxyzuBrxno9LfA=",
+   "block_ref": {
+    "workchain": 0,
+    "shard": "E800000000000000",
+    "seqno": 45359012
+   }
+  },
+  {
+   "account": "0:EFA9F81063414E756F7F1D214BF3CCE4708B50AD7A56D3B41F3BF6204BE98104",
+   "hash": "Y8ofdPf5DHo16aXg8z7R/uqUZRgFaVdh2ZzsrTJdcSo=",
+   "block_ref": {
+    "workchain": 0,
+    "shard": "E800000000000000",
+    "seqno": 45359012
+   }
+  },
+  {
+   "account": "0:CF06C94EFDAE26FAAA1D85092FC4DAEE78EBA09E69C36DAC051C1D8FFDE35F40",
+   "hash": "IZgX7jqKuzrDGWRgVsTRIZk1bnk61yrUQbIgsl8nPQs=",
+   "block_ref": {
+    "workchain": 0,
+    "shard": "D000000000000000",
+    "seqno": 45358720
+   }
+  },
+  {
+   "account": "0:CF06C94EFDAE26FAAA1D85092FC4DAEE78EBA09E69C36DAC051C1D8FFDE35F40",
+   "hash": "elYm7ZeynrrxaqVvl442KmXWX0HhHduFH2BgQjVEZG0=",
+   "block_ref": {
+    "workchain": 0,
+    "shard": "D000000000000000",
+    "seqno": 45358720
+   }
+  },
+  {
+   "account": "0:FE7A2AA5A7A45E3B24899BD50C3EA2592C0F858994C07AE704ABCE2619156FCB",
+   "hash": "Jew2Rs7GpntBRKDpzmlSNvTIdi9p+Azy7hGk4H32d0E=",
+   "block_ref": {
+    "workchain": 0,
+    "shard": "F800000000000000",
+    "seqno": 45358698
+   }
+  },
+  {
+   "account": "0:266AA785AEECA65B5ED972960EFEE4846D252A7C6F7DF521623C484AC1326A21",
+   "hash": "ZGek0EgZSiRzfVzd0R1TtXgN57uxndYCTipBvGtfcFc=",
+   "block_ref": {
+    "workchain": 0,
+    "shard": "3000000000000000",
+    "seqno": 45358787
+   }
+  },
+  {
+   "account": "0:FE7A2AA5A7A45E3B24899BD50C3EA2592C0F858994C07AE704ABCE2619156FCB",
+   "hash": "M2vvHcFTUWCD6CGhTV96HsldS6bmYyHn42+wmq8X2dM=",
+   "block_ref": {
+    "workchain": 0,
+    "shard": "F800000000000000",
+    "seqno": 45358698
+   }
+  },
+  {
+   "account": "0:266AA785AEECA65B5ED972960EFEE4846D252A7C6F7DF521623C484AC1326A21",
+   "hash": "43iFs2vzkX8ZTGVc8MtC8XAENcQsAa3GNV24W9+QYUc=",
+   "block_ref": {
+    "workchain": 0,
+    "shard": "3000000000000000",
+    "seqno": 45358787
+   }
+  },
+  {
+   "account": "0:97AD93444915089E812238FF10ABE9066D0B03EA3DBA2A8630FB9C9F88AA455C",
+   "hash": "wpYUhn0FE4wvlaB/4CohXeFqbSKWnkOszRYE/oiTMpE=",
+   "block_ref": {
+    "workchain": 0,
+    "shard": "9000000000000000",
+    "seqno": 45353845
+   }
+  },
+  {
+   "account": "0:8AF6D0B44D442276DDCF899165B2DD6AC0F883810EE75156B2BDB51EB8646D6E",
+   "hash": "C4tpBUoqalyjPPQIAnSYGcIdlDYG+ErMFFcnlYOZ9pc=",
+   "block_ref": {
+    "workchain": 0,
+    "shard": "9000000000000000",
+    "seqno": 45353845
+   }
+  },
+  {
+   "account": "0:5524ED8E49214883439F09A824F2CACF44E21F5D69A7E11D327053BF742CA964",
+   "hash": "QQMOu0CpzqALuHW2Lo53EZAAYVYblbMA0wWhQ1Gvws8=",
+   "block_ref": {
+    "workchain": 0,
+    "shard": "5000000000000000",
+    "seqno": 45360236
+   }
+  },
+  {
+   "account": "0:500064A716A2F1BCC57E3D7CCF1F5FE198F0C38C6E66871A7864004404ACFF72",
+   "hash": "Mvud8lEAsrDuGA1iZSIhVyDp/f/RU7nKYHtP/ejJmYw=",
+   "block_ref": {
+    "workchain": 0,
+    "shard": "5000000000000000",
+    "seqno": 45360236
+   }
+  }
+ ],
+ "getShards": [
+  {
+   "workchain": 0,
+   "shard": "1152921504606846976",
+   "seqno": 45358560
+  },
+  {
+   "workchain": 0,
+   "shard": "3458764513820540928",
+   "seqno": 45358787
+  },
+  {
+   "workchain": 0,
+   "shard": "5764607523034234880",
+   "seqno": 45360236
+  },
+  {
+   "workchain": 0,
+   "shard": "8070450532247928832",
+   "seqno": 45360263
+  },
+  {
+   "workchain": 0,
+   "shard": "-8070450532247928832",
+   "seqno": 45353845
+  },
+  {
+   "workchain": 0,
+   "shard": "-5764607523034234880",
+   "seqno": 45353615
+  },
+  {
+   "workchain": 0,
+   "shard": "-3458764513820540928",
+   "seqno": 45358720
+  },
+  {
+   "workchain": 0,
+   "shard": "-1729382256910270464",
+   "seqno": 45359012
+  },
+  {
+   "workchain": 0,
+   "shard": "-576460752303423488",
+   "seqno": 45358698
+  }
+ ]
+}

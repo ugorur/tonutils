@@ -1,0 +1,316 @@
+{
+ "fetched": "2026-10-23",
+ "actions": {
+  "actions": [
+   {
+    "action_id": "KoK2A4NFrhqd4PAcChJt6V7RHojMsDaOPX8c1JiOv3I=",
+    "start_lt": "111807335000006",
+    "start_utime": 1792739713,
+    "success": true,
+    "type": "ton_transfer",
+    "transactions": [
+     "eN6NpRzvZavPGADXNUwc0I8MzWqe1GTEUf5XpnYiWgY=",
+     "YGKSfOJIxqm0Wiw4zgBG3YIgBFVGoN4pZDzAytwADMA="
+    ],
+    "details": {
+     "source": "0:A9A640EA72D04504B54A17C87448295406FBE66ED83CEBF560A15C088CDBB489",
+     "destination": "0:EBC16E5676DC74FEF1951279F95AEF28EB1BD692B218F4FFB6E54811AA89D162",
+     "value": "12000000000000",
+     "value_extra_currencies": {},
+     "comment": "5nweM9j7hk3GJg9msdDYNe",
+     "encrypted": false
+    },
+    "trace_external_hash": "vfcGgslYKjU2DhBu1APtpfqoyv5IbR3kjcgBngq/TtY="
+   },
+   {
+    "action_id": "N5b/RdGuDhWyPr/v+p/tZ3bXzRB7QykZf9cGI2+Ogvs=",
+    "start_lt": "111807322000002",
+    "start_utime": 1792739708,
+    "success": true,
+    "type": "ton_transfer",
+    "transactions": [
+     "qbX8w7Iir794jPfSRWOyZq3kVrYuPCT0OHfZ+W0+yCw=",
+     "juDwJjal/ctFIJziun2Bym8QHFSsqtIVnzvuk5HYpEI="
+    ],
+    "details": {
+     "source": "0:130A97C6C89D4954FC4781C7E906086060814D3E20F32F116E0E9EE7804F44BA",
+     "destination": "0:3F198B2BD8E6CE9FD3918B15117F9D4A317586329123503E21B73F5C7D0CB42B",
+     "value": "2499999905332",
+     "value_extra_currencies": {},
+     "comment": "8ea172c1-4ef5-47c1-931a-de74eafc89a0",
+     "encrypted": false
+    },
+    "trace_external_hash": "H81PUfbGLn5VXetpkVGgIgShKjBQKlrdS7WgNL4CZ8U="
+   },
+   {
+    "action_id": "e+Wk1+UrS0pAW3HSoJTQHmhJYi9HC2nwoLgMccjy7MA=",
+    "start_lt": "111807333000002",
+    "start_utime": 1792739712,
+    "success": true,
+    "type": "ton_transfer",
+    "transactions": [
+     "9aYg9iTPIV7wRuAXTlKaIGW4rmwu7Fi9Ccji7mJTVm0=",
+     "qW0O2r1VXMn8hsBD/wZEORxR1AJHTvMHkbVqF4xOOc4="
+    ],
+    "details": {
+     "source": "0:3D7EE4917DC75C195B975A17B8FB7D367978FDC30BD9649200AA1255A93A3E57",
+     "destination": "0:CC03EB7C8E95F1D424A220565EB286F1CA22F79E0E0B40A10D513EF41DA3CC9D",
+     "value": "372478618810",
+     "value_extra_currencies": {},
+     "comment": null,
+     "encrypted": false
+    },
+    "trace_external_hash": "qCf47TycjrfBjrxVJosQ8CDiqScmtx0kbJDLlMNpEBQ="
+   },
+   {
+    "action_id": "ZaGfYAObb5FakD/3QUIH/kzcLoT2Ypo0L3kn4rUSlSk=",
+    "start_lt": "111807353000000",
+    "start_utime": 1792739720,
+    "success": true,
+    "type": "ton_transfer",
+    "transactions": [
+     "AtMRYt78iSnVhQ1nErKot5+szioPwDLOT0cEiitcJbc="
+    ],
+    "details": {
+     "source": "-1:0000000000000000000000000000000000000000000000000000000000000000",
+     "destination": "-1:3333333333333333333333333333333333333333333333333333333333333333",
+     "value": "2700738110",
+     "value_extra_currencies": {},
+     "comment": null,
+     "encrypted": false
+    },
+    "trace_external_hash": "PkYdC3akgdB7MiXEDGIHMxpaqHr50uwjNO5RVmEDoUo="
+   },
+   {
+    "action_id": "aAiTREAi/SLqjdojVS8aLNM4wku4pZSGWx/0lAMYLXg=",
+    "start_lt": "111807352000002",
+    "start_utime": 1792739720,
+    "success": true,
+    "type": "ton_transfer",
+    "transactions": [
+     "MmJWzo696o2gJzV+NJC/2ytIyoZ27C/dMgtHyNhFdI0=",
+     "o7c6miIzi6E9wV/+KN0rRfVLGZ+0HhXkqIBgkbxVvgM="
+    ],
+    "details": {
+     "source": "0:C10AC5723A339957B5E869F9B735CF38F4631823AFF87C1EF39E114AF7D08189",
+     "destination": "0:1A271A7FEA8F6A84C8FFC237D91B9101AFC0D28FF2F1EA19CCAA461FD412D2AB",
+     "value": "50000000",
+     "value_extra_currencies": {},
+     "comment": "paymentId:40d10c90-69e3-414a-bde2-8ba5e64e60e5",
+     "encrypted": false
+    },
+    "trace_external_hash": "xJvypSVcIS1y+nlaXCh+vHKnQpRBkHm7bMuZiDVr6+g="
+   },
+   {
+    "action_id": "PutxIP5P30jq2HetDO+wm36Ffxri9R2rzHPSvOpJ3Mg=",
+    "start_lt": "111807345000005",
+    "start_utime": 1792739717,
+    "success": false,
+    "type": "ton_transfer",
+    "transactions": [
+     "6YLfgL+DAhDc8H2kEULF2y5AMWCuSq3r89EPCkxhDYA=",
+     "q5IRYsI9wl8H8mf/OJKElCOTMbRoyHVTRgTlHbBKE7o="
+    ],
+    "details": {
+     "source": "0:9CB2B0ACB6F454EAC7611314F96A97EC7F8F61E6FED3EF74FEAA14F0D8B781AD",
+     "destination": "0:D1DDEF342FB6F4602A1160C7D99582585BDCF123A123B99EF666F1B26EDA36B4",
+     "value": "10000",
+     "value_extra_currencies": {},
+     "comment": "@pgon - \u043a\u0440\u0438\u043f\u0442\u043e-\u0444\u0438\u0430\u0442\u043d\u044b\u0439 \u043a\u043e\u0448\u0435\u043b\u0435\u043a \u0432 \u0422\u0413. \u041f\u043e\u043f\u043e\u043b\u043d\u0438 \u043f\u043e \u0421\u0411\u041f / \u0432\u044b\u0432\u0435\u0434\u0438 \u043f\u043e \u0421\u0411\u041f / \u041e\u043f\u043b\u0430\u0442\u044b QR \u0432 \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0435. \u041f\u0440\u043e\u043c\u043e\u043a\u043e\u0434 - 3ABSA1BERAA8",
+     "encrypted": false
+    },
+    "trace_external_hash": "wPc0xd9b0zOc6QS1zKhDwEH81mgjpyLK05+udxP2b9Y="
+   }
+  ],
+  "address_book": {
+   "-1:0000000000000000000000000000000000000000000000000000000000000000": {
+    "user_friendly": "Ef8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAU",
+    "domain": null,
+    "interfaces": []
+   },
+   "-1:3333333333333333333333333333333333333333333333333333333333333333": {
+    "user_friendly": "Ef8zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM0vF",
+    "domain": null,
+    "interfaces": null
+   },
+   "0:130A97C6C89D4954FC4781C7E906086060814D3E20F32F116E0E9EE7804F44BA": {
+    "user_friendly": "EQATCpfGyJ1JVPxHgcfpBghgYIFNPiDzLxFuDp7ngE9Eur95",
+    "domain": null,
+    "interfaces": [
+     "wallet_highload_v3r1"
+    ]
+   },
+   "0:1A271A7FEA8F6A84C8FFC237D91B9101AFC0D28FF2F1EA19CCAA461FD412D2AB": {
+    "user_friendly": "UQAaJxp_6o9qhMj_wjfZG5EBr8DSj_Lx6hnMqkYf1BLSqx-F",
+    "domain": "xn--zifrtta-bhg.ton",
+    "interfaces": [
+     "wallet_v4r2"
+    ]
+   },
+   "0:3D7EE4917DC75C195B975A17B8FB7D367978FDC30BD9649200AA1255A93A3E57": {
+    "user_friendly": "EQA9fuSRfcdcGVuXWhe4-302eXj9wwvZZJIAqhJVqTo-V0aC",
+    "domain": null,
+    "interfaces": [
+     "wallet_highload_v3r1"
+    ]
+   },
+   "0:3F198B2BD8E6CE9FD3918B15117F9D4A317586329123503E21B73F5C7D0CB42B": {
+    "user_friendly": "UQA_GYsr2ObOn9ORixURf51KMXWGMpEjUD4htz9cfQy0KwAW",
+    "domain": null,
+    "interfaces": []
+   },
+   "0:9CB2B0ACB6F454EAC7611314F96A97EC7F8F61E6FED3EF74FEAA14F0D8B781AD": {
+    "user_friendly": "UQCcsrCstvRU6sdhExT5apfsf49h5v7T73T-qhTw2LeBrUvi",
+    "domain": null,
+    "interfaces": []
+   },
+   "0:A9A640EA72D04504B54A17C87448295406FBE66ED83CEBF560A15C088CDBB489": {
+    "user_friendly": "UQCppkDqctBFBLVKF8h0SClUBvvmbtg86_VgoVwIjNu0ie57",
+    "domain": null,
+    "interfaces": [
+     "wallet_v5r1"
+    ]
+   },
+   "0:C10AC5723A339957B5E869F9B735CF38F4631823AFF87C1EF39E114AF7D08189": {
+    "user_friendly": "UQDBCsVyOjOZV7Xoafm3Nc849GMYI6_4fB7znhFK99CBiXux",
+    "domain": null,
+    "interfaces": [
+     "wallet_v4r2"
+    ]
+   },
+   "0:CC03EB7C8E95F1D424A220565EB286F1CA22F79E0E0B40A10D513EF41DA3CC9D": {
+    "user_friendly": "UQDMA-t8jpXx1CSiIFZesobxyiL3ng4LQKENUT70HaPMnRLy",
+    "domain": null,
+    "interfaces": [
+     "wallet_v5r1"
+    ]
+   },
+   "0:D1DDEF342FB6F4602A1160C7D99582585BDCF123A123B99EF666F1B26EDA36B4": {
+    "user_friendly": "UQDR3e80L7b0YCoRYMfZlYJYW9zxI6EjuZ72ZvGybto2tMZo",
+    "domain": null,
+    "interfaces": [
+     "wallet_v5r1"
+    ]
+   },
+   "0:EBC16E5676DC74FEF1951279F95AEF28EB1BD692B218F4FFB6E54811AA89D162": {
+    "user_friendly": "UQDrwW5Wdtx0_vGVEnn5Wu8o6xvWkrIY9P-25UgRqonRYmQm",
+    "domain": null,
+    "interfaces": [
+     "wallet_v4r2"
+    ]
+   }
+  }
+ },
+ "usdt": {
+  "jetton_transfers": [
+   {
+    "source": "0:173F40F269F3B57C90EC4BB58AEC1CC1329925E673203127C1F459F85039719D",
+    "destination": "0:BCAD466A47FA565750729565253CD073CA24D856804499090C2100D95C809F9E",
+    "amount": "101284000000",
+    "transaction_hash": "i4uD51JWDqovfq6+J7GT2lsmSMQhTPa1B/Xj7tvj7yI=",
+    "transaction_lt": "111807351000009",
+    "transaction_now": 1792739719,
+    "transaction_aborted": false,
+    "decoded_forward_payload": null,
+    "jetton_master": "0:B113A994B5024A16719F69139328EB759596C38A25F59028B146FECDC3621DFE"
+   },
+   {
+    "source": "0:2876D931A445703FD3E9B6A92B9CFC354B0D00C9CB799365629AC3006840A020",
+    "destination": "0:9902E51044E62868E40F71072A09629AF12D729B881D99276B0D541D475D7D12",
+    "amount": "10000000000",
+    "transaction_hash": "B8jsVUssEya/af1kcLsbUClewKcE+W9cxwm68DVKhB8=",
+    "transaction_lt": "111807342000026",
+    "transaction_now": 1792739716,
+    "transaction_aborted": false,
+    "decoded_forward_payload": {
+     "@type": "text_comment",
+     "comment": "",
+     "type": "text_comment"
+    },
+    "jetton_master": "0:B113A994B5024A16719F69139328EB759596C38A25F59028B146FECDC3621DFE"
+   },
+   {
+    "source": "0:023895AEF955024920A291C6F3715E291DF1B3DD254EAFA8B09E21A2D58D5897",
+    "destination": "0:8E06CA253C2E9ABF1624030C034147CB7978DC6F80B35769688BAD07A4F86C6F",
+    "amount": "3255892893",
+    "transaction_hash": "dVJpnWYr1wg7TOyriLTJsITZYg0MM5o3zCjDMSf03kM=",
+    "transaction_lt": "111807420000003",
+    "transaction_now": 1792739747,
+    "transaction_aborted": false,
+    "decoded_forward_payload": null,
+    "jetton_master": "0:B113A994B5024A16719F69139328EB759596C38A25F59028B146FECDC3621DFE"
+   },
+   {
+    "source": "0:37EB7ED146B79586EBB0547800177131BD00664E6ABE1515B6F6C708A1C09343",
+    "destination": "0:852443F8599FE6A5DA34FE43049AC4E0BEB3071BB2BFB56635EA9421287C283A",
+    "amount": "750000",
+    "transaction_hash": "jTuBbxC1RXL3LO/WHLKRUAjou+JL6bAgMJAEcBYlVaw=",
+    "transaction_lt": "111807401000016",
+    "transaction_now": 1792739739,
+    "transaction_aborted": false,
+    "decoded_forward_payload": {
+     "@type": "text_comment",
+     "comment": "50 Telegram Stars \n\nRef#TF1RpoeOc",
+     "type": "text_comment"
+    },
+    "jetton_master": "0:B113A994B5024A16719F69139328EB759596C38A25F59028B146FECDC3621DFE"
+   }
+  ],
+  "address_book": {
+   "0:023895AEF955024920A291C6F3715E291DF1B3DD254EAFA8B09E21A2D58D5897": {
+    "user_friendly": "EQACOJWu-VUCSSCikcbzcV4pHfGz3SVOr6iwniGi1Y1Yl_UA",
+    "domain": null,
+    "interfaces": [
+     "wallet_highload_v3r1"
+    ]
+   },
+   "0:173F40F269F3B57C90EC4BB58AEC1CC1329925E673203127C1F459F85039719D": {
+    "user_friendly": "UQAXP0DyafO1fJDsS7WK7BzBMpkl5nMgMSfB9Fn4UDlxnXg0",
+    "domain": null,
+    "interfaces": [
+     "wallet_v5r1"
+    ]
+   },
+   "0:2876D931A445703FD3E9B6A92B9CFC354B0D00C9CB799365629AC3006840A020": {
+    "user_friendly": "UQAodtkxpEVwP9PptqkrnPw1Sw0Ayct5k2VimsMAaECgIF92",
+    "domain": null,
+    "interfaces": [
+     "wallet_v3r2"
+    ]
+   },
+   "0:37EB7ED146B79586EBB0547800177131BD00664E6ABE1515B6F6C708A1C09343": {
+    "user_friendly": "UQA3637RRreVhuuwVHgAF3ExvQBmTmq-FRW29scIocCTQxKL",
+    "domain": null,
+    "interfaces": [
+     "wallet_v5r1"
+    ]
+   },
+   "0:852443F8599FE6A5DA34FE43049AC4E0BEB3071BB2BFB56635EA9421287C283A": {
+    "user_friendly": "EQCFJEP4WZ_mpdo0_kMEmsTgvrMHG7K_tWY16pQhKHwoOoy2",
+    "domain": null,
+    "interfaces": [
+     "wallet_highload_v3r1"
+    ]
+   },
+   "0:8E06CA253C2E9ABF1624030C034147CB7978DC6F80B35769688BAD07A4F86C6F": {
+    "user_friendly": "UQCOBsolPC6avxYkAwwDQUfLeXjcb4CzV2loi60HpPhsbxm-",
+    "domain": null,
+    "interfaces": [
+     "wallet_v3r2"
+    ]
+   },
+   "0:9902E51044E62868E40F71072A09629AF12D729B881D99276B0D541D475D7D12": {
+    "user_friendly": "UQCZAuUQROYoaOQPcQcqCWKa8S1ym4gdmSdrDVQdR119EmRp",
+    "domain": null,
+    "interfaces": [
+     "wallet_v3r2"
+    ]
+   },
+   "0:BCAD466A47FA565750729565253CD073CA24D856804499090C2100D95C809F9E": {
+    "user_friendly": "EQC8rUZqR_pWV1BylWUlPNBzyiTYVoBEmQkMIQDZXICfnuRr",
+    "domain": null,
+    "interfaces": null
+   }
+  }
+ }
+}

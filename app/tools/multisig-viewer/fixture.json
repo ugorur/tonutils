@@ -1,0 +1,236 @@
+{
+ "_source": "toncenter /api/v3/multisig/wallets?address=, /multisig/orders?multisig_address=&parse_actions=true and /jetton/wallets?address= for multisig 0:F2A2E706BF1295FA6388E30A99C431CE294AEF002727946D013A85DFC1554317, fetched 2026-10-22. Trimmed: 4 of 66 orders, body_raw dropped.",
+ "multisig": {
+  "address": "0:F2A2E706BF1295FA6388E30A99C431CE294AEF002727946D013A85DFC1554317",
+  "next_order_seqno": "-1",
+  "threshold": 3,
+  "signers": [
+   "0:84E665DC2C93A7BA96E667A295AF6BC8D66EEB649AA31551445AE39BC08AD625",
+   "0:8F50D1142190185CCEEA806828621DA1C117342AC9BDE6E1EE35041DDDB2780C",
+   "0:06E574DA10626723415534A50848C919A25794729EF924CFE494CB0699014B8F",
+   "0:DB0848861E60E68AD0984D4624A99EE795179B89D4FCD5AFAE2179F07C81DA3B",
+   "0:403F1442051C7BD99D70600EA11E5B09CFD8474A827701CF7A3A2A53C5FE713C",
+   "0:EC9DEA5890A65CFDB51845018940ADA710074FE3C3FDF323EA0CF88911F9AAF7"
+  ],
+  "proposers": [],
+  "last_transaction_lt": "111625775000015",
+  "code_hash": "09FNqaYn8Ow1MzQYKXYq+SuVQLIb8DZl+sCcK0bqu6w=",
+  "data_hash": "jbcaEoqKiZxV6x4UZQSZYWF7y4i2n2GwRZN2le0v42s="
+ },
+ "orders": [
+  {
+   "address": "0:0B47CF914C1D803209C1690CB2E16545BFFB7E182252B7CBDCFFDCD05878AF31",
+   "multisig_address": "0:F2A2E706BF1295FA6388E30A99C431CE294AEF002727946D013A85DFC1554317",
+   "order_seqno": "64",
+   "threshold": 3,
+   "sent_for_execution": true,
+   "approvals_mask": "7",
+   "approvals_num": 3,
+   "expiration_date": 1792644495,
+   "order_boc": "te6ccgEBBAEAnAABAdEBAQrxOB5bAQIBaAIARuRIR4x2X/vFAGGkBL5s1phmqImCN+EYgIRd/FCX1FsgF9eEAAAAAAAAAAAAAAAAAAEDAK4Pin6lAAAAAAAAAABg0NwSLDvoAN6nlMb6cJu29nxxwjK69b2x7xoNl5Lc8rO6LTmYLKJrADyoucGvxKV+mOI4wqZxDHOKUrvACcnlG0BOoXfwVVDFwgI=",
+   "signers": [
+    "0:84E665DC2C93A7BA96E667A295AF6BC8D66EEB649AA31551445AE39BC08AD625",
+    "0:8F50D1142190185CCEEA806828621DA1C117342AC9BDE6E1EE35041DDDB2780C",
+    "0:06E574DA10626723415534A50848C919A25794729EF924CFE494CB0699014B8F",
+    "0:DB0848861E60E68AD0984D4624A99EE795179B89D4FCD5AFAE2179F07C81DA3B",
+    "0:403F1442051C7BD99D70600EA11E5B09CFD8474A827701CF7A3A2A53C5FE713C",
+    "0:EC9DEA5890A65CFDB51845018940ADA710074FE3C3FDF323EA0CF88911F9AAF7"
+   ],
+   "last_transaction_lt": "111544010000003",
+   "code_hash": "oB4Ff71CiEArmJjXjWe9TpAlTJPFhmh5vC0dEoZUNrw=",
+   "data_hash": "Ro9Mn9uxuOFe+8fdVTECjmvcEniX1GpfxkSSNXA3wB8=",
+   "actions": [
+    {
+     "destination": "0:8DC8908F18ECBFF78A00C348097CD9AD30CD5113046FC2310108BBF8A12FA8B6",
+     "value": "50000000",
+     "parsed": true,
+     "error": null,
+     "parsed_body": {
+      "query_id": 0,
+      "amount": "14352726016958",
+      "destination": "0:6F53CA637D384DDB7B3E38E1195D7ADED8F78D06CBC96E7959DD169CCC165135",
+      "response": "0:F2A2E706BF1295FA6388E30A99C431CE294AEF002727946D013A85DFC1554317",
+      "custom_payload": null,
+      "forward_amount": "1",
+      "comment": "",
+      "encrypted_comment": false,
+      "forward_payload": "te6cckEBAQEAAgAAAEysuc0=",
+      "payload_sum_type": "",
+      "stonfi_swap_body": null
+     },
+     "parsed_body_type": "jetton_transfer",
+     "send_mode": 1
+    }
+   ]
+  },
+  {
+   "address": "0:ABBE230D9BF27362405CC67C7CA4E48D0FBEB0B42A2D1227B6CBFC7A2ED097E5",
+   "multisig_address": "0:F2A2E706BF1295FA6388E30A99C431CE294AEF002727946D013A85DFC1554317",
+   "order_seqno": "62",
+   "threshold": 3,
+   "sent_for_execution": false,
+   "approvals_mask": "3",
+   "approvals_num": 2,
+   "expiration_date": 1791782530,
+   "order_boc": "te6ccgEBBAEAngABAdEBAQrxOB5bAQIBaAIAfGVaDM/VkhOkd0nM30Kx/0r8QLbJlqbPdmZ83p5S4A2gF9eEAAAAAAAAAAAAAAAAAAEDALIPin6lAAAAAAAAAACA6zdeWNJ/NsgAJ462YzawP+ol22UMuTp1hBozOGPLKbrIbX3SshmglisAPKi5wa/EpX6Y4jjCpnEMc4pSu8AJyeUbQE6hd/BVUMXCAg==",
+   "signers": [
+    "0:84E665DC2C93A7BA96E667A295AF6BC8D66EEB649AA31551445AE39BC08AD625",
+    "0:8F50D1142190185CCEEA806828621DA1C117342AC9BDE6E1EE35041DDDB2780C",
+    "0:06E574DA10626723415534A50848C919A25794729EF924CFE494CB0699014B8F",
+    "0:DB0848861E60E68AD0984D4624A99EE795179B89D4FCD5AFAE2179F07C81DA3B",
+    "0:403F1442051C7BD99D70600EA11E5B09CFD8474A827701CF7A3A2A53C5FE713C",
+    "0:EC9DEA5890A65CFDB51845018940ADA710074FE3C3FDF323EA0CF88911F9AAF7"
+   ],
+   "last_transaction_lt": "109411658000009",
+   "code_hash": "oB4Ff71CiEArmJjXjWe9TpAlTJPFhmh5vC0dEoZUNrw=",
+   "data_hash": "99MWcVTblsYlIwOQd2MF8XESKRVfISac8BdxUz8m3Ag=",
+   "actions": [
+    {
+     "destination": "0:F8CAB4199FAB242748EE9399BE8563FE95F8816D932D4D9EECCCF9BD3CA5C01B",
+     "value": "50000000",
+     "parsed": true,
+     "error": null,
+     "parsed_body": {
+      "query_id": 0,
+      "amount": "1059319966138364780",
+      "destination": "0:13C75B319B581FF512EDB2865C9D3AC20D199C31E594DD6436BEE9590CD04B15",
+      "response": "0:F2A2E706BF1295FA6388E30A99C431CE294AEF002727946D013A85DFC1554317",
+      "custom_payload": null,
+      "forward_amount": "1",
+      "comment": "",
+      "encrypted_comment": false,
+      "forward_payload": "te6cckEBAQEAAgAAAEysuc0=",
+      "payload_sum_type": "",
+      "stonfi_swap_body": null
+     },
+     "parsed_body_type": "jetton_transfer",
+     "send_mode": 1
+    }
+   ]
+  },
+  {
+   "address": "0:75683ACFC878408E5C77BBE80FEC7F754B281670F1CC6183A71983B79366E6B2",
+   "multisig_address": "0:F2A2E706BF1295FA6388E30A99C431CE294AEF002727946D013A85DFC1554317",
+   "order_seqno": "60",
+   "threshold": 3,
+   "sent_for_execution": true,
+   "approvals_mask": "7",
+   "approvals_num": 3,
+   "expiration_date": 1786454811,
+   "order_boc": "te6ccgEBAwEAQgABAdEBAQrxOB5bAQIAaAIAdtm2q3w8o3/Ab30Kv/Cg+6PkHBkPAko1xsxDH7t33dyh3NZQAAAAAAAAAAAAAAAAAAA=",
+   "signers": [
+    "0:84E665DC2C93A7BA96E667A295AF6BC8D66EEB649AA31551445AE39BC08AD625",
+    "0:8F50D1142190185CCEEA806828621DA1C117342AC9BDE6E1EE35041DDDB2780C",
+    "0:06E574DA10626723415534A50848C919A25794729EF924CFE494CB0699014B8F",
+    "0:DB0848861E60E68AD0984D4624A99EE795179B89D4FCD5AFAE2179F07C81DA3B",
+    "0:403F1442051C7BD99D70600EA11E5B09CFD8474A827701CF7A3A2A53C5FE713C",
+    "0:EC9DEA5890A65CFDB51845018940ADA710074FE3C3FDF323EA0CF88911F9AAF7"
+   ],
+   "last_transaction_lt": "96064403000001",
+   "code_hash": "oB4Ff71CiEArmJjXjWe9TpAlTJPFhmh5vC0dEoZUNrw=",
+   "data_hash": "7pzOg8q5iERKloOszceWUlA00PWISM8kOgAIUYqXzCE=",
+   "actions": [
+    {
+     "destination": "0:EDB36D56F87946FF80DEFA157FE141F747C838321E04946B8D98863F76EFBBB9",
+     "value": "1000000000",
+     "parsed": true,
+     "error": null,
+     "parsed_body": {
+      "comment": "",
+      "encrypted": false
+     },
+     "parsed_body_type": "ton_transfer",
+     "send_mode": 1
+    }
+   ]
+  },
+  {
+   "address": "0:F18F68C7E676E1ADB13CF013E9CF302D95FC2C535BE9FE7B48000FD33251681D",
+   "multisig_address": "0:F2A2E706BF1295FA6388E30A99C431CE294AEF002727946D013A85DFC1554317",
+   "order_seqno": "1743669632",
+   "threshold": 3,
+   "sent_for_execution": true,
+   "approvals_mask": "56",
+   "approvals_num": 3,
+   "expiration_date": 1743670232,
+   "order_boc": "te6ccgEBAwEAQgABAdEBAQrxOB5bAQIAaGIAF3oFoDlv1Ypxl0zakO+ZbQnoqBk8zCyMWgX33ahBwb2h3NZQAAAAAAAAAAAAAAAAAAA=",
+   "signers": [
+    "0:84E665DC2C93A7BA96E667A295AF6BC8D66EEB649AA31551445AE39BC08AD625",
+    "0:8F50D1142190185CCEEA806828621DA1C117342AC9BDE6E1EE35041DDDB2780C",
+    "0:06E574DA10626723415534A50848C919A25794729EF924CFE494CB0699014B8F",
+    "0:DB0848861E60E68AD0984D4624A99EE795179B89D4FCD5AFAE2179F07C81DA3B",
+    "0:403F1442051C7BD99D70600EA11E5B09CFD8474A827701CF7A3A2A53C5FE713C",
+    "0:EC9DEA5890A65CFDB51845018940ADA710074FE3C3FDF323EA0CF88911F9AAF7"
+   ],
+   "last_transaction_lt": "55664801000003",
+   "code_hash": "oB4Ff71CiEArmJjXjWe9TpAlTJPFhmh5vC0dEoZUNrw=",
+   "data_hash": "dldE1G7PQRsxUIJN32mSMIKdbRTRnC6DIuCeES7RDb4=",
+   "actions": [
+    {
+     "destination": "0:2EF40B4072DFAB14E32E99B521DF32DA13D1503279985918B40BEFBB5083837B",
+     "value": "1000000000",
+     "parsed": true,
+     "error": null,
+     "parsed_body": {
+      "comment": "",
+      "encrypted": false
+     },
+     "parsed_body_type": "ton_transfer",
+     "send_mode": 1
+    }
+   ]
+  }
+ ],
+ "jettonWallets": {
+  "jetton_wallets": [
+   {
+    "address": "0:8DC8908F18ECBFF78A00C348097CD9AD30CD5113046FC2310108BBF8A12FA8B6",
+    "jetton": "0:B113A994B5024A16719F69139328EB759596C38A25F59028B146FECDC3621DFE",
+    "owner": "0:F2A2E706BF1295FA6388E30A99C431CE294AEF002727946D013A85DFC1554317",
+    "balance": "0"
+   },
+   {
+    "address": "0:F8CAB4199FAB242748EE9399BE8563FE95F8816D932D4D9EECCCF9BD3CA5C01B",
+    "jetton": "0:09F2E59DEC406AB26A5259A45D7FF23EF11F3E5C7C21DE0B0D2A1CBE52B76B3D",
+    "owner": "0:F2A2E706BF1295FA6388E30A99C431CE294AEF002727946D013A85DFC1554317",
+    "balance": "2059319966138364780"
+   }
+  ],
+  "metadata": {
+   "0:09F2E59DEC406AB26A5259A45D7FF23EF11F3E5C7C21DE0B0D2A1CBE52B76B3D": {
+    "token_info": [
+     {
+      "type": "jetton_masters",
+      "symbol": "HMSTR",
+      "name": "Hamster Kombat",
+      "extra": {
+       "_image_big": "https://imgproxy.toncenter.com/S52XiktW8Tb2OiQuF8_TI55lbYEJSFrisCMdawFETO0/pr:big/aHR0cHM6Ly90b2tlbi5oYW1zdGVya29tYmF0Z2FtZS5pby90b2tlbi9pY29uLnBuZw",
+       "_image_medium": "https://imgproxy.toncenter.com/gGogI4zZhVTZE1OFtlJlt4LybxcpGdxHfGTO5TpJumg/pr:medium/aHR0cHM6Ly90b2tlbi5oYW1zdGVya29tYmF0Z2FtZS5pby90b2tlbi9pY29uLnBuZw",
+       "_image_small": "https://imgproxy.toncenter.com/FoxP5U9jfzGOzOZ5ShCAlUDGEP20RntzJG4tOlWMPR4/pr:small/aHR0cHM6Ly90b2tlbi5oYW1zdGVya29tYmF0Z2FtZS5pby90b2tlbi9pY29uLnBuZw",
+       "custom_payload_api_uri": "https://proof.hamsterkombatgame.io/jettons/EQAJ8uWd7EBqsmpSWaRdf_I-8R8-XHwh3gsNKhy-UrdrPcUo/",
+       "decimals": "9",
+       "mintles_merkle_dump_uri": "",
+       "uri": "https://api.hamsterkombat.io/public/token/metadata.json"
+      }
+     }
+    ]
+   },
+   "0:B113A994B5024A16719F69139328EB759596C38A25F59028B146FECDC3621DFE": {
+    "token_info": [
+     {
+      "type": "jetton_masters",
+      "symbol": "USD₮",
+      "name": "Tether USD",
+      "extra": {
+       "_image_big": "https://proxy.toncenter.com/yz-3m7auC_anGW1Ym_SF2mjKl-o8Dnss1dQVxz4304k/pr:big/bG9jYWw6Ly8vMTEvZjIvMTFmMjE1ZTc0YWQxMGZkYTI5MmVlMGQwMDhlNzhjZGY0MTViYWVlODBhMDg5ZjUxZjdmYWFmZTliZTBmMjI4NA",
+       "_image_medium": "https://proxy.toncenter.com/HIgyb4_W9CJmt5bxYup_WyBY0o6hKyjl0sFwJWH2L5w/pr:medium/bG9jYWw6Ly8vMTEvZjIvMTFmMjE1ZTc0YWQxMGZkYTI5MmVlMGQwMDhlNzhjZGY0MTViYWVlODBhMDg5ZjUxZjdmYWFmZTliZTBmMjI4NA",
+       "_image_small": "https://proxy.toncenter.com/zw1kB_VnqUT_mcakALKtiJ4aCJ9XKhu_WqB7XMGxdD4/pr:small/bG9jYWw6Ly8vMTEvZjIvMTFmMjE1ZTc0YWQxMGZkYTI5MmVlMGQwMDhlNzhjZGY0MTViYWVlODBhMDg5ZjUxZjdmYWFmZTliZTBmMjI4NA",
+       "decimals": "6",
+       "uri": "https://tether.to/usdt-ton.json"
+      }
+     }
+    ]
+   }
+  }
+ }
+}
