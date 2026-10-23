@@ -1,0 +1,844 @@
+{
+ "paths": {
+  "/api/v2/getAddressInformation": {
+   "get": {
+    "tags": [
+     "accounts"
+    ],
+    "summary": "Get Address Information",
+    "description": "Returns the current state of any account on the TON blockchain. Includes the balance (in nanotons), smart contract code and data (if deployed), account status, and a reference to the last transaction. This is the primary endpoint for checking if an address exists and what's deployed there.",
+    "operationId": "getAddressInformation_get",
+    "parameters": [
+     {
+      "$ref": "#/components/parameters/address"
+     },
+     {
+      "$ref": "#/components/parameters/seqnoOptional"
+     }
+    ],
+    "security": [
+     {
+      "APIKeyHeader": []
+     },
+     {
+      "APIKeyQuery": []
+     }
+    ]
+   },
+   "post": {
+    "tags": [
+     "rpc"
+    ],
+    "summary": "Get Address Information",
+    "description": "Returns the current state of any account on the TON blockchain. Includes the balance (in nanotons), smart contract code and data (if deployed), account status, and a reference to the last transaction. This is the primary endpoint for checking if an address exists and what's deployed there.",
+    "operationId": "getAddressInformation_post",
+    "requestBody": {
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/AddressInformationRequest"
+       }
+      }
+     },
+     "required": true
+    },
+    "security": [
+     {
+      "APIKeyHeader": []
+     },
+     {
+      "APIKeyQuery": []
+     }
+    ]
+   }
+  },
+  "/api/v2/runGetMethod": {
+   "post": {
+    "tags": [
+     "run method",
+     "rpc"
+    ],
+    "summary": "Run Get Method",
+    "description": "Executes a read-only method on a smart contract. Get methods query contract state without sending a transaction. Common methods include `seqno` (wallet sequence number), `get_wallet_data` (wallet info), and `get_jetton_data` (token info). Method arguments are provided in the `stack` array.",
+    "operationId": "runGetMethod_post",
+    "requestBody": {
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/RunGetMethodRequest"
+       }
+      }
+     },
+     "required": true
+    },
+    "security": [
+     {
+      "APIKeyHeader": []
+     },
+     {
+      "APIKeyQuery": []
+     }
+    ]
+   }
+  },
+  "/api/v2/getTransactions": {
+   "get": {
+    "tags": [
+     "transactions"
+    ],
+    "summary": "Get Transactions",
+    "description": "Returns transaction history for an account. Transactions are returned newest-first. Each transaction shows the incoming message that triggered it, all outgoing messages, and fees paid. For pagination: use the `lt` and `hash` from the oldest transaction as the starting point for the next request.",
+    "operationId": "getTransactions_get",
+    "parameters": [
+     {
+      "$ref": "#/components/parameters/address"
+     },
+     {
+      "$ref": "#/components/parameters/limitOptional"
+     },
+     {
+      "$ref": "#/components/parameters/ltOptional"
+     },
+     {
+      "$ref": "#/components/parameters/hashOptional",
+      "description": "SHA-256 transaction hash to start pagination from"
+     },
+     {
+      "$ref": "#/components/parameters/toLtOptional"
+     },
+     {
+      "$ref": "#/components/parameters/archivalOptional"
+     }
+    ],
+    "security": [
+     {
+      "APIKeyHeader": []
+     },
+     {
+      "APIKeyQuery": []
+     }
+    ]
+   },
+   "post": {
+    "tags": [
+     "rpc"
+    ],
+    "summary": "Get Transactions",
+    "description": "Returns transaction history for an account. Transactions are returned newest-first. Each transaction shows the incoming message that triggered it, all outgoing messages, and fees paid. For pagination: use the `lt` and `hash` from the oldest transaction as the starting point for the next request.",
+    "operationId": "getTransactions_post",
+    "requestBody": {
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/TransactionsRequest"
+       }
+      }
+     },
+     "required": true
+    },
+    "security": [
+     {
+      "APIKeyHeader": []
+     },
+     {
+      "APIKeyQuery": []
+     }
+    ]
+   }
+  },
+  "/api/v2/getMasterchainInfo": {
+   "get": {
+    "tags": [
+     "blocks"
+    ],
+    "summary": "Get Masterchain Info",
+    "description": "Returns the current state of the TON masterchain. The `last` field contains the latest block used for querying current state. The `seqno` in `last` is the current block height. Use this endpoint to obtain the latest block reference for other queries.",
+    "operationId": "getMasterchainInfo_get",
+    "parameters": [],
+    "security": [
+     {
+      "APIKeyHeader": []
+     },
+     {
+      "APIKeyQuery": []
+     }
+    ]
+   },
+   "post": {
+    "tags": [
+     "rpc"
+    ],
+    "summary": "Get Masterchain Info",
+    "description": "Returns the current state of the TON masterchain. The `last` field contains the latest block used for querying current state. The `seqno` in `last` is the current block height. Use this endpoint to obtain the latest block reference for other queries.",
+    "operationId": "getMasterchainInfo_post",
+    "requestBody": {
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/MasterchainInfoRequest"
+       }
+      }
+     },
+     "required": true
+    },
+    "security": [
+     {
+      "APIKeyHeader": []
+     },
+     {
+      "APIKeyQuery": []
+     }
+    ]
+   }
+  }
+ },
+ "openapi": "3.1.1",
+ "components": {
+  "parameters": {
+   "address": {
+    "name": "address",
+    "in": "query",
+    "description": "The account address to query, in raw or user-friendly format.",
+    "required": true,
+    "schema": {
+     "$ref": "#/components/schemas/TonAddr"
+    }
+   },
+   "seqnoOptional": {
+    "name": "seqno",
+    "in": "query",
+    "description": "Query state at a specific block height. If omitted, returns the current state. Use this to look up historical data at a specific point in time.",
+    "required": false,
+    "schema": {
+     "type": "integer",
+     "format": "int32"
+    }
+   },
+   "limitOptional": {
+    "name": "limit",
+    "in": "query",
+    "description": "Maximum number of transactions to return. The default is 10. For accounts with many transactions, use pagination (lt + hash) to fetch more.",
+    "required": false,
+    "schema": {
+     "type": "integer",
+     "format": "int64",
+     "default": 10
+    }
+   },
+   "ltOptional": {
+    "name": "lt",
+    "in": "query",
+    "description": "Starting point for transaction history. Pass the lt from `last_transaction_id` to start from the most recent, or from a specific transaction to continue pagination.",
+    "required": false,
+    "schema": {
+     "type": "string",
+     "x-usrv-cpp-type": "std::int64_t"
+    }
+   },
+   "hashOptional": {
+    "name": "hash",
+    "in": "query",
+    "description": "The 256-bit hash in any form",
+    "required": false,
+    "schema": {
+     "$ref": "#/components/schemas/TonHash"
+    }
+   },
+   "toLtOptional": {
+    "name": "to_lt",
+    "in": "query",
+    "description": "Stop fetching when reaching this logical time. Set to 0 (default) to leave the lower logical-time bound unspecified.",
+    "required": false,
+    "schema": {
+     "type": "string",
+     "x-usrv-cpp-type": "std::int64_t",
+     "default": 0
+    }
+   },
+   "archivalOptional": {
+    "name": "archival",
+    "in": "query",
+    "description": "Request data from archival nodes when querying old transactions or historical state.",
+    "required": false,
+    "schema": {
+     "type": "boolean",
+     "default": false
+    }
+   }
+  },
+  "schemas": {
+   "TonAddr": {
+    "description": "Account address in raw format (e.g., `0:ca6e321c...`) or user-friendly format (e.g., `EQDKbjIcfM...`). All formats are automatically detected.",
+    "type": "string",
+    "x-usrv-cpp-type": "ton_http::types::ton_addr"
+   },
+   "AddressInformationRequest": {
+    "$ref": "#/components/schemas/AddressWithSeqnoRequest"
+   },
+   "AddressWithSeqnoRequest": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "address"
+    ],
+    "properties": {
+     "address": {
+      "$ref": "#/components/schemas/TonAddr"
+     },
+     "seqno": {
+      "description": "Masterchain block sequence number. Query the account state as it was at this block height. If omitted, returns the current state.",
+      "oneOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "integer",
+        "format": "int32"
+       }
+      ],
+      "x-usrv-cpp-type": "std::int32_t"
+     }
+    }
+   },
+   "RunGetMethodRequest": {
+    "description": "Request to execute a smart contract get method. Specify address, method name/ID, and input stack.",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "address",
+     "method",
+     "stack"
+    ],
+    "properties": {
+     "address": {
+      "$ref": "#/components/schemas/TonAddr"
+     },
+     "method": {
+      "description": "The get method name (e.g., `seqno`, `get_wallet_data`) or its numeric ID.",
+      "oneOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "integer",
+        "format": "int32"
+       }
+      ]
+     },
+     "stack": {
+      "description": "Input arguments as a TVM stack. Each entry is a two-element array: `[type, value]` where type is `\"num\"` (decimal string), `\"cell\"` (base64 BoC), or `\"slice\"` (base64 BoC).",
+      "type": "array",
+      "items": {
+       "$ref": "#/components/schemas/LegacyStackEntry"
+      }
+     },
+     "seqno": {
+      "description": "Masterchain block sequence number. Run the get method against the contract state at this specific block height. If omitted, uses the current state.",
+      "type": "integer",
+      "format": "int32"
+     }
+    }
+   },
+   "LegacyStackEntry": {
+    "type": "array",
+    "items": {
+     "oneOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "integer",
+       "format": "int64"
+      },
+      {
+       "$ref": "#/components/schemas/LegacyStackEntryCell"
+      },
+      {
+       "$ref": "#/components/schemas/TvmTuple",
+       "x-usrv-cpp-indirect": true
+      },
+      {
+       "$ref": "#/components/schemas/TvmList",
+       "x-usrv-cpp-indirect": true
+      }
+     ]
+    },
+    "minItems": 2,
+    "maxItems": 2
+   },
+   "LegacyStackEntryCell": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "bytes"
+    ],
+    "properties": {
+     "bytes": {
+      "description": "Raw cell bytes in base64.",
+      "$ref": "#/components/schemas/Bytes"
+     },
+     "object": {
+      "description": "Parsed cell object with data, refs, and type info.",
+      "$ref": "#/components/schemas/LegacyTvmCell"
+     }
+    }
+   },
+   "Bytes": {
+    "description": "Binary data encoded as base64. Used for serialized cells (BoC format), message bodies, and smart contract code/data.",
+    "type": "string",
+    "x-usrv-cpp-type": "ton_http::types::bytes"
+   },
+   "LegacyTvmCell": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "data",
+     "refs",
+     "special"
+    ],
+    "properties": {
+     "data": {
+      "description": "Cell binary data.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "b64",
+       "len"
+      ],
+      "properties": {
+       "b64": {
+        "description": "Cell data in base64.",
+        "$ref": "#/components/schemas/Bytes"
+       },
+       "len": {
+        "description": "Data length in bits.",
+        "type": "integer",
+        "format": "int32"
+       }
+      }
+     },
+     "refs": {
+      "description": "Array of child cell references, forming a directed acyclic graph (DAG). Each child is a TVM cell object with its own data (base64), refs, and special flag.",
+      "type": "array",
+      "items": {
+       "$ref": "#/components/schemas/LegacyTvmCell"
+      }
+     },
+     "special": {
+      "description": "Returns `true` if this is a special (exotic) cell type such as a Merkle proof or library reference; otherwise `false`.",
+      "type": "boolean"
+     }
+    }
+   },
+   "TvmTuple": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "@type",
+     "elements"
+    ],
+    "properties": {
+     "@type": {
+      "description": "TonLib type identifier for TVM tuple structures.",
+      "type": "string",
+      "enum": [
+       "tvm.tuple"
+      ],
+      "default": "tvm.tuple"
+     },
+     "elements": {
+      "description": "Ordered tuple of TVM stack entries. Each element is a typed object with `@type` discriminator (`tvm.stackEntryNumber`, `tvm.stackEntryCell`, `tvm.stackEntrySlice`, `tvm.stackEntryTuple`, or `tvm.stackEntryList`).",
+      "type": "array",
+      "items": {
+       "oneOf": [
+        {
+         "$ref": "#/components/schemas/TvmStackEntrySlice",
+         "x-usrv-cpp-indirect": true
+        },
+        {
+         "$ref": "#/components/schemas/TvmStackEntryCell",
+         "x-usrv-cpp-indirect": true
+        },
+        {
+         "$ref": "#/components/schemas/TvmStackEntryNumber",
+         "x-usrv-cpp-indirect": true
+        },
+        {
+         "$ref": "#/components/schemas/TvmStackEntryTuple",
+         "x-usrv-cpp-indirect": true
+        },
+        {
+         "$ref": "#/components/schemas/TvmStackEntryList",
+         "x-usrv-cpp-indirect": true
+        },
+        {
+         "$ref": "#/components/schemas/TvmStackEntryUnsupported",
+         "x-usrv-cpp-indirect": true
+        }
+       ],
+       "discriminator": {
+        "propertyName": "@type",
+        "mapping": {
+         "tvm.stackEntrySlice": "#/components/schemas/TvmStackEntrySlice",
+         "tvm.stackEntryCell": "#/components/schemas/TvmStackEntryCell",
+         "tvm.stackEntryNumber": "#/components/schemas/TvmStackEntryNumber",
+         "tvm.stackEntryTuple": "#/components/schemas/TvmStackEntryTuple",
+         "tvm.stackEntryList": "#/components/schemas/TvmStackEntryList",
+         "tvm.stackEntryUnsupported": "#/components/schemas/TvmStackEntryUnsupported"
+        }
+       }
+      }
+     }
+    }
+   },
+   "TvmStackEntrySlice": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "@type",
+     "slice"
+    ],
+    "properties": {
+     "@type": {
+      "description": "TonLib type identifier for slice-typed stack entries.",
+      "type": "string",
+      "enum": [
+       "tvm.stackEntrySlice"
+      ],
+      "default": "tvm.stackEntrySlice"
+     },
+     "slice": {
+      "description": "The TVM slice value.",
+      "$ref": "#/components/schemas/TvmSlice"
+     }
+    }
+   },
+   "TvmSlice": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "@type",
+     "bytes"
+    ],
+    "properties": {
+     "@type": {
+      "description": "TonLib type identifier for TVM slice values.",
+      "type": "string",
+      "enum": [
+       "tvm.slice"
+      ],
+      "default": "tvm.slice"
+     },
+     "bytes": {
+      "description": "TVM slice data serialized as base64.",
+      "$ref": "#/components/schemas/Bytes"
+     }
+    }
+   },
+   "TvmStackEntryCell": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "@type",
+     "cell"
+    ],
+    "properties": {
+     "@type": {
+      "description": "TonLib type identifier for cell-typed stack entries.",
+      "type": "string",
+      "enum": [
+       "tvm.stackEntryCell"
+      ],
+      "default": "tvm.stackEntryCell"
+     },
+     "cell": {
+      "description": "The TVM cell value.",
+      "$ref": "#/components/schemas/TvmCell"
+     }
+    }
+   },
+   "TvmCell": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "@type",
+     "bytes"
+    ],
+    "properties": {
+     "@type": {
+      "description": "TonLib type identifier for TVM cell values.",
+      "type": "string",
+      "enum": [
+       "tvm.cell"
+      ],
+      "default": "tvm.cell"
+     },
+     "bytes": {
+      "description": "TVM cell data serialized as base64.",
+      "$ref": "#/components/schemas/Bytes"
+     }
+    }
+   },
+   "TvmStackEntryNumber": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "@type",
+     "number"
+    ],
+    "properties": {
+     "@type": {
+      "description": "TonLib type identifier for number-typed stack entries.",
+      "type": "string",
+      "enum": [
+       "tvm.stackEntryNumber"
+      ],
+      "default": "tvm.stackEntryNumber"
+     },
+     "number": {
+      "description": "The TVM number value (arbitrary-precision decimal).",
+      "$ref": "#/components/schemas/TvmNumberDecimal"
+     }
+    }
+   },
+   "TvmNumberDecimal": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "@type",
+     "number"
+    ],
+    "properties": {
+     "@type": {
+      "description": "TonLib type identifier for TVM decimal number values.",
+      "type": "string",
+      "enum": [
+       "tvm.numberDecimal"
+      ],
+      "default": "tvm.numberDecimal"
+     },
+     "number": {
+      "description": "Integer value as a decimal string (supports arbitrarily large numbers).",
+      "$ref": "#/components/schemas/Int256"
+     }
+    }
+   },
+   "Int256": {
+    "description": "A large integer represented as a string to avoid precision loss. Used for balances and other values that may exceed JavaScript's safe integer limit.",
+    "type": "string",
+    "x-usrv-cpp-type": "ton_http::types::int256"
+   },
+   "TvmStackEntryTuple": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "@type",
+     "tuple"
+    ],
+    "properties": {
+     "@type": {
+      "description": "TonLib type identifier for tuple-typed stack entries.",
+      "type": "string",
+      "enum": [
+       "tvm.stackEntryTuple"
+      ],
+      "default": "tvm.stackEntryTuple"
+     },
+     "tuple": {
+      "description": "The TVM tuple value.",
+      "$ref": "#/components/schemas/TvmTuple"
+     }
+    }
+   },
+   "TvmStackEntryList": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "@type",
+     "list"
+    ],
+    "properties": {
+     "@type": {
+      "description": "TonLib type identifier for list-typed stack entries.",
+      "type": "string",
+      "enum": [
+       "tvm.stackEntryList"
+      ],
+      "default": "tvm.stackEntryList"
+     },
+     "list": {
+      "description": "The TVM list value.",
+      "$ref": "#/components/schemas/TvmList"
+     }
+    }
+   },
+   "TvmList": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "@type",
+     "elements"
+    ],
+    "properties": {
+     "@type": {
+      "description": "TonLib type identifier for TVM list structures.",
+      "type": "string",
+      "enum": [
+       "tvm.list"
+      ],
+      "default": "tvm.list"
+     },
+     "elements": {
+      "description": "Ordered list of TVM stack entries. Each element is a typed object with `@type` discriminator (`tvm.stackEntryNumber`, `tvm.stackEntryCell`, `tvm.stackEntrySlice`, `tvm.stackEntryTuple`, or `tvm.stackEntryList`).",
+      "type": "array",
+      "items": {
+       "oneOf": [
+        {
+         "$ref": "#/components/schemas/TvmStackEntrySlice",
+         "x-usrv-cpp-indirect": true
+        },
+        {
+         "$ref": "#/components/schemas/TvmStackEntryCell",
+         "x-usrv-cpp-indirect": true
+        },
+        {
+         "$ref": "#/components/schemas/TvmStackEntryNumber",
+         "x-usrv-cpp-indirect": true
+        },
+        {
+         "$ref": "#/components/schemas/TvmStackEntryTuple",
+         "x-usrv-cpp-indirect": true
+        },
+        {
+         "$ref": "#/components/schemas/TvmStackEntryList",
+         "x-usrv-cpp-indirect": true
+        },
+        {
+         "$ref": "#/components/schemas/TvmStackEntryUnsupported",
+         "x-usrv-cpp-indirect": true
+        }
+       ],
+       "discriminator": {
+        "propertyName": "@type",
+        "mapping": {
+         "tvm.stackEntrySlice": "#/components/schemas/TvmStackEntrySlice",
+         "tvm.stackEntryCell": "#/components/schemas/TvmStackEntryCell",
+         "tvm.stackEntryNumber": "#/components/schemas/TvmStackEntryNumber",
+         "tvm.stackEntryTuple": "#/components/schemas/TvmStackEntryTuple",
+         "tvm.stackEntryList": "#/components/schemas/TvmStackEntryList",
+         "tvm.stackEntryUnsupported": "#/components/schemas/TvmStackEntryUnsupported"
+        }
+       }
+      }
+     }
+    }
+   },
+   "TvmStackEntryUnsupported": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "@type"
+    ],
+    "properties": {
+     "@type": {
+      "description": "TonLib type identifier for stack entries with unsupported types.",
+      "type": "string",
+      "enum": [
+       "tvm.stackEntryUnsupported"
+      ],
+      "default": "tvm.stackEntryUnsupported"
+     }
+    }
+   },
+   "TonHash": {
+    "description": "A 256-bit hash value. Accepts either hex format (64 characters) or base64 format (44 characters). Used for block hashes, transaction hashes, and cryptographic proofs.",
+    "type": "string",
+    "x-usrv-cpp-type": "ton_http::types::ton_hash"
+   },
+   "TransactionsRequest": {
+    "description": "Request to fetch transaction history for an account with optional pagination and filtering parameters.",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "address"
+    ],
+    "properties": {
+     "address": {
+      "$ref": "#/components/schemas/TonAddr"
+     },
+     "lt": {
+      "description": "Logical time of the transaction. Use together with its hash for pagination and lookups.",
+      "oneOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "integer",
+        "format": "int64",
+        "x-usrv-cpp-type": "std::int64_t"
+       }
+      ],
+      "x-usrv-cpp-type": "std::int64_t"
+     },
+     "hash": {
+      "description": "Hash of the starting transaction for pagination. Use together with `lt` from a previous response's `transaction_id`.",
+      "$ref": "#/components/schemas/TonHash"
+     },
+     "to_lt": {
+      "description": "Stop returning items at this logical time.",
+      "oneOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "integer",
+        "format": "int64",
+        "x-usrv-cpp-type": "std::int64_t"
+       }
+      ],
+      "x-usrv-cpp-type": "std::int64_t"
+     },
+     "archival": {
+      "description": "Whether to use archival nodes for old data.",
+      "oneOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "integer",
+        "format": "int32"
+       },
+       {
+        "type": "boolean"
+       }
+      ],
+      "x-usrv-cpp-type": "bool"
+     },
+     "limit": {
+      "description": "Maximum number of items to return.",
+      "oneOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "integer",
+        "format": "int64"
+       }
+      ],
+      "x-usrv-cpp-type": "std::int64_t"
+     }
+    }
+   },
+   "MasterchainInfoRequest": {
+    "$ref": "#/components/schemas/EmptyRequest"
+   },
+   "EmptyRequest": {
+    "description": "Empty request body for endpoints that require no parameters.",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [],
+    "properties": {}
+   }
+  }
+ }
+}

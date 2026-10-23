@@ -1,0 +1,262 @@
+{
+ "paths": {
+  "/api/v3/transactions": {
+   "get": {
+    "security": [
+     {
+      "APIKeyHeader": []
+     },
+     {
+      "APIKeyQuery": []
+     }
+    ],
+    "description": "Get transactions by specified filter.",
+    "consumes": [
+     "application/json"
+    ],
+    "produces": [
+     "application/json"
+    ],
+    "tags": [
+     "blockchain"
+    ],
+    "summary": "Get transactions",
+    "operationId": "api_v3_get_transactions",
+    "parameters": [
+     {
+      "type": "integer",
+      "format": "int32",
+      "description": "Block workchain.",
+      "name": "workchain",
+      "in": "query"
+     },
+     {
+      "type": "string",
+      "description": "Block shard id. Must be sent with *workchain*. Example: `8000000000000000`.",
+      "name": "shard",
+      "in": "query"
+     },
+     {
+      "type": "integer",
+      "format": "int32",
+      "description": "Block block seqno. Must be sent with *workchain* and *shard*.",
+      "name": "seqno",
+      "in": "query"
+     },
+     {
+      "type": "integer",
+      "format": "int32",
+      "description": "Masterchain block seqno.",
+      "name": "mc_seqno",
+      "in": "query"
+     },
+     {
+      "type": "array",
+      "items": {
+       "type": "string"
+      },
+      "collectionFormat": "multi",
+      "description": "List of account addresses to get transactions. Can be sent in hex, base64 or base64url form.",
+      "name": "account",
+      "in": "query"
+     },
+     {
+      "type": "array",
+      "items": {
+       "type": "string"
+      },
+      "collectionFormat": "multi",
+      "description": "Exclude transactions on specified account addresses.",
+      "name": "exclude_account",
+      "in": "query"
+     },
+     {
+      "type": "string",
+      "description": "Transaction hash.",
+      "name": "hash",
+      "in": "query"
+     },
+     {
+      "type": "integer",
+      "format": "int64",
+      "description": "Transaction lt.",
+      "name": "lt",
+      "in": "query"
+     },
+     {
+      "minimum": 0,
+      "type": "integer",
+      "format": "int32",
+      "description": "Query transactions with generation UTC timestamp **after** given timestamp.",
+      "name": "start_utime",
+      "in": "query"
+     },
+     {
+      "minimum": 0,
+      "type": "integer",
+      "format": "int32",
+      "description": "Query transactions with generation UTC timestamp **before** given timestamp.",
+      "name": "end_utime",
+      "in": "query"
+     },
+     {
+      "minimum": 0,
+      "type": "integer",
+      "format": "int64",
+      "description": "Query transactions with `lt >= start_lt`.",
+      "name": "start_lt",
+      "in": "query"
+     },
+     {
+      "minimum": 0,
+      "type": "integer",
+      "format": "int64",
+      "description": "Query transactions with `lt <= end_lt`.",
+      "name": "end_lt",
+      "in": "query"
+     },
+     {
+      "maximum": 1000,
+      "minimum": 1,
+      "type": "integer",
+      "format": "int32",
+      "default": 10,
+      "description": "Limit number of queried rows. Use with *offset* to batch read.",
+      "name": "limit",
+      "in": "query"
+     },
+     {
+      "minimum": 0,
+      "type": "integer",
+      "format": "int32",
+      "default": 0,
+      "description": "Skip first N rows. Use with *limit* to batch read.",
+      "name": "offset",
+      "in": "query"
+     },
+     {
+      "enum": [
+       "asc",
+       "desc"
+      ],
+      "type": "string",
+      "default": "desc",
+      "description": "Sort transactions by lt.",
+      "name": "sort",
+      "in": "query"
+     }
+    ]
+   }
+  },
+  "/api/v3/runGetMethod": {
+   "post": {
+    "security": [
+     {
+      "APIKeyHeader": []
+     },
+     {
+      "APIKeyQuery": []
+     }
+    ],
+    "description": "Run get method of smart contract. Stack supports only `num`, `cell` and `slice` types:\n```\n[\n{\n\"type\": \"num\",\n\"value\": \"0x12a\"\n},\n{\n\"type\": \"cell\",\n\"value\": \"te6...\" // base64 encoded boc with cell\n},\n{\n\"type\": \"slice\",\n\"value\": \"te6...\" // base64 encoded boc with slice\n}\n]\n```",
+    "consumes": [
+     "application/json"
+    ],
+    "produces": [
+     "application/json"
+    ],
+    "tags": [
+     "api/v2"
+    ],
+    "summary": "Run Get-Method",
+    "operationId": "api_v3_post_v2_rungetmethod",
+    "parameters": [
+     {
+      "description": "Run Get-method request",
+      "name": "request",
+      "in": "body",
+      "required": true,
+      "schema": {
+       "$ref": "#/definitions/V2RunGetMethodRequest"
+      }
+     }
+    ]
+   }
+  },
+  "/api/v3/accountStates": {
+   "get": {
+    "security": [
+     {
+      "APIKeyHeader": []
+     },
+     {
+      "APIKeyQuery": []
+     }
+    ],
+    "description": "Query account states",
+    "consumes": [
+     "application/json"
+    ],
+    "produces": [
+     "application/json"
+    ],
+    "tags": [
+     "accounts"
+    ],
+    "summary": "Get Account States",
+    "operationId": "api_v3_get_account_states",
+    "parameters": [
+     {
+      "type": "array",
+      "items": {
+       "type": "string"
+      },
+      "collectionFormat": "multi",
+      "description": "List of addresses in any form. Maximum 1000 addresses allowed.",
+      "name": "address",
+      "in": "query",
+      "required": true
+     },
+     {
+      "type": "boolean",
+      "default": true,
+      "description": "Include code and data BOCs. Default: true",
+      "name": "include_boc",
+      "in": "query"
+     }
+    ]
+   }
+  }
+ },
+ "swagger": "2.0",
+ "host": "",
+ "basePath": "",
+ "definitions": {
+  "V2RunGetMethodRequest": {
+   "type": "object",
+   "properties": {
+    "address": {
+     "type": "string"
+    },
+    "method": {
+     "type": "string"
+    },
+    "stack": {
+     "type": "array",
+     "items": {
+      "$ref": "#/definitions/V2StackEntity"
+     }
+    }
+   }
+  },
+  "V2StackEntity": {
+   "type": "object",
+   "properties": {
+    "type": {
+     "type": "string"
+    },
+    "value": {}
+   }
+  }
+ }
+}

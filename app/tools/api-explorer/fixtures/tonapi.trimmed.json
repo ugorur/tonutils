@@ -1,0 +1,330 @@
+{
+ "paths": {
+  "/v2/accounts/{account_id}": {
+   "get": {
+    "description": "Get human-friendly information about an account without low-level details.",
+    "operationId": "getAccount",
+    "parameters": [
+     {
+      "$ref": "#/components/parameters/accountIDParameter"
+     }
+    ],
+    "tags": [
+     "Accounts"
+    ]
+   }
+  },
+  "/v2/blockchain/accounts/{account_id}/methods/{method_name}": {
+   "get": {
+    "description": "Execute get method for account",
+    "operationId": "execGetMethodForBlockchainAccount",
+    "parameters": [
+     {
+      "$ref": "#/components/parameters/accountIDParameter"
+     },
+     {
+      "$ref": "#/components/parameters/methodNameParameter"
+     },
+     {
+      "in": "query",
+      "name": "args",
+      "required": false,
+      "schema": {
+       "description": "Array of method arguments in string format. Supported value formats:\n- \"NaN\" for Not-a-Number type\n- \"Null\" for Null type\n- Decimal integers for tinyint type (e.g., \"100500\")\n- 0x-prefixed hex strings for int257 type (e.g., \"0xfa01d78381ae32\")\n- TON blockchain addresses for slice type (e.g., \"0:6e731f2e28b73539a7f85ac47ca104d5840b229351189977bb6151d36b5e3f5e\")\n- Base64-encoded BOC for cell type (e.g., \"te6ccgEBAQEAAgAAAA==\")\n- Hex-encoded BOC for slice type (e.g., \"b5ee9c72010101010002000000\")",
+       "example": [
+        "0:9a33970f617bcd71acf2cd28357c067aa31859c02820d8f01d74c88063a8f4d8"
+       ],
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      }
+     }
+    ],
+    "tags": [
+     "Blockchain"
+    ]
+   },
+   "post": {
+    "description": "Execute get method for account",
+    "operationId": "execGetMethodWithBodyForBlockchainAccount",
+    "parameters": [
+     {
+      "$ref": "#/components/parameters/accountIDParameter"
+     },
+     {
+      "$ref": "#/components/parameters/methodNameParameter"
+     }
+    ],
+    "requestBody": {
+     "$ref": "#/components/requestBodies/ExecGetMethodArgs"
+    },
+    "tags": [
+     "Blockchain"
+    ]
+   }
+  },
+  "/v2/accounts/_bulk": {
+   "post": {
+    "description": "Get human-friendly information about several accounts without low-level details.",
+    "operationId": "getAccounts",
+    "parameters": [
+     {
+      "$ref": "#/components/parameters/currencyQuery"
+     }
+    ],
+    "requestBody": {
+     "$ref": "#/components/requestBodies/AccountIDs"
+    },
+    "tags": [
+     "Accounts"
+    ]
+   }
+  },
+  "/v2/accounts/{account_id}/events": {
+   "get": {
+    "description": "Get events for an account. Each event is built on top of a trace which is a series of transactions caused by one inbound message. TonAPI looks for known patterns inside the trace and splits the trace into actions, where a single action represents a meaningful high-level operation like a Jetton Transfer or an NFT Purchase. Actions are expected to be shown to users. It is advised not to build any logic on top of actions because actions can be changed at any time.",
+    "operationId": "getAccountEvents",
+    "parameters": [
+     {
+      "$ref": "#/components/parameters/accountIDParameter"
+     },
+     {
+      "$ref": "#/components/parameters/i18n"
+     },
+     {
+      "$ref": "#/components/parameters/initiatorQuery"
+     },
+     {
+      "description": "filter actions where requested account is not real subject (for example sender or receiver jettons)",
+      "in": "query",
+      "name": "subject_only",
+      "required": false,
+      "schema": {
+       "default": false,
+       "type": "boolean"
+      }
+     },
+     {
+      "description": "omit this parameter to get last events",
+      "in": "query",
+      "name": "after_lt",
+      "required": false,
+      "schema": {
+       "example": 25758317000002,
+       "format": "int64",
+       "type": "integer",
+       "x-js-format": "bigint"
+      }
+     },
+     {
+      "description": "omit this parameter to get last events",
+      "in": "query",
+      "name": "before_lt",
+      "required": false,
+      "schema": {
+       "example": 25758317000002,
+       "format": "int64",
+       "type": "integer",
+       "x-js-format": "bigint"
+      }
+     },
+     {
+      "in": "query",
+      "name": "limit",
+      "required": true,
+      "schema": {
+       "example": 20,
+       "maximum": 100,
+       "minimum": 1,
+       "type": "integer"
+      }
+     },
+     {
+      "in": "query",
+      "name": "start_date",
+      "required": false,
+      "schema": {
+       "example": 1668436763,
+       "format": "int64",
+       "maximum": 2114380800,
+       "type": "integer"
+      }
+     },
+     {
+      "in": "query",
+      "name": "end_date",
+      "required": false,
+      "schema": {
+       "example": 1668436763,
+       "format": "int64",
+       "maximum": 2114380800,
+       "type": "integer"
+      }
+     },
+     {
+      "in": "query",
+      "name": "sort_order",
+      "schema": {
+       "default": "desc",
+       "description": "used to sort the result-set in ascending or descending order by lt.",
+       "enum": [
+        "desc",
+        "asc"
+       ],
+       "type": "string"
+      }
+     }
+    ],
+    "tags": [
+     "Accounts"
+    ]
+   }
+  }
+ },
+ "openapi": "3.0.0",
+ "servers": [
+  {
+   "url": "https://tonapi.io"
+  },
+  {
+   "url": "https://testnet.tonapi.io"
+  },
+  {
+   "url": "http://localhost:8081"
+  }
+ ],
+ "components": {
+  "parameters": {
+   "accountIDParameter": {
+    "description": "account ID",
+    "in": "path",
+    "name": "account_id",
+    "required": true,
+    "schema": {
+     "example": "0:97264395BD65A255A429B11326C84128B7D70FFED7949ABAE3036D506BA38621",
+     "format": "address",
+     "type": "string"
+    }
+   },
+   "methodNameParameter": {
+    "description": "contract get method name",
+    "in": "path",
+    "name": "method_name",
+    "required": true,
+    "schema": {
+     "example": "get_wallet_address",
+     "type": "string"
+    }
+   },
+   "currencyQuery": {
+    "in": "query",
+    "name": "currency",
+    "required": false,
+    "schema": {
+     "example": "usd",
+     "type": "string"
+    }
+   },
+   "i18n": {
+    "in": "header",
+    "name": "Accept-Language",
+    "required": false,
+    "schema": {
+     "default": "en",
+     "example": "ru-RU,ru;q=0.5",
+     "type": "string"
+    }
+   },
+   "initiatorQuery": {
+    "description": "Show only events that are initiated by this account",
+    "explode": false,
+    "in": "query",
+    "name": "initiator",
+    "schema": {
+     "default": false,
+     "type": "boolean"
+    }
+   }
+  },
+  "requestBodies": {
+   "ExecGetMethodArgs": {
+    "content": {
+     "application/json": {
+      "schema": {
+       "properties": {
+        "args": {
+         "items": {
+          "$ref": "#/components/schemas/ExecGetMethodArg"
+         },
+         "type": "array"
+        }
+       },
+       "required": [
+        "args"
+       ],
+       "type": "object"
+      }
+     }
+    },
+    "description": "Request body for executing a GET method on a blockchain account via POST. This format allows passing arguments in the request body instead of query parameters, which is especially useful for large or complex input data.\n"
+   },
+   "AccountIDs": {
+    "content": {
+     "application/json": {
+      "schema": {
+       "properties": {
+        "account_ids": {
+         "items": {
+          "example": "0:97264395BD65A255A429B11326C84128B7D70FFED7949ABAE3036D506BA38621",
+          "format": "address",
+          "type": "string"
+         },
+         "type": "array"
+        }
+       },
+       "required": [
+        "account_ids"
+       ],
+       "type": "object"
+      }
+     }
+    },
+    "description": "a list of account ids"
+   }
+  },
+  "schemas": {
+   "ExecGetMethodArg": {
+    "properties": {
+     "type": {
+      "$ref": "#/components/schemas/ExecGetMethodArgType"
+     },
+     "value": {
+      "description": "String representation of the value according to the specified type",
+      "example": "0xfa01d78381ae32",
+      "type": "string"
+     }
+    },
+    "required": [
+     "type",
+     "value"
+    ],
+    "type": "object"
+   },
+   "ExecGetMethodArgType": {
+    "description": "Data type of the argument value:\n- `nan`: Not-a-Number value\n- `null`: Null value\n- `tinyint`: Decimal integer (e.g., `100500`)\n- `int257`: 257-bit integer in hex format with 0x prefix (e.g., `0xfa01d78381ae32`)\n- `slice`: TON blockchain address (e.g., `0:6e731f2e...`)\n- `cell_boc_base64`: Base64-encoded cell BOC (Binary Object Code) (e.g., `te6ccgEBAQEAAgAAAA==`)\n- `slice_boc_hex`: Hex-encoded slice BOC (e.g., `b5ee9c72...`)\n",
+    "enum": [
+     "nan",
+     "null",
+     "tinyint",
+     "int257",
+     "slice",
+     "cell_boc_base64",
+     "slice_boc_hex"
+    ],
+    "example": "int257",
+    "type": "string"
+   }
+  }
+ }
+}
