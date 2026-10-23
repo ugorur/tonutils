@@ -1,0 +1,71 @@
+{
+ "event_id": "5b7fa27952f92f2c08ce35f27f9eb3e4dc87f38a43155fe5d31592f0b0a6d788",
+ "account": {
+  "address": "0:ffea881bad41a5b1b60f17f6ba57091a86999cf7f091b56e9149543c191d2021",
+  "name": "crypto-exch-io-token.ton",
+  "is_scam": false,
+  "is_wallet": true
+ },
+ "timestamp": 1792686969,
+ "actions": [
+  {
+   "type": "JettonTransfer",
+   "status": "ok",
+   "JettonTransfer": {
+    "sender": {
+     "address": "0:ffea881bad41a5b1b60f17f6ba57091a86999cf7f091b56e9149543c191d2021",
+     "name": "crypto-exch-io-token.ton",
+     "is_scam": false,
+     "is_wallet": true
+    },
+    "recipient": {
+     "address": "0:4d464d2008efefa22ed0e9f4e98f6405f86236bea5503c55448861e04d4c17d9",
+     "is_scam": false,
+     "is_wallet": true
+    },
+    "senders_wallet": "0:681057733156d7e7d8524f8c9d27ef8b39ae3495670151f21c334869e24567e2",
+    "recipients_wallet": "0:5846e1aa3de536c80954b59f62409f77aeb92acfa5e1b5fc336973c4f5982e52",
+    "amount": "1792846",
+    "jetton": {
+     "address": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe",
+     "name": "Tether USD",
+     "symbol": "USD₮",
+     "decimals": 6,
+     "verification": "whitelist",
+     "score": 100,
+     "description": "Tether Token for Tether USD"
+    }
+   },
+   "simple_preview": {
+    "name": "Jetton Transfer",
+    "description": "Transferring 1.79 USD₮",
+    "value": "1.79 USD₮",
+    "accounts": [
+     {
+      "address": "0:4d464d2008efefa22ed0e9f4e98f6405f86236bea5503c55448861e04d4c17d9",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     {
+      "address": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe",
+      "name": "Tether USD",
+      "is_scam": false,
+      "is_wallet": false
+     }
+    ]
+   },
+   "base_transactions": [
+    "db4f30634e2c843c97aa0eb0b5af7647ddc79b0702d4c9d110e3a16f6d54ee46",
+    "f2868d1601da994414025b1b04aafe87fb1eaa2689e1fe06ed7cf61cd59d8777",
+    "579d464261f7c87596e4dd9123dc58484269bd46cdf804c5fe9d6e54ee276769",
+    "a74fdca38744e6852363289e0c445dcbacd61badcbe396e6d06e186d13dc25f0"
+   ]
+  }
+ ],
+ "is_scam": false,
+ "lt": 111675349000017,
+ "in_progress": false,
+ "extra": -970932,
+ "progress": 1,
+ "ext_msg_hash": "54e4bc1fad764b04bd96e765a935d37cebf16e34079304d259eb74a13fffbedd"
+}

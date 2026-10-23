@@ -1,0 +1,245 @@
+{
+ "_source": "tonapi, mainnet, 2026-10-23. jettons/*: GET /v2/jettons/{master}; holders_scam: GET /v2/jettons/0:6320a6c5…/holders?limit=10; nft_scam: GET /v2/nfts/{a} (previews dropped); collection_scam: GET /v2/nfts/collections/{a}; wallet_data: GET /v2/blockchain/accounts/0:42f8200b…/methods/get_wallet_data (code cell omitted).",
+ "jetton_scam": {
+  "mintable": true,
+  "total_supply": "150000000000000",
+  "admin": {
+   "address": "0:a717bac1012a57f7c7b80a640991d9c7f974a6e9023175a38d5454dd4663e649",
+   "is_scam": false,
+   "is_wallet": true
+  },
+  "metadata": {
+   "address": "0:6320a6c56fd7835b72fce82d24e9fa57e79ce7feba8ecdc0fce4e4f119d7df7a",
+   "name": "GRAM AIRDROP",
+   "symbol": "GRAM AT GRAMEVENT.ORG",
+   "decimals": "9",
+   "image": "https://cache.tonapi.io/imgproxy/QfGdcG8txfGw734uCV1-SBzgSYppucacdLesesk-8Kw/rs:fill:200:200:1/g:no/aHR0cHM6Ly9jLnRvbmFwaS5pby9vbmNoYWluL2ltYWdlLzA6MjI0NjY0MTE3MDBlYjliZDg5YjQ4NWY4ZTdkZDY3OTRjZjhjZDMzZmUxZDg4NDgwZGYxMmZiZTg0ZTcxNTc4Yi9qZXR0b24.webp",
+   "description": "GRAM at GRAMEVENT.ORG #1782165709379"
+  },
+  "verification": "blacklist",
+  "holders_count": 1500,
+  "code_hash": "Ni5RF8nbRTvDe9vq3hQEN6O189t3SUNcdv6dTdTPzkY=",
+  "data_hash": "UlraxspHyXlRhFqzNcMLlF2v3u+ivpGa3UV8US7PECI=",
+  "interfaces": [
+   "jetton_master"
+  ]
+ },
+ "jetton_usdt": {
+  "mintable": true,
+  "total_supply": "1429976002510000",
+  "admin": {
+   "address": "0:6440fe3c69410383963945173c4b11479bf0b9b4d7090e58777bda581c2f9998",
+   "is_scam": false,
+   "is_wallet": true
+  },
+  "metadata": {
+   "address": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe",
+   "name": "Tether USD",
+   "symbol": "USD₮",
+   "decimals": "6",
+   "image": "https://tether.to/images/logoCircle.png",
+   "description": "Tether Token for Tether USD"
+  },
+  "verification": "whitelist",
+  "holders_count": 3441877,
+  "code_hash": "GNW254D/C7RRJUwsdg0J1uSFY4zRQHq7lweHUsPBye4=",
+  "data_hash": "aK3lnA9GAIi/PQc78AkzfBKCm2bogkTMbUXQPZBk4lQ=",
+  "name": "Tether USD",
+  "interfaces": [
+   "jetton_master"
+  ]
+ },
+ "jetton_not": {
+  "mintable": true,
+  "total_supply": "102452655868343930134",
+  "metadata": {
+   "address": "0:2f956143c461769579baef2e32cc2d7bc18283f40d20bb03e432cd603ac33ffc",
+   "name": "Notcoin",
+   "symbol": "NOT",
+   "decimals": "9",
+   "image": "https://cdn.joincommunity.xyz/clicker/not_logo.png"
+  },
+  "verification": "whitelist",
+  "holders_count": 2856204,
+  "code_hash": "+D0FSQr3ycxYAZSIx7JTyUktScJdEtCTg+UugVN+NDo=",
+  "data_hash": "u9ZPx5+yy0E0gsONtxCxYKxJg4IZRuEyrQzIqTJ4vyY=",
+  "name": "notcoin-minter.ton",
+  "interfaces": [
+   "jetton_master"
+  ]
+ },
+ "holders_scam": {
+  "addresses": [
+   {
+    "address": "0:42f8200b9b1f872e30a18b3842416ae4a1b23fcd4b909be61f0eb1c4f01b810e",
+    "owner": {
+     "address": "0:58f9f91c3983fc9d75f743712e0b520900543b0a727c6895dcff06923329908d",
+     "is_scam": false,
+     "is_wallet": true
+    },
+    "balance": "100000000000"
+   },
+   {
+    "address": "0:100f9ecdf29e834dc6a3f0c7e22579de24415dbb60fc3bd68206192805b0aafb",
+    "owner": {
+     "address": "0:cccd142492977b8f05b34f66cd2fa6ce544935814e657831b001cba662b8bb1c",
+     "is_scam": false,
+     "is_wallet": true
+    },
+    "balance": "100000000000"
+   },
+   {
+    "address": "0:0b785a82c50bb5e41478e3dcfa01bd6977ada9df647805beff199ec0cc823892",
+    "owner": {
+     "address": "0:4a487601aedd730b2f7d65183ebaee22fc044d8ecf69f7ddd1d7521560c1b77d",
+     "is_scam": false,
+     "is_wallet": true
+    },
+    "balance": "100000000000"
+   },
+   {
+    "address": "0:37f90f895f793ee3db0a05b8096d556e5061bbc8dd40353c7b6fea3176b4311e",
+    "owner": {
+     "address": "0:010036ec0a18eb906733122245df88deda2c356bafbd6b69ecb471eb8bcbbe59",
+     "is_scam": false,
+     "is_wallet": true
+    },
+    "balance": "100000000000"
+   },
+   {
+    "address": "0:55a8c3a541cbfd9aa3d8e71ce7a09260b3456e475a861325f5cd0a35834f2fc8",
+    "owner": {
+     "address": "0:6977b52eb1b97744ded6697c1435beeb57cc242d1ee0604f0225d17595651ed0",
+     "is_scam": false,
+     "is_wallet": true
+    },
+    "balance": "100000000000"
+   },
+   {
+    "address": "0:28dad9d6ba065ee49ceddcbbbd4119984fa9dc22ef82c90a3c41fa568c060fcd",
+    "owner": {
+     "address": "0:00c4d82bba96b82a671a990590c62b038df776cbc043a4d43844ff06c34dd5f7",
+     "is_scam": false,
+     "is_wallet": true
+    },
+    "balance": "100000000000"
+   },
+   {
+    "address": "0:33db9994270160b512f9564f38e27c4c42b8c559691b55fe00b71a61bb693fd7",
+    "owner": {
+     "address": "0:8c5ebd0211860685e54444b9187288230a1e316dd3f39b5d7309ebb9768c8dfb",
+     "is_scam": false,
+     "is_wallet": true
+    },
+    "balance": "100000000000"
+   },
+   {
+    "address": "0:3bad452273f85add996c8e2b4c7fea34ece4bc9ad8ebb203797446fd650e3895",
+    "owner": {
+     "address": "0:c461c8373c297577cde96c67333751a7dad6834d0ba8b4009fe44e64a6550015",
+     "is_scam": false,
+     "is_wallet": true
+    },
+    "balance": "100000000000"
+   },
+   {
+    "address": "0:6426a79bfe2b5a3d89f622f973b61792886343e934c96582fc03cbd76cc8af14",
+    "owner": {
+     "address": "0:cb1ee3656110f2763e5ecbab06d27292f85df799359b251085cef5ce84ddf23a",
+     "is_scam": false,
+     "is_wallet": true
+    },
+    "balance": "100000000000"
+   },
+   {
+    "address": "0:21b791d3fc23a3688e1a3d10eae5f22b0db0e4fc03b825d31d25787f54e5cddf",
+    "owner": {
+     "address": "0:4d128078f668d35d6f8753b0404075b56e70da4104bf4cc5a14b8c65d6dbc0b1",
+     "is_scam": false,
+     "is_wallet": true
+    },
+    "balance": "100000000000"
+   }
+  ],
+  "total": 1500
+ },
+ "nft_scam": {
+  "address": "0:e6717cc69593f194ef6b272ae7c20691c8014fc3a63b433241e3ec32a153c785",
+  "index": 0,
+  "owner": {
+   "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8",
+   "name": "TON Foundation (OLD)",
+   "is_scam": false,
+   "is_wallet": true
+  },
+  "verified": true,
+  "metadata": {
+   "image": "https://dogsairdrop.github.io/dogs-metadata/dogs-nft.png",
+   "attributes": [
+    {
+     "trait_type": "Value",
+     "value": "1,000,000"
+    },
+    {
+     "trait_type": "Official",
+     "value": "True"
+    },
+    {
+     "trait_type": "Verified",
+     "value": "True"
+    }
+   ],
+   "description": "Exchange this item for 1,000,000 $DOGS at: dogshouse. info",
+   "name": "1,000,000 $DOGS voucher"
+  },
+  "approved_by": [],
+  "trust": "blacklist",
+  "code_hash": "3WdEkCF234cXBtdq1r8XwzidVtpoqbEgC7xhYOHYpVY=",
+  "data_hash": "+xJdOMSv5A0COVdn9fVFql0/s855yDv15+nkbYVC3ow="
+ },
+ "collection_scam": {
+  "address": "0:c6f30c157003d81586f2ee79c3bcd15774e53cfd428a736a8148d0e01a9e7715",
+  "next_item_index": 4001,
+  "owner": {
+   "address": "0:26347f5d983be4c0ed2b2c2c7cc837b03bc0bb275b907a68bf791c7bac3f4f0d",
+   "is_scam": false,
+   "is_wallet": true
+  },
+  "raw_collection_content": "b5ee9c720101010100260000480168747470733a2f2f746f6e2d7573642e636f6d2f636f6c6c656374696f6e2e6a736f6e",
+  "approved_by": [],
+  "trust": "blacklist",
+  "metadata_status": {
+   "url": "https://ton-usd.com/collection.json",
+   "is_broken": true,
+   "last_refresh_try": 1792468129
+  }
+ },
+ "wallet_data": {
+  "success": true,
+  "exit_code": 0,
+  "stack": [
+   {
+    "type": "num",
+    "num": "0x174876e800"
+   },
+   {
+    "type": "cell",
+    "cell": "b5ee9c72010101010024000043800b1f3f2387307f93aebee86e25c16a41200a87614e4f8d12bb9fe0d246653211b0"
+   },
+   {
+    "type": "cell",
+    "cell": "b5ee9c72010101010024000043800c6414d8adfaf06b6e5f9d05a49d3f4afcf39cffd751d9b81f9c9c9e233afbef50"
+   },
+   {
+    "type": "cell",
+    "cell": "(code cell omitted)"
+   }
+  ],
+  "decoded": {
+   "balance": "100000000000",
+   "owner": "0:58f9f91c3983fc9d75f743712e0b520900543b0a727c6895dcff06923329908d",
+   "jetton": "0:6320a6c56fd7835b72fce82d24e9fa57e79ce7feba8ecdc0fce4e4f119d7df7a",
+   "jetton_wallet_code": "(omitted)"
+  }
+ }
+}

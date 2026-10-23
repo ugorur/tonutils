@@ -1,0 +1,55 @@
+{
+ "event_id": "3b03b8bef6705e15b41777f35039bc483a46071f539db028a34d94d79eea21ae",
+ "account": {
+  "address": "0:fd7860a648e8bc934f2f69855f3e2e6b1bbdb3de01fb2fa1c798135f7ac39372",
+  "is_scam": false,
+  "is_wallet": true
+ },
+ "timestamp": 1792671197,
+ "actions": [
+  {
+   "type": "NftItemTransfer",
+   "status": "ok",
+   "NftItemTransfer": {
+    "sender": {
+     "address": "0:32a6b800afb099b7f06c19cc700d205cfc7e371703336134a4874aeb2fc17b12",
+     "is_scam": false,
+     "is_wallet": false
+    },
+    "recipient": {
+     "address": "0:fd7860a648e8bc934f2f69855f3e2e6b1bbdb3de01fb2fa1c798135f7ac39372",
+     "is_scam": false,
+     "is_wallet": true
+    },
+    "nft": "0:05978a95e6568c466cf3a0a59d399b7ae7b7ea8690fe3a6c5b71bad23014934e"
+   },
+   "simple_preview": {
+    "name": "NFT Transfer",
+    "description": "Transferring 1 NFT",
+    "value": "1 NFT",
+    "accounts": [
+     {
+      "address": "0:32a6b800afb099b7f06c19cc700d205cfc7e371703336134a4874aeb2fc17b12",
+      "is_scam": false,
+      "is_wallet": false
+     },
+     {
+      "address": "0:05978a95e6568c466cf3a0a59d399b7ae7b7ea8690fe3a6c5b71bad23014934e",
+      "is_scam": false,
+      "is_wallet": false
+     }
+    ]
+   },
+   "base_transactions": [
+    "a8b7f819afa2dd054bf7a317223742c38f627eee67c497052674bd21dfbc2010",
+    "18c56ba27b0755a016c096085b1e24158de4241296a377718d37d08d51ad8f1f"
+   ]
+  }
+ ],
+ "is_scam": false,
+ "lt": 111635895000037,
+ "in_progress": false,
+ "extra": 0,
+ "progress": 1,
+ "ext_msg_hash": "21c67b4f833e1b9975c2f2e8ff0869c1cd2752f6980121597cc2f0bc3eb4489e"
+}

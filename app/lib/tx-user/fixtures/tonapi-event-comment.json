@@ -1,0 +1,75 @@
+{
+ "event_id": "ba0b99e961985275cad28e5aa1f356655774a9b5a77bb529e042e5f2398d2d15",
+ "timestamp": 1791870699,
+ "actions": [
+  {
+   "type": "TonTransfer",
+   "status": "ok",
+   "TonTransfer": {
+    "sender": {
+     "address": "0:bc8ffdbd936d009a27e004aeb2fb54bf29ee4839c40b8870fafbbc08f5da6fbf",
+     "is_scam": false,
+     "is_wallet": true
+    },
+    "recipient": {
+     "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8",
+     "name": "TON Foundation (OLD)",
+     "is_scam": false,
+     "is_wallet": true
+    },
+    "amount": 500000000,
+    "comment": "player-11"
+   },
+   "simple_preview": {
+    "name": "Gram Transfer",
+    "description": "Transferring 0.5 Gram",
+    "value": "0.5 Gram",
+    "accounts": [
+     {
+      "address": "0:bc8ffdbd936d009a27e004aeb2fb54bf29ee4839c40b8870fafbbc08f5da6fbf",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     {
+      "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8",
+      "name": "TON Foundation (OLD)",
+      "is_scam": false,
+      "is_wallet": true
+     }
+    ]
+   },
+   "base_transactions": [
+    "41ff1b4a85d7bcbd721a6632e3d0ae2fb740f079e938e31b31069907f4940c77"
+   ]
+  }
+ ],
+ "value_flow": [
+  {
+   "account": {
+    "address": "0:83dfd552e63729b472fcbcc8c45ebcc6691702558b68ec7527e1ba403a0f31a8",
+    "name": "TON Foundation (OLD)",
+    "is_scam": false,
+    "is_wallet": true
+   },
+   "ton": 499993332,
+   "gram": 499993332,
+   "fees": 6668
+  },
+  {
+   "account": {
+    "address": "0:bc8ffdbd936d009a27e004aeb2fb54bf29ee4839c40b8870fafbbc08f5da6fbf",
+    "is_scam": false,
+    "is_wallet": true
+   },
+   "ton": -500395204,
+   "gram": -500395204,
+   "fees": 395204
+  }
+ ],
+ "is_scam": false,
+ "lt": 109633767000001,
+ "in_progress": false,
+ "progress": 1,
+ "last_slice_id": 98706051,
+ "ext_msg_hash": "bf9200651dae59443db4f061a5933f4db5ea0e5e8b8baf7bc21957e9f151ba40"
+}

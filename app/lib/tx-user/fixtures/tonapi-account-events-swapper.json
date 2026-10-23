@@ -1,0 +1,421 @@
+{
+ "events": [
+  {
+   "event_id": "4d536f2ec11fb46881d10efbbeb9aefaa6b790fb65a4793b44da9a205d918eb3",
+   "account": {
+    "address": "0:35a19be28286af2b67d67b58a6cd92a6a00c7a1a5cc703479f56a24535827a33",
+    "is_scam": false,
+    "is_wallet": true
+   },
+   "timestamp": 1792686968,
+   "actions": [
+    {
+     "type": "TonTransfer",
+     "status": "ok",
+     "TonTransfer": {
+      "sender": {
+       "address": "0:35a19be28286af2b67d67b58a6cd92a6a00c7a1a5cc703479f56a24535827a33",
+       "is_scam": false,
+       "is_wallet": true
+      },
+      "recipient": {
+       "address": "0:408da3b28b6c065a593e10391269baaa9c5f8caebc0c69d9f0aabbab2a99256b",
+       "name": "Fragment",
+       "is_scam": false,
+       "icon": "https://cache.tonapi.io/imgproxy/0uK882EK9XAnVm4xooeVrk9QfvAgHdYdtXP0Wg9XlfY/rs:fill:200:200:1/g:no/aHR0cHM6Ly90b24uYW1zMy5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL3RvbmFwaS1taXNjL2xvZ29zL2ZyYWdtZW50XzI4OC5zdmc.webp",
+       "is_wallet": true
+      },
+      "amount": 9040000000,
+      "comment": "Telegram Premium for 3 months \n\nRef#FCXdojjKl"
+     },
+     "simple_preview": {
+      "name": "Gram Transfer",
+      "description": "Transferring 9.04 Gram",
+      "value": "9.04 Gram",
+      "accounts": [
+       {
+        "address": "0:408da3b28b6c065a593e10391269baaa9c5f8caebc0c69d9f0aabbab2a99256b",
+        "name": "Fragment",
+        "is_scam": false,
+        "icon": "https://cache.tonapi.io/imgproxy/0uK882EK9XAnVm4xooeVrk9QfvAgHdYdtXP0Wg9XlfY/rs:fill:200:200:1/g:no/aHR0cHM6Ly90b24uYW1zMy5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL3RvbmFwaS1taXNjL2xvZ29zL2ZyYWdtZW50XzI4OC5zdmc.webp",
+        "is_wallet": true
+       }
+      ]
+     },
+     "base_transactions": [
+      "40ae154bf100fa36cc393d7342b64bdef628d1ea915635064a4ee5be9e8476fb"
+     ]
+    }
+   ],
+   "is_scam": false,
+   "lt": 111675348000023,
+   "in_progress": false,
+   "extra": -433604,
+   "progress": 1,
+   "ext_msg_hash": "fd29638fc87fc68cd9a5b7baf2a3390a1672712eeac750769847583a55e602db"
+  },
+  {
+   "event_id": "53da68a1c380fe317e9b65485d775aeee07f98ae48d4058dfb72afeb176c7ac6",
+   "account": {
+    "address": "0:35a19be28286af2b67d67b58a6cd92a6a00c7a1a5cc703479f56a24535827a33",
+    "is_scam": false,
+    "is_wallet": true
+   },
+   "timestamp": 1792686958,
+   "actions": [
+    {
+     "type": "JettonSwap",
+     "status": "ok",
+     "JettonSwap": {
+      "dex": "stonfi",
+      "amount_in": "40989487",
+      "amount_out": "",
+      "ton_out": 30714023583,
+      "user_wallet": {
+       "address": "0:35a19be28286af2b67d67b58a6cd92a6a00c7a1a5cc703479f56a24535827a33",
+       "is_scam": false,
+       "is_wallet": true
+      },
+      "router": {
+       "address": "0:779dcc815138d9500e449c5291e7f12738c23d575b5310000f6a253bd607384e",
+       "name": "STON.fi DEX",
+       "is_scam": false,
+       "is_wallet": false
+      },
+      "jetton_master_in": {
+       "address": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe",
+       "name": "Tether USD",
+       "symbol": "USD₮",
+       "decimals": 6,
+       "verification": "whitelist",
+       "score": 100,
+       "description": "Tether Token for Tether USD"
+      }
+     },
+     "simple_preview": {
+      "name": "Swap Tokens",
+      "description": "Swapping 40.9 USD₮ for 30.7 Gram",
+      "accounts": [
+       {
+        "address": "0:779dcc815138d9500e449c5291e7f12738c23d575b5310000f6a253bd607384e",
+        "name": "STON.fi DEX",
+        "is_scam": false,
+        "is_wallet": false
+       }
+      ]
+     },
+     "base_transactions": [
+      "b50c5009056adf50d8af5e81f4f43eb02a0c3ba48b8fb3aba07093f7fb422ccb",
+      "ea1ce5e55fc56c5b6dce78ffc2d0cce264167648bfe181325a559e8ab62bb8bb",
+      "c56a0de18147c25debd78ac4d314c681066203e7ad4be7d8bc1c83b76d71a9f8",
+      "18bab7d7a449127fdb95f9952c04e72b5e7bbe95f450505d50ac55fa3cfaf81f",
+      "e34af146f7fa0187d569ea18d2683955b95a1d02212191cfb6f95b36028e3598",
+      "67bc02833b8770d3f4339f6f896bbd3f91ee91346cc23f5c97e096807e62d70f",
+      "0e3a938b8b95bee404ba9a5fd9259977f641d565a50ea7758ad82975a7fe5a0a",
+      "7fb1003f6386b9f66d3bf3e548d6041781232c80a26b221aa157d5a5c43f7886"
+     ]
+    }
+   ],
+   "is_scam": false,
+   "lt": 111675322000025,
+   "in_progress": false,
+   "extra": -4621112,
+   "progress": 1,
+   "ext_msg_hash": "a10b1a966efc9b62e275ed165b5fbbb221cab664f17ebd05075f22a87575661f"
+  },
+  {
+   "event_id": "4b58f39849076e41fbdfcf8e31f6b568507eaa1a197c4cec737ba7796f5bdb39",
+   "account": {
+    "address": "0:35a19be28286af2b67d67b58a6cd92a6a00c7a1a5cc703479f56a24535827a33",
+    "is_scam": false,
+    "is_wallet": true
+   },
+   "timestamp": 1792686398,
+   "actions": [
+    {
+     "type": "TonTransfer",
+     "status": "ok",
+     "TonTransfer": {
+      "sender": {
+       "address": "0:35a19be28286af2b67d67b58a6cd92a6a00c7a1a5cc703479f56a24535827a33",
+       "is_scam": false,
+       "is_wallet": true
+      },
+      "recipient": {
+       "address": "0:852443f8599fe6a5da34fe43049ac4e0beb3071bb2bfb56635ea9421287c283a",
+       "name": "Fragment",
+       "is_scam": false,
+       "icon": "https://cache.tonapi.io/imgproxy/0uK882EK9XAnVm4xooeVrk9QfvAgHdYdtXP0Wg9XlfY/rs:fill:200:200:1/g:no/aHR0cHM6Ly90b24uYW1zMy5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL3RvbmFwaS1taXNjL2xvZ29zL2ZyYWdtZW50XzI4OC5zdmc.webp",
+       "is_wallet": true
+      },
+      "amount": 56448200000,
+      "comment": "5000 Telegram Stars \n\nRef#Y5a5SGdCe"
+     },
+     "simple_preview": {
+      "name": "Gram Transfer",
+      "description": "Transferring 56.4 Gram",
+      "value": "56.4 Gram",
+      "accounts": [
+       {
+        "address": "0:852443f8599fe6a5da34fe43049ac4e0beb3071bb2bfb56635ea9421287c283a",
+        "name": "Fragment",
+        "is_scam": false,
+        "icon": "https://cache.tonapi.io/imgproxy/0uK882EK9XAnVm4xooeVrk9QfvAgHdYdtXP0Wg9XlfY/rs:fill:200:200:1/g:no/aHR0cHM6Ly90b24uYW1zMy5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL3RvbmFwaS1taXNjL2xvZ29zL2ZyYWdtZW50XzI4OC5zdmc.webp",
+        "is_wallet": true
+       }
+      ]
+     },
+     "base_transactions": [
+      "7860ece6d14618e3fb1bc53a4d091de54904cd428ca7c4be8b07e51e3338fcbe"
+     ]
+    }
+   ],
+   "is_scam": false,
+   "lt": 111673920000029,
+   "in_progress": false,
+   "extra": -409603,
+   "progress": 1,
+   "ext_msg_hash": "5c0b2e2cf7db0f5b52578c7c755be0f23f946523f78ec9f66be1fa6a88af641d"
+  },
+  {
+   "event_id": "778aa9125a0fbf482a2fd71ee75713d23c553f067f03c5723521f90b7331e5dd",
+   "account": {
+    "address": "0:35a19be28286af2b67d67b58a6cd92a6a00c7a1a5cc703479f56a24535827a33",
+    "is_scam": false,
+    "is_wallet": true
+   },
+   "timestamp": 1792686387,
+   "actions": [
+    {
+     "type": "JettonSwap",
+     "status": "ok",
+     "JettonSwap": {
+      "dex": "stonfi",
+      "amount_in": "59765937",
+      "amount_out": "",
+      "ton_out": 44786802659,
+      "user_wallet": {
+       "address": "0:35a19be28286af2b67d67b58a6cd92a6a00c7a1a5cc703479f56a24535827a33",
+       "is_scam": false,
+       "is_wallet": true
+      },
+      "router": {
+       "address": "0:779dcc815138d9500e449c5291e7f12738c23d575b5310000f6a253bd607384e",
+       "name": "STON.fi DEX",
+       "is_scam": false,
+       "is_wallet": false
+      },
+      "jetton_master_in": {
+       "address": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe",
+       "name": "Tether USD",
+       "symbol": "USD₮",
+       "decimals": 6,
+       "verification": "whitelist",
+       "score": 100,
+       "description": "Tether Token for Tether USD"
+      }
+     },
+     "simple_preview": {
+      "name": "Swap Tokens",
+      "description": "Swapping 59.7 USD₮ for 44.7 Gram",
+      "accounts": [
+       {
+        "address": "0:779dcc815138d9500e449c5291e7f12738c23d575b5310000f6a253bd607384e",
+        "name": "STON.fi DEX",
+        "is_scam": false,
+        "is_wallet": false
+       }
+      ]
+     },
+     "base_transactions": [
+      "5ce0da5181bc9f3d1eb550269f076027284b18f5728bed22b2dd6ebafdea9c52",
+      "7c2f95798d558d4c8e98de1d79204f5a9223718c10583b4b812eeac559b7eeb2",
+      "0d4d5b88e79b0a50b2a1d68c5c2b40a054ee3077b8bab7b1298230b290469afb",
+      "b07ca095e06eb555c63460fe2e88661d4faad14f0fab65ccfa5cbeb8019235bb",
+      "a3a8e6e65f694c81f986aabb7fe08799d6ddacf1394d6ca47643b00e87045100",
+      "4265967ffc9ea0912781ba9cf53dc6a5ac45b63818b05d4ca06439ff7f22a60b",
+      "7f1eaee9ae011cc249ebe3b3150ab1f589263e558a58885748117bd4e0ae0bd0",
+      "e32973a37e0befc954736870422d151f5a9f72ac16592c7dd9aa266bad2694db"
+     ]
+    }
+   ],
+   "is_scam": false,
+   "lt": 111673894000001,
+   "in_progress": false,
+   "extra": -4621179,
+   "progress": 1,
+   "ext_msg_hash": "00f9b40251b9c9c4724303fbfc92f9663e7598dcd554ec387734d99ea40590dd"
+  },
+  {
+   "event_id": "f09391a43fe07361c4ed190a142f9f414cd8cc2cc648917b5030fa523b0cc7d8",
+   "account": {
+    "address": "0:35a19be28286af2b67d67b58a6cd92a6a00c7a1a5cc703479f56a24535827a33",
+    "is_scam": false,
+    "is_wallet": true
+   },
+   "timestamp": 1792645857,
+   "actions": [
+    {
+     "type": "JettonTransfer",
+     "status": "ok",
+     "JettonTransfer": {
+      "sender": {
+       "address": "0:be30eeea57aed72ed497380f4df6486eebe2f4e262184be96f4b542c80ec7807",
+       "is_scam": false,
+       "is_wallet": true
+      },
+      "recipient": {
+       "address": "0:35a19be28286af2b67d67b58a6cd92a6a00c7a1a5cc703479f56a24535827a33",
+       "is_scam": false,
+       "is_wallet": true
+      },
+      "senders_wallet": "0:9e8c4ab0e4936f2727a5d9d46519929850db6fdd65437296218c254b50266d72",
+      "recipients_wallet": "0:fed92cf1a62a6cab206a69307a10fcc3fca705159b1a7119392fceb8f2c96237",
+      "amount": "400000000",
+      "jetton": {
+       "address": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe",
+       "name": "Tether USD",
+       "symbol": "USD₮",
+       "decimals": 6,
+       "verification": "whitelist",
+       "score": 100,
+       "description": "Tether Token for Tether USD"
+      }
+     },
+     "simple_preview": {
+      "name": "Jetton Transfer",
+      "description": "Transferring 400 USD₮",
+      "value": "400 USD₮",
+      "accounts": [
+       {
+        "address": "0:be30eeea57aed72ed497380f4df6486eebe2f4e262184be96f4b542c80ec7807",
+        "is_scam": false,
+        "is_wallet": true
+       },
+       {
+        "address": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe",
+        "name": "Tether USD",
+        "is_scam": false,
+        "is_wallet": false
+       }
+      ]
+     },
+     "base_transactions": [
+      "1d5036e46f7bdc00ba43c6aff07b8636211d7d0b1caedb4c929d97eb03e71a58",
+      "e1c06d1684cfc106f977fa0fdb8795f66705ce55e669762994034ab27203e249",
+      "951260a225334ad4e490967510cf4f55efc50c3e2a526849af6a7f627ac649da",
+      "188c0d713537fdeb101bcbe5e62039a9cfb29a0ca78ef4794e17bd3d4358174d"
+     ]
+    }
+   ],
+   "is_scam": false,
+   "lt": 111572514000001,
+   "in_progress": false,
+   "extra": -100,
+   "progress": 1,
+   "ext_msg_hash": "07229e8002c703a1c21317e1c1c3084fbde225e7bdd7e86b70145a73e48b72dc"
+  },
+  {
+   "event_id": "b492e6f67440fc27201ae61900149107ada38869bfe3a85e0528e9686da3d2ca",
+   "account": {
+    "address": "0:35a19be28286af2b67d67b58a6cd92a6a00c7a1a5cc703479f56a24535827a33",
+    "is_scam": false,
+    "is_wallet": true
+   },
+   "timestamp": 1792643631,
+   "actions": [
+    {
+     "type": "JettonTransfer",
+     "status": "failed",
+     "JettonTransfer": {
+      "sender": {
+       "address": "0:35a19be28286af2b67d67b58a6cd92a6a00c7a1a5cc703479f56a24535827a33",
+       "is_scam": false,
+       "is_wallet": true
+      },
+      "recipient": {
+       "address": "0:779dcc815138d9500e449c5291e7f12738c23d575b5310000f6a253bd607384e",
+       "name": "STON.fi DEX",
+       "is_scam": false,
+       "is_wallet": false
+      },
+      "senders_wallet": "0:fed92cf1a62a6cab206a69307a10fcc3fca705159b1a7119392fceb8f2c96237",
+      "recipients_wallet": "0:0000000000000000000000000000000000000000000000000000000000000000",
+      "amount": "172717947",
+      "comment": "Call: StonfiSwap",
+      "jetton": {
+       "address": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe",
+       "name": "Tether USD",
+       "symbol": "USD₮",
+       "decimals": 6,
+       "verification": "whitelist",
+       "score": 100,
+       "description": "Tether Token for Tether USD"
+      }
+     },
+     "simple_preview": {
+      "name": "Jetton Transfer",
+      "description": "Transferring 172 USD₮",
+      "value": "172 USD₮",
+      "accounts": [
+       {
+        "address": "0:779dcc815138d9500e449c5291e7f12738c23d575b5310000f6a253bd607384e",
+        "name": "STON.fi DEX",
+        "is_scam": false,
+        "is_wallet": false
+       },
+       {
+        "address": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe",
+        "name": "Tether USD",
+        "is_scam": false,
+        "is_wallet": false
+       }
+      ]
+     },
+     "base_transactions": [
+      "f116826ee6f898c3871451944d543425c632cc2c3ff74f077bf4008388db7ed5"
+     ]
+    },
+    {
+     "type": "TonTransfer",
+     "status": "ok",
+     "TonTransfer": {
+      "sender": {
+       "address": "0:fed92cf1a62a6cab206a69307a10fcc3fca705159b1a7119392fceb8f2c96237",
+       "is_scam": false,
+       "is_wallet": false
+      },
+      "recipient": {
+       "address": "0:35a19be28286af2b67d67b58a6cd92a6a00c7a1a5cc703479f56a24535827a33",
+       "is_scam": false,
+       "is_wallet": true
+      },
+      "amount": 169866665
+     },
+     "simple_preview": {
+      "name": "Gram Transfer",
+      "description": "Transferring 0.169 Gram",
+      "value": "0.169 Gram",
+      "accounts": [
+       {
+        "address": "0:fed92cf1a62a6cab206a69307a10fcc3fca705159b1a7119392fceb8f2c96237",
+        "is_scam": false,
+        "is_wallet": false
+       }
+      ]
+     },
+     "base_transactions": [
+      "f09a97d5781a4cd5aeda01b38497141fc68e41f748f033e36749c0a35701dfa5"
+     ]
+    }
+   ],
+   "is_scam": false,
+   "lt": 111566952000005,
+   "in_progress": false,
+   "extra": -170634884,
+   "progress": 1,
+   "ext_msg_hash": "74ed5836cda7ded9a60e70a1a50aeb5317813d53260266463187f5dddd2aafef"
+  }
+ ],
+ "next_from": 111565619000018
+}

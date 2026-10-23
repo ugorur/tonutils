@@ -1,0 +1,128 @@
+{
+ "event_id": "b492e6f67440fc27201ae61900149107ada38869bfe3a85e0528e9686da3d2ca",
+ "timestamp": 1792643631,
+ "actions": [
+  {
+   "type": "JettonTransfer",
+   "status": "failed",
+   "JettonTransfer": {
+    "sender": {
+     "address": "0:35a19be28286af2b67d67b58a6cd92a6a00c7a1a5cc703479f56a24535827a33",
+     "is_scam": false,
+     "is_wallet": true
+    },
+    "recipient": {
+     "address": "0:779dcc815138d9500e449c5291e7f12738c23d575b5310000f6a253bd607384e",
+     "name": "STON.fi DEX",
+     "is_scam": false,
+     "is_wallet": false
+    },
+    "senders_wallet": "0:fed92cf1a62a6cab206a69307a10fcc3fca705159b1a7119392fceb8f2c96237",
+    "recipients_wallet": "0:0000000000000000000000000000000000000000000000000000000000000000",
+    "amount": "172717947",
+    "comment": "Call: StonfiSwap",
+    "jetton": {
+     "address": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe",
+     "name": "Tether USD",
+     "symbol": "USD₮",
+     "decimals": 6,
+     "verification": "whitelist",
+     "score": 100,
+     "description": "Tether Token for Tether USD"
+    }
+   },
+   "simple_preview": {
+    "name": "Jetton Transfer",
+    "description": "Transferring 172 USD₮",
+    "value": "172 USD₮",
+    "accounts": [
+     {
+      "address": "0:779dcc815138d9500e449c5291e7f12738c23d575b5310000f6a253bd607384e",
+      "name": "STON.fi DEX",
+      "is_scam": false,
+      "is_wallet": false
+     },
+     {
+      "address": "0:35a19be28286af2b67d67b58a6cd92a6a00c7a1a5cc703479f56a24535827a33",
+      "is_scam": false,
+      "is_wallet": true
+     },
+     {
+      "address": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe",
+      "name": "Tether USD",
+      "is_scam": false,
+      "is_wallet": false
+     }
+    ]
+   },
+   "base_transactions": [
+    "f116826ee6f898c3871451944d543425c632cc2c3ff74f077bf4008388db7ed5"
+   ]
+  },
+  {
+   "type": "TonTransfer",
+   "status": "ok",
+   "TonTransfer": {
+    "sender": {
+     "address": "0:fed92cf1a62a6cab206a69307a10fcc3fca705159b1a7119392fceb8f2c96237",
+     "is_scam": false,
+     "is_wallet": false
+    },
+    "recipient": {
+     "address": "0:35a19be28286af2b67d67b58a6cd92a6a00c7a1a5cc703479f56a24535827a33",
+     "is_scam": false,
+     "is_wallet": true
+    },
+    "amount": 169866665
+   },
+   "simple_preview": {
+    "name": "Gram Transfer",
+    "description": "Transferring 0.169 Gram",
+    "value": "0.169 Gram",
+    "accounts": [
+     {
+      "address": "0:fed92cf1a62a6cab206a69307a10fcc3fca705159b1a7119392fceb8f2c96237",
+      "is_scam": false,
+      "is_wallet": false
+     },
+     {
+      "address": "0:35a19be28286af2b67d67b58a6cd92a6a00c7a1a5cc703479f56a24535827a33",
+      "is_scam": false,
+      "is_wallet": true
+     }
+    ]
+   },
+   "base_transactions": [
+    "f09a97d5781a4cd5aeda01b38497141fc68e41f748f033e36749c0a35701dfa5"
+   ]
+  }
+ ],
+ "value_flow": [
+  {
+   "account": {
+    "address": "0:fed92cf1a62a6cab206a69307a10fcc3fca705159b1a7119392fceb8f2c96237",
+    "is_scam": false,
+    "is_wallet": false
+   },
+   "ton": 44444,
+   "gram": 44444,
+   "fees": 88891
+  },
+  {
+   "account": {
+    "address": "0:35a19be28286af2b67d67b58a6cd92a6a00c7a1a5cc703479f56a24535827a33",
+    "is_scam": false,
+    "is_wallet": true
+   },
+   "ton": -768219,
+   "gram": -768219,
+   "fees": 634884
+  }
+ ],
+ "is_scam": false,
+ "lt": 111566952000005,
+ "in_progress": false,
+ "progress": 1,
+ "last_slice_id": 100583538,
+ "ext_msg_hash": "74ed5836cda7ded9a60e70a1a50aeb5317813d53260266463187f5dddd2aafef"
+}

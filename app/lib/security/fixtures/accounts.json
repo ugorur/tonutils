@@ -1,0 +1,123 @@
+{
+ "_source": "tonapi GET /v2/accounts/{id}, mainnet, 2026-10-23 (icon and get_methods dropped)",
+ "binance_deposit": {
+  "address": "0:f99b14600ae44d2f12b178e8c6eabd78892ae82c5e45b6898f9deb7eb203f9c4",
+  "balance": 225590372711,
+  "last_activity": 1792743939,
+  "status": "active",
+  "interfaces": [
+   "wallet_v3r2"
+  ],
+  "name": "Binance",
+  "is_scam": false,
+  "memo_required": true,
+  "is_wallet": true
+ },
+ "poisoner": {
+  "address": "0:6a73c209a8e9c828a37bf052f14c41518bb9ad8acc4d88843ff34122141616c3",
+  "balance": 1670790,
+  "last_activity": 1792743729,
+  "status": "active",
+  "interfaces": [
+   "wallet_v4r2"
+  ],
+  "is_wallet": true
+ },
+ "zero": {
+  "address": "0:0000000000000000000000000000000000000000000000000000000000000000",
+  "balance": 10712378847724,
+  "last_activity": 1792743323,
+  "status": "uninit",
+  "interfaces": [],
+  "name": "Zero Address",
+  "is_scam": false,
+  "memo_required": false,
+  "is_suspended": true,
+  "is_wallet": true
+ },
+ "nonexist": {
+  "address": "0:1111111111111111111111111111111111111111111111111111111111111234",
+  "balance": 0,
+  "last_activity": 0,
+  "status": "nonexist",
+  "is_wallet": true
+ },
+ "usdt_master": {
+  "address": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe",
+  "balance": 1073010444504,
+  "last_activity": 1792741285,
+  "status": "active",
+  "interfaces": [
+   "jetton_master"
+  ],
+  "name": "Tether USD",
+  "is_scam": false,
+  "memo_required": false,
+  "is_wallet": false
+ },
+ "jetton_wallet": {
+  "address": "0:42f8200b9b1f872e30a18b3842416ae4a1b23fcd4b909be61f0eb1c4f01b810e",
+  "balance": 1358997,
+  "last_activity": 1782165722,
+  "status": "active",
+  "interfaces": [
+   "jetton_wallet"
+  ],
+  "is_wallet": false
+ },
+ "w5_wallet": {
+  "address": "0:35794c6d51740cd09dc4e77c9d44a702248256388da9add08a63a520baa19e7a",
+  "balance": 12093223846628,
+  "last_activity": 1792743889,
+  "status": "active",
+  "interfaces": [
+   "wallet_v5r1"
+  ],
+  "is_wallet": true
+ },
+ "scam_collection": {
+  "address": "0:c6f30c157003d81586f2ee79c3bcd15774e53cfd428a736a8148d0e01a9e7715",
+  "balance": 5242,
+  "last_activity": 1715166074,
+  "status": "active",
+  "interfaces": [
+   "nft_collection"
+  ],
+  "is_scam": true,
+  "is_wallet": false
+ },
+ "stonfi_router": {
+  "address": "0:429752403644e932927d37795992d3cca69d9bb517b6bd5c07a27d256bc89b46",
+  "balance": 8938921839,
+  "last_activity": 1792743397,
+  "status": "active",
+  "interfaces": [
+   "stonfi_router_v2"
+  ],
+  "name": "STON.fi DEX",
+  "is_scam": false,
+  "memo_required": false,
+  "is_wallet": false
+ },
+ "scam_nft": {
+  "address": "0:e6717cc69593f194ef6b272ae7c20691c8014fc3a63b433241e3ec32a153c785",
+  "balance": 1000,
+  "last_activity": 1777904546,
+  "status": "active",
+  "interfaces": [
+   "nft_item"
+  ],
+  "is_wallet": false
+ },
+ "scam_jetton": {
+  "address": "0:6320a6c56fd7835b72fce82d24e9fa57e79ce7feba8ecdc0fce4e4f119d7df7a",
+  "balance": 0,
+  "last_activity": 1782168384,
+  "status": "active",
+  "interfaces": [
+   "jetton_master"
+  ],
+  "is_scam": true,
+  "is_wallet": false
+ }
+}
