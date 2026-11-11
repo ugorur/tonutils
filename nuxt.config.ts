@@ -26,7 +26,11 @@ export default defineNuxtConfig({
     head: {
       htmlAttrs: { lang: 'en' },
       link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
-      meta: [{ name: 'theme-color', content: '#0098EA' }]
+      meta: [{ name: 'theme-color', content: '#0098EA' }],
+      // Umami (cookieless). Only the production deploy builds with TONUTILS_ANALYTICS=1, so staging sends no stats.
+      script: process.env.TONUTILS_ANALYTICS
+        ? [{ src: 'https://t.tektik.tr/s.js', defer: true, 'data-website-id': '39df1b93-7090-4aaf-8662-1fe679d11574' }]
+        : []
     }
   },
 
